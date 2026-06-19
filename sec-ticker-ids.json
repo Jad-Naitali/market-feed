@@ -1,0 +1,13 @@
+{
+  "note": "Ticker -> SEC EDGAR CIK for the sector-desk core names, used by fetch-feeds.js to pull each company's material filings (8-K deals/dilution, S-3/424B offerings, 13D/G, Form 4). CIKs verified against EDGAR's company_tickers.json on 2026-06-11; they don't change when a company renames. subGroup: miner-ai = bitcoin miner pivoting power to AI/HPC, ai-cloud = AI cloud/GPU compute pure-play, ai-spec = speculative AI small-cap. core=true are Jad's named positions (dossiers first); peers ride along for catalysts + rotation. To add a name: look it up in https://www.sec.gov/files/company_tickers.json and paste its 10-digit zero-padded CIK.",
+  "verified": "2026-06-11",
+  "names": {
+    "IREN": { "cik": "0001878848", "name": "IREN Ltd", "subGroup": "miner-ai", "core": true },
+    "CIFR": { "cik": "0001819989", "name": "Cipher Mining", "subGroup": "miner-ai", "core": true },
+    "CLSK": { "cik": "0000827876", "name": "CleanSpark", "subGroup": "miner-ai", "core": true },
+    "NBIS": { "cik": "0001513845", "name": "Nebius Group", "subGroup": "ai-cloud", "core": true },
+    "NUAI": { "cik": "0002028336", "name": "New Era Energy & Digital", "subGroup": "ai-spec", "core": true },
+    "WULF": { "cik": "0001083301", "name": "TeraWulf", "subGroup": "miner-ai", "core": false },
+    "APLD": { "cik": "0001144879", "name": "Applied Digital", "subGroup": "miner-ai", "core": false }
+  }
+}

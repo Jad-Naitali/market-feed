@@ -715,9 +715,15 @@ function filingLabel(form, items) {
   return form || '';
 }
 
+// In-repo copy first (so the cloud cron, which can't see the parent Sector Desk folder,
+// still gets SEC filings), then the parent Sector Desk map for the local setup.
+const SEC_CIK_FILE_LOCAL = path.join(__dirname, 'sec-ticker-ids.json');
 function loadCikMap() {
-  try { return JSON.parse(fs.readFileSync(SEC_CIK_FILE, 'utf8').replace(/^﻿/, '')).names || {}; }
-  catch (e) { return null; }
+  for (const f of [SEC_CIK_FILE_LOCAL, SEC_CIK_FILE]) {
+    try { return JSON.parse(fs.readFileSync(f, 'utf8').replace(/^﻿/, '')).names || {}; }
+    catch (e) { /* try next */ }
+  }
+  return null;
 }
 
 async function fetchSecFilings(lookbackDays = SEC_LOOKBACK_DAYS) {
