@@ -8,15 +8,17 @@ public data fetched at runtime.
 
 ## How to run it
 
-- **By hand:** say *"morning brief"* or *"evening recap"* to Claude in this project
-  (or type `/morning-brief` / `/evening-recap`). The skills in
+- **The briefs (on demand):** say *"morning brief"* or *"evening recap"* to Claude in this
+  project (or type `/morning-brief` / `/evening-recap`). The skills in
   `.claude/skills/morning-brief` and `.claude/skills/evening-recap` own the procedure.
-- **Automatically:** two Windows scheduled tasks run it on weekdays — **8:00 AM** (brief)
-  and **5:00 PM** (evening recap), Eastern time. They wake the PC if asleep and open
-  the finished page in your browser.
-  - Install / update: `powershell -ExecutionPolicy Bypass -File .\install-schedule.ps1`
-  - Remove: `powershell -ExecutionPolicy Bypass -File .\install-schedule.ps1 -Remove`
-  - Test one now: `Start-ScheduledTask -TaskName 'TDV Morning Brief'`
+  The old 8:00 AM / 5:00 PM Windows scheduled tasks were retired 2026-06-18 — run the briefs
+  when you want them. `install-schedule.ps1` can re-register the two brief tasks if ever wanted.
+- **The live feed (always on, in the cloud):** a deterministic web page rebuilt every ~15 min on
+  weekdays by a free GitHub-Actions cron and served by GitHub Pages — runs with the laptop closed,
+  no Anthropic API, no recurring cost. It replaced the old desktop-toast intraday watch.
+  - Live: **https://jad-naitali.github.io/market-feed/market-feed.html**
+  - Repo: **https://github.com/Jad-Naitali/market-feed** (this folder is the repo)
+  - Force a rebuild: GitHub → Actions → "Live market feed" → Run workflow (tick `force_fetch`).
 
 ## The pieces
 
@@ -31,9 +33,14 @@ public data fetched at runtime.
 | `running stories.json` | The multi-day stories the briefs track, so a big Monday story is still surfaced Wednesday. Maintained by the skills each run: live stories carry a start date + latest line; resolved ones render once under "Closing out", then drop. No fixed day count — judgment-based. |
 | `archive.html` | Generated index of every brief, grouped by week. Open it to jump to any prior day. |
 | `run-scheduled-brief.ps1` | Scheduler entry point: soft-starts TradingView (watchlist only), runs Claude headless against the skill, opens the result. |
-| `install-schedule.ps1` | Registers / removes the two weekday scheduled tasks. |
+| `install-schedule.ps1` | Registers / removes the two **brief** scheduled tasks (morning + evening). Not auto-installed — the briefs run on demand; re-run this only if you want the timed tasks back. |
 | `Briefs/<date>/` | Per-run output: raw feed pulls, the data object, and the HTML brief. |
 | `sentiment history.csv` | Running deterministic record (schema v2): windowed StockTwits bull/bear + sample size + velocity, on-topic Reddit mentions, unique news count, price %. Gauge rows (`_FEARGREED_` / `_CRYPTOFNG_`) carry the market-wide score (normalized 0–1 in `st_bull_ratio`, detail in `note`). The timestamped history the knowledge base's backtest phase will use. (`sentiment history (v1, day one).csv` is the archived first-day schema.) |
+| `build feed data.js` | **Live-feed orchestrator** the GitHub-Actions cron runs. Runs the intraday watcher once (events), reads the snapshot, runs the regime engine, computes the mood composite (unweighted mean of present gauges), and writes the three `docs/` files below. Deterministic — no Anthropic API. |
+| `docs/market-feed.html` | The live feed page (self-contained, embedded font, inline-SVG charts). Fetches `feed-data.json` on load + every 60s. Served by GitHub Pages. |
+| `docs/feed-data.json` · `docs/feed-events.json` · `docs/mood-history.csv` | Cron-generated: the current snapshot, the rolling 3-day event log, and the timeline history. |
+| `.github/workflows/feed.yml` | The free cron: every 15 min on weekdays (~7am–6pm ET) + a manual "Run workflow" button (`force_fetch` to fetch off-hours). Node 20, no install step. |
+| `sec-ticker-ids.json` | In-repo copy of the sector-desk ticker→SEC-CIK map, so the cloud runner can pull SEC filings (the original lives outside the repo). |
 
 ## Notes
 
