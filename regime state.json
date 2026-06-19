@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.86 vs 20d avg 99.68",
-      "asOfMs": 1781838409000,
+      "detail": "DXY 100.81 vs 20d avg 99.67",
+      "asOfMs": 1781877798000,
       "status": "ok",
       "raw": {
-        "last": 100.86,
-        "avg": 99.68,
-        "gap": 1.18
+        "last": 100.81,
+        "avg": 99.67,
+        "gap": 1.13
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.4 vs VIX3M 19.57",
-      "asOfMs": 1781789400000,
+      "detail": "VIX 16.83 vs VIX3M 20.51",
+      "asOfMs": 1781852400000,
       "status": "ok",
       "raw": {
-        "vix": 16.4,
-        "vix3m": 19.57,
-        "diff": -3.17
+        "vix": 16.83,
+        "vix3m": 20.51,
+        "diff": -3.68
       }
     },
     "credit": {
@@ -88,11 +88,11 @@
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 38 (fear)",
-      "asOfMs": 1781827187000,
+      "detail": "Fear&Greed 37 (fear)",
+      "asOfMs": 1781830787000,
       "status": "ok",
       "raw": {
-        "score": 38,
+        "score": 37,
         "rating": "fear"
       }
     }
@@ -100,9 +100,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 0.4,
-        "asOfMs": 1781827200000
+        "name": "DAX",
+        "pct": 0.1,
+        "asOfMs": 1781852400000
       },
       {
         "name": "Hang Seng",
@@ -110,15 +110,15 @@
         "asOfMs": 1781746200000
       },
       {
-        "name": "DAX",
-        "pct": 0.4,
-        "asOfMs": 1781766000000
+        "name": "Nikkei",
+        "pct": 0.3,
+        "asOfMs": 1781827200000
       }
     ],
     "rates": {
-      "impliedRate": 3.73,
-      "changeBp": -10.5,
-      "asOfMs": 1781837340000
+      "impliedRate": 3.74,
+      "changeBp": -11,
+      "asOfMs": 1781877545000
     }
   },
   "stress": {
@@ -206,5 +206,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1781839010848
+  "updatedMs": 1781878401432
 }
