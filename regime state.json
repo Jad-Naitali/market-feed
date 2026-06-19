@@ -29,7 +29,7 @@
       "state": "above 20d avg",
       "vote": "off",
       "detail": "DXY 100.86 vs 20d avg 99.68",
-      "asOfMs": 1781838150000,
+      "asOfMs": 1781838409000,
       "status": "ok",
       "raw": {
         "last": 100.86,
@@ -100,6 +100,11 @@
   "context": {
     "overnight": [
       {
+        "name": "Nikkei",
+        "pct": 0.4,
+        "asOfMs": 1781827200000
+      },
+      {
         "name": "Hang Seng",
         "pct": -1.6,
         "asOfMs": 1781746200000
@@ -108,11 +113,6 @@
         "name": "DAX",
         "pct": 0.4,
         "asOfMs": 1781766000000
-      },
-      {
-        "name": "Nikkei",
-        "pct": 0.4,
-        "asOfMs": 1781827200000
       }
     ],
     "rates": {
@@ -206,5 +206,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1781838752015
+  "updatedMs": 1781839010848
 }
