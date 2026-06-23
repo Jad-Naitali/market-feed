@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-off",
+    "label": "risk-on",
     "tally": "4-3",
     "drivers": [
-      "dollar strong",
-      "VIX backwardated",
-      "defensives leading",
-      "sentiment fear"
+      "curve positive",
+      "VIX in contango",
+      "credit spreads tight",
+      "breadth broad"
     ],
-    "on": 3,
-    "off": 4
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -27,35 +27,35 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.26 vs 20d avg 99.78",
+      "detail": "DXY 101.37 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.26,
-        "avg": 99.78,
-        "gap": 1.48
+        "last": 101.37,
+        "avg": 99.79,
+        "gap": 1.58
       }
     },
     "vol": {
-      "state": "backwardation",
-      "vote": "off",
-      "detail": "VIX 20.21 vs VIX3M 19.57",
-      "asOfMs": 1782198000000,
+      "state": "contango",
+      "vote": "on",
+      "detail": "VIX 19.42 vs VIX3M 21.07",
+      "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 20.21,
-        "vix3m": 19.57,
-        "diff": 0.64
+        "vix": 19.42,
+        "vix3m": 21.07,
+        "diff": -1.65
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 2.66pp vs 20-obs avg 2.72pp (as of 2026-06-19)",
-      "asOfMs": 1781827200000,
+      "detail": "HY spread 2.65pp vs 20-obs avg 2.72pp (as of 2026-06-22)",
+      "asOfMs": 1782086400000,
       "status": "ok",
       "raw": {
-        "spread": 2.66,
+        "spread": 2.65,
         "avg": 2.72,
         "newHigh": false
       }
@@ -63,32 +63,32 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.8% vs others -2.9%",
+      "detail": "defensives 5d -0.9% vs others -2.2%",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.8,
-        "othMedPct": -2.9,
-        "diffPct": 2.1
+        "defMedPct": -0.9,
+        "othMedPct": -2.2,
+        "diffPct": 1.3
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2836 vs 20d avg 0.2804",
+      "detail": "RSP/SPY 0.2842 vs 20d avg 0.2804",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2836,
+        "ratio": 0.2842,
         "avg": 0.2804,
-        "gap": 0.0032
+        "gap": 0.0038
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 28 (fear)",
-      "asOfMs": 1782222058000,
+      "asOfMs": 1782231090000,
       "status": "ok",
       "raw": {
         "score": 28,
@@ -99,19 +99,19 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -3.5,
-        "asOfMs": 1782172800000
+        "name": "Hang Seng",
+        "pct": -0.7,
+        "asOfMs": 1782091800000
       },
       {
         "name": "DAX",
-        "pct": -1.1,
+        "pct": -1,
         "asOfMs": 1782198000000
       },
       {
-        "name": "Hang Seng",
-        "pct": -1.8,
-        "asOfMs": 1782178200000
+        "name": "Nikkei",
+        "pct": 1.5,
+        "asOfMs": 1782086400000
       }
     ],
     "rates": {
@@ -121,7 +121,7 @@
     }
   },
   "stress": {
-    "vixBackwardation": true,
+    "vixBackwardation": false,
     "curveInverted": false,
     "hySpreadNew20High": false
   },
@@ -221,9 +221,24 @@
       "ts": 1782222214053,
       "kind": "STRESS",
       "line": "STRESS VIX backwardation | VIX 20.21 vs VIX3M 19.57"
+    },
+    {
+      "ts": 1782231339246,
+      "kind": "REGIME",
+      "line": "REGIME vol backwardation -> contango"
+    },
+    {
+      "ts": 1782231339246,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, credit spreads tight, breadth broad"
+    },
+    {
+      "ts": 1782231339246,
+      "kind": "STRESS-CLEAR",
+      "line": "STRESS-CLEAR vixBackwardation"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782222214053
+  "updatedMs": 1782231339927
 }
