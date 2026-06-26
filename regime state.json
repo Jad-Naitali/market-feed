@@ -6,7 +6,7 @@
       "dollar strong",
       "credit spreads widening",
       "defensives leading",
-      "sentiment fear"
+      "sentiment extreme fear"
     ],
     "on": 3,
     "off": 4
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.31 vs 20d avg 100.14",
+      "detail": "DXY 101.35 vs 20d avg 100.14",
       "asOfMs": 1782446400000,
       "status": "ok",
       "raw": {
-        "last": 101.31,
+        "last": 101.35,
         "avg": 100.14,
-        "gap": 1.17
+        "gap": 1.21
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.63 vs VIX3M 20.24",
+      "detail": "VIX 18.91 vs VIX3M 20.37",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "vix": 18.63,
-        "vix3m": 20.24,
-        "diff": -1.61
+        "vix": 18.91,
+        "vix3m": 20.37,
+        "diff": -1.46
       }
     },
     "credit": {
@@ -63,13 +63,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3% vs others -0.3%",
+      "detail": "defensives 5d 2.8% vs others -0.3%",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3,
+        "defMedPct": 2.8,
         "othMedPct": -0.3,
-        "diffPct": 3.3
+        "diffPct": 3.2
       }
     },
     "breadth": {
@@ -85,14 +85,14 @@
       }
     },
     "sentiment": {
-      "state": "fear",
+      "state": "extreme fear",
       "vote": "off",
-      "detail": "Fear&Greed 26 (fear)",
-      "asOfMs": 1782494543000,
+      "detail": "Fear&Greed 25 (extreme fear)",
+      "asOfMs": 1782500995000,
       "status": "ok",
       "raw": {
-        "score": 26,
-        "rating": "fear"
+        "score": 25,
+        "rating": "extreme fear"
       }
     }
   },
@@ -104,14 +104,14 @@
         "asOfMs": 1782345600000
       },
       {
-        "name": "DAX",
-        "pct": -1.3,
-        "asOfMs": 1782457200000
-      },
-      {
         "name": "Hang Seng",
         "pct": -1.4,
         "asOfMs": 1782351000000
+      },
+      {
+        "name": "DAX",
+        "pct": -1.3,
+        "asOfMs": 1782457200000
       }
     ],
     "rates": {
@@ -276,9 +276,14 @@
       "ts": 1782488067576,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR vixBackwardation"
+    },
+    {
+      "ts": 1782501520692,
+      "kind": "REGIME",
+      "line": "REGIME sentiment fear -> extreme fear"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782494652389
+  "updatedMs": 1782501521255
 }
