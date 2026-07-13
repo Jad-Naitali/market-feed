@@ -1,15 +1,15 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "4-2",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
       "VIX in contango",
       "credit spreads tight",
-      "cyclicals leading"
+      "breadth broad"
     ],
     "on": 4,
-    "off": 2
+    "off": 3
   },
   "components": {
     "curve": {
@@ -27,96 +27,96 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.93 vs 20d avg 100.86",
+      "detail": "DXY 101.14 vs 20d avg 100.87",
       "asOfMs": 1783915200000,
       "status": "ok",
       "raw": {
-        "last": 100.93,
-        "avg": 100.86,
-        "gap": 0.08
+        "last": 101.14,
+        "avg": 100.87,
+        "gap": 0.27
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.35 vs VIX3M 18.57",
-      "asOfMs": 1783948066000,
+      "detail": "VIX 16.24 vs VIX3M 19.24",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "vix": 16.35,
-        "vix3m": 18.57,
-        "diff": -2.22
+        "vix": 16.24,
+        "vix3m": 19.24,
+        "diff": -3
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 2.7pp vs 20-obs avg 2.72pp (as of 2026-07-09)",
-      "asOfMs": 1783555200000,
+      "detail": "HY spread 2.69pp vs 20-obs avg 2.72pp (as of 2026-07-10)",
+      "asOfMs": 1783641600000,
       "status": "ok",
       "raw": {
-        "spread": 2.7,
+        "spread": 2.69,
         "avg": 2.72,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d -1% vs others 0.1%",
-      "asOfMs": 1783690200000,
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 0.6% vs others -0.5%",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1,
-        "othMedPct": 0.1,
-        "diffPct": -1.2
+        "defMedPct": 0.6,
+        "othMedPct": -0.5,
+        "diffPct": 1.2
       }
     },
     "breadth": {
-      "state": "below 20d avg",
-      "vote": "off",
-      "detail": "RSP/SPY 0.2839 vs 20d avg 0.285",
-      "asOfMs": 1783690200000,
+      "state": "above 20d avg",
+      "vote": "on",
+      "detail": "RSP/SPY 0.2857 vs 20d avg 0.2851",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2839,
-        "avg": 0.285,
-        "gap": -0.0012
+        "ratio": 0.2857,
+        "avg": 0.2851,
+        "gap": 0.0006
       }
     },
     "sentiment": {
-      "state": "neutral",
-      "vote": "abstain",
-      "detail": "Fear&Greed 49 (neutral)",
-      "asOfMs": 1783948021000,
+      "state": "fear",
+      "vote": "off",
+      "detail": "Fear&Greed 45 (fear)",
+      "asOfMs": 1783958438000,
       "status": "ok",
       "raw": {
-        "score": 49,
-        "rating": "neutral"
+        "score": 45,
+        "rating": "fear"
       }
     }
   },
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 0.2,
-        "asOfMs": 1783906200000
-      },
-      {
-        "name": "Nikkei",
-        "pct": -1.9,
-        "asOfMs": 1783900800000
-      },
-      {
         "name": "DAX",
         "pct": 0.2,
         "asOfMs": 1783926000000
+      },
+      {
+        "name": "Nikkei",
+        "pct": 1.2,
+        "asOfMs": 1783641600000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0.6,
+        "asOfMs": 1783647000000
       }
     ],
     "rates": {
-      "impliedRate": 3.71,
-      "changeBp": -8,
+      "impliedRate": 3.72,
+      "changeBp": -9,
       "asOfMs": 1783915200000
     }
   },
@@ -391,9 +391,19 @@
       "ts": 1783698032588,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP Mixed -> risk-on · 4-2 · drivers: curve positive, VIX in contango, credit spreads tight, cyclicals leading"
+    },
+    {
+      "ts": 1783958637150,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1783958637150,
+      "kind": "REGIME",
+      "line": "REGIME breadth below 20d avg -> above 20d avg"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783948969675
+  "updatedMs": 1783958637523
 }
