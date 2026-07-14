@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.28 vs 20d avg 100.87",
-      "asOfMs": 1783915200000,
+      "detail": "DXY 101.05 vs 20d avg 100.94",
+      "asOfMs": 1784001600000,
       "status": "ok",
       "raw": {
-        "last": 101.28,
-        "avg": 100.87,
-        "gap": 0.4
+        "last": 101.05,
+        "avg": 100.94,
+        "gap": 0.11
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.16 vs VIX3M 19.64",
-      "asOfMs": 1783949400000,
+      "detail": "VIX 17.33 vs VIX3M 18.57",
+      "asOfMs": 1784012400000,
       "status": "ok",
       "raw": {
-        "vix": 17.16,
-        "vix3m": 19.64,
-        "diff": -2.48
+        "vix": 17.33,
+        "vix3m": 18.57,
+        "diff": -1.24
       }
     },
     "credit": {
@@ -88,7 +88,7 @@
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 44 (fear)",
-      "asOfMs": 1783978947000,
+      "asOfMs": 1784030041000,
       "status": "ok",
       "raw": {
         "score": 44,
@@ -100,24 +100,24 @@
     "overnight": [
       {
         "name": "DAX",
-        "pct": 0.2,
-        "asOfMs": 1783926000000
-      },
-      {
-        "name": "Nikkei",
-        "pct": 1.2,
-        "asOfMs": 1783641600000
+        "pct": -0.8,
+        "asOfMs": 1784012400000
       },
       {
         "name": "Hang Seng",
-        "pct": 0.6,
-        "asOfMs": 1783647000000
+        "pct": 0.5,
+        "asOfMs": 1783992600000
+      },
+      {
+        "name": "Nikkei",
+        "pct": 0.7,
+        "asOfMs": 1783987200000
       }
     ],
     "rates": {
-      "impliedRate": 3.74,
-      "changeBp": -10.5,
-      "asOfMs": 1783915200000
+      "impliedRate": 3.71,
+      "changeBp": -8.2,
+      "asOfMs": 1784001600000
     }
   },
   "stress": {
@@ -405,5 +405,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783979895954
+  "updatedMs": 1784031082275
 }
