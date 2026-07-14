@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 100.85 vs 20d avg 100.93",
+      "detail": "DXY 100.92 vs 20d avg 100.93",
       "asOfMs": 1784001600000,
       "status": "ok",
       "raw": {
-        "last": 100.85,
+        "last": 100.92,
         "avg": 100.93,
-        "gap": -0.08
+        "gap": -0.01
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.48 vs VIX3M 19.3",
+      "detail": "VIX 16.44 vs VIX3M 19.27",
       "asOfMs": 1784035800000,
       "status": "ok",
       "raw": {
-        "vix": 16.48,
-        "vix3m": 19.3,
-        "diff": -2.82
+        "vix": 16.44,
+        "vix3m": 19.27,
+        "diff": -2.83
       }
     },
     "credit": {
@@ -64,35 +64,35 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.4% vs others -0.3%",
+      "detail": "defensives 5d -1.5% vs others -0.4%",
       "asOfMs": 1784035800000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1.4,
-        "othMedPct": -0.3,
+        "defMedPct": -1.5,
+        "othMedPct": -0.4,
         "diffPct": -1.1
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2839 vs 20d avg 0.2851",
+      "detail": "RSP/SPY 0.2837 vs 20d avg 0.285",
       "asOfMs": 1784035800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2839,
-        "avg": 0.2851,
-        "gap": -0.0012
+        "ratio": 0.2837,
+        "avg": 0.285,
+        "gap": -0.0013
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 43 (fear)",
-      "asOfMs": 1784048646000,
+      "detail": "Fear&Greed 44 (fear)",
+      "asOfMs": 1784052610000,
       "status": "ok",
       "raw": {
-        "score": 43,
+        "score": 44,
         "rating": "fear"
       }
     }
@@ -421,5 +421,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784049233593
+  "updatedMs": 1784053091085
 }
