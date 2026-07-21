@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 100.99 vs 20d avg 101.08",
-      "asOfMs": 1784520000000,
+      "detail": "DXY 101.01 vs 20d avg 101.08",
+      "asOfMs": 1784606400000,
       "status": "ok",
       "raw": {
-        "last": 100.99,
+        "last": 101.01,
         "avg": 101.08,
-        "gap": -0.09
+        "gap": -0.06
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.65 vs VIX3M 20.4",
-      "asOfMs": 1784554200000,
+      "detail": "VIX 17.73 vs VIX3M 20.54",
+      "asOfMs": 1784617200000,
       "status": "ok",
       "raw": {
-        "vix": 18.65,
-        "vix3m": 20.4,
-        "diff": -1.75
+        "vix": 17.73,
+        "vix3m": 20.54,
+        "diff": -2.81
       }
     },
     "credit": {
@@ -88,11 +88,11 @@
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 38 (fear)",
-      "asOfMs": 1784582739000,
+      "detail": "Fear&Greed 37 (fear)",
+      "asOfMs": 1784635606000,
       "status": "ok",
       "raw": {
-        "score": 38,
+        "score": 37,
         "rating": "fear"
       }
     }
@@ -101,24 +101,24 @@
     "overnight": [
       {
         "name": "Hang Seng",
-        "pct": -1.8,
-        "asOfMs": 1784251800000
+        "pct": 0,
+        "asOfMs": 1784597400000
       },
       {
         "name": "DAX",
-        "pct": 0.1,
-        "asOfMs": 1784530800000
+        "pct": 0.2,
+        "asOfMs": 1784617200000
       },
       {
         "name": "Nikkei",
-        "pct": -4,
-        "asOfMs": 1784246400000
+        "pct": 3.3,
+        "asOfMs": 1784592000000
       }
     ],
     "rates": {
       "impliedRate": 3.67,
-      "changeBp": -3.5,
-      "asOfMs": 1784520000000
+      "changeBp": -3.7,
+      "asOfMs": 1784606400000
     }
   },
   "stress": {
@@ -481,5 +481,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784583782267
+  "updatedMs": 1784636623118
 }
