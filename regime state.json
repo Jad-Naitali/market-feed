@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.12 vs 20d avg 101.07",
+      "detail": "DXY 101.13 vs 20d avg 101.07",
       "asOfMs": 1784692800000,
       "status": "ok",
       "raw": {
-        "last": 101.12,
+        "last": 101.13,
         "avg": 101.07,
-        "gap": 0.05
+        "gap": 0.06
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.88 vs VIX3M 19.64",
+      "detail": "VIX 16.64 vs VIX3M 19.54",
       "asOfMs": 1784727000000,
       "status": "ok",
       "raw": {
-        "vix": 16.88,
-        "vix3m": 19.64,
-        "diff": -2.76
+        "vix": 16.64,
+        "vix3m": 19.54,
+        "diff": -2.9
       }
     },
     "credit": {
@@ -75,11 +75,11 @@
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2845 vs 20d avg 0.2859",
+      "detail": "RSP/SPY 0.2846 vs 20d avg 0.2859",
       "asOfMs": 1784727000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2845,
+        "ratio": 0.2846,
         "avg": 0.2859,
         "gap": -0.0013
       }
@@ -88,7 +88,7 @@
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 43 (fear)",
-      "asOfMs": 1784750399000,
+      "asOfMs": 1784754864000,
       "status": "ok",
       "raw": {
         "score": 43,
@@ -99,14 +99,14 @@
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": 0.6,
-        "asOfMs": 1784703600000
-      },
-      {
         "name": "Hang Seng",
         "pct": 0,
         "asOfMs": 1784597400000
+      },
+      {
+        "name": "DAX",
+        "pct": 0.6,
+        "asOfMs": 1784703600000
       },
       {
         "name": "Nikkei",
@@ -505,5 +505,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784751080675
+  "updatedMs": 1784755840545
 }
