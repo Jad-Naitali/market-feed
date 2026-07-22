@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.1 vs 20d avg 101.07",
+      "detail": "DXY 101.13 vs 20d avg 101.07",
       "asOfMs": 1784692800000,
       "status": "ok",
       "raw": {
-        "last": 101.1,
+        "last": 101.13,
         "avg": 101.07,
-        "gap": 0.03
+        "gap": 0.06
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.8 vs VIX3M 19.58",
+      "detail": "VIX 16.82 vs VIX3M 19.61",
       "asOfMs": 1784727000000,
       "status": "ok",
       "raw": {
-        "vix": 16.8,
-        "vix3m": 19.58,
-        "diff": -2.78
+        "vix": 16.82,
+        "vix3m": 19.61,
+        "diff": -2.79
       }
     },
     "credit": {
@@ -63,12 +63,12 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.2% vs others -0.3%",
+      "detail": "defensives 5d 1.1% vs others -0.4%",
       "asOfMs": 1784727000000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.2,
-        "othMedPct": -0.3,
+        "defMedPct": 1.1,
+        "othMedPct": -0.4,
         "diffPct": 1.5
       }
     },
@@ -81,17 +81,17 @@
       "raw": {
         "ratio": 0.2844,
         "avg": 0.2859,
-        "gap": -0.0014
+        "gap": -0.0015
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 43 (fear)",
-      "asOfMs": 1784736142000,
+      "detail": "Fear&Greed 44 (fear)",
+      "asOfMs": 1784741861000,
       "status": "ok",
       "raw": {
-        "score": 43,
+        "score": 44,
         "rating": "fear"
       }
     }
@@ -104,19 +104,19 @@
         "asOfMs": 1784592000000
       },
       {
-        "name": "Hang Seng",
-        "pct": 0,
-        "asOfMs": 1784597400000
-      },
-      {
         "name": "DAX",
         "pct": 0.6,
         "asOfMs": 1784703600000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0,
+        "asOfMs": 1784597400000
       }
     ],
     "rates": {
       "impliedRate": 3.71,
-      "changeBp": -8,
+      "changeBp": -7.5,
       "asOfMs": 1784692800000
     }
   },
@@ -505,5 +505,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784736469605
+  "updatedMs": 1784742096123
 }
