@@ -33,19 +33,19 @@
       "raw": {
         "last": 101.45,
         "avg": 101.06,
-        "gap": 0.39
+        "gap": 0.38
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.61 vs VIX3M 21.11",
+      "detail": "VIX 19.39 vs VIX3M 21.02",
       "asOfMs": 1784813400000,
       "status": "ok",
       "raw": {
-        "vix": 19.61,
-        "vix3m": 21.11,
-        "diff": -1.5
+        "vix": 19.39,
+        "vix3m": 21.02,
+        "diff": -1.63
       }
     },
     "credit": {
@@ -63,32 +63,32 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.4% vs others -1.1%",
+      "detail": "defensives 5d -0.6% vs others -1.2%",
       "asOfMs": 1784813400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.4,
-        "othMedPct": -1.1,
-        "diffPct": 0.7
+        "defMedPct": -0.6,
+        "othMedPct": -1.2,
+        "diffPct": 0.6
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2869 vs 20d avg 0.2859",
+      "detail": "RSP/SPY 0.2866 vs 20d avg 0.2859",
       "asOfMs": 1784813400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2869,
+        "ratio": 0.2866,
         "avg": 0.2859,
-        "gap": 0.001
+        "gap": 0.0007
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 40 (fear)",
-      "asOfMs": 1784823187000,
+      "asOfMs": 1784828598000,
       "status": "ok",
       "raw": {
         "score": 40,
@@ -515,5 +515,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784823257751
+  "updatedMs": 1784828946496
 }
