@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-on",
+    "label": "risk-off",
     "tally": "4-3",
     "drivers": [
-      "curve positive",
-      "VIX in contango",
-      "credit spreads tight",
-      "breadth broad"
+      "dollar strong",
+      "credit spreads widening",
+      "defensives leading",
+      "sentiment fear"
     ],
-    "on": 4,
-    "off": 3
+    "on": 3,
+    "off": 4
   },
   "components": {
     "curve": {
@@ -27,35 +27,35 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.47 vs 20d avg 101.06",
+      "detail": "DXY 101.35 vs 20d avg 101.06",
       "asOfMs": 1784865600000,
       "status": "ok",
       "raw": {
-        "last": 101.47,
+        "last": 101.35,
         "avg": 101.06,
-        "gap": 0.4
+        "gap": 0.29
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.63 vs VIX3M 20.56",
+      "detail": "VIX 17.47 vs VIX3M 19.91",
       "asOfMs": 1784899800000,
       "status": "ok",
       "raw": {
-        "vix": 18.63,
-        "vix3m": 20.56,
-        "diff": -1.93
+        "vix": 17.47,
+        "vix3m": 19.91,
+        "diff": -2.44
       }
     },
     "credit": {
-      "state": "below 20-obs avg",
-      "vote": "on",
-      "detail": "HY spread 2.68pp vs 20-obs avg 2.72pp (as of 2026-07-22)",
-      "asOfMs": 1784678400000,
+      "state": "above 20-obs avg",
+      "vote": "off",
+      "detail": "HY spread 2.77pp vs 20-obs avg 2.72pp (as of 2026-07-23)",
+      "asOfMs": 1784764800000,
       "status": "ok",
       "raw": {
-        "spread": 2.68,
+        "spread": 2.77,
         "avg": 2.72,
         "newHigh": false
       }
@@ -63,23 +63,23 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.9% vs others 0.1%",
+      "detail": "defensives 5d 1.1% vs others 1%",
       "asOfMs": 1784899800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.9,
-        "othMedPct": 0.1,
-        "diffPct": 0.7
+        "defMedPct": 1.1,
+        "othMedPct": 1,
+        "diffPct": 0.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2882 vs 20d avg 0.2859",
+      "detail": "RSP/SPY 0.2881 vs 20d avg 0.2859",
       "asOfMs": 1784899800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2882,
+        "ratio": 0.2881,
         "avg": 0.2859,
         "gap": 0.0023
       }
@@ -87,11 +87,11 @@
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 40 (fear)",
-      "asOfMs": 1784902448000,
+      "detail": "Fear&Greed 41 (fear)",
+      "asOfMs": 1784908219000,
       "status": "ok",
       "raw": {
-        "score": 40,
+        "score": 41,
         "rating": "fear"
       }
     }
@@ -99,24 +99,24 @@
   "context": {
     "overnight": [
       {
+        "name": "Hang Seng",
+        "pct": -1,
+        "asOfMs": 1784856600000
+      },
+      {
         "name": "DAX",
-        "pct": 0.9,
+        "pct": 1.4,
         "asOfMs": 1784876400000
       },
       {
         "name": "Nikkei",
-        "pct": -2.7,
-        "asOfMs": 1784851200000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -1,
-        "asOfMs": 1784856600000
+        "pct": 0.5,
+        "asOfMs": 1784764800000
       }
     ],
     "rates": {
       "impliedRate": 3.71,
-      "changeBp": -7.5,
+      "changeBp": -7,
       "asOfMs": 1784865600000
     }
   },
@@ -511,9 +511,19 @@
       "ts": 1784817647642,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, credit spreads tight, breadth broad"
+    },
+    {
+      "ts": 1784908492920,
+      "kind": "REGIME",
+      "line": "REGIME credit below 20-obs avg -> above 20-obs avg"
+    },
+    {
+      "ts": 1784908492920,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, sentiment fear"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784902835608
+  "updatedMs": 1784908493287
 }
