@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.39 vs 20d avg 101.06",
+      "detail": "DXY 101.38 vs 20d avg 101.07",
       "asOfMs": 1785211200000,
       "status": "ok",
       "raw": {
-        "last": 101.39,
-        "avg": 101.06,
-        "gap": 0.32
+        "last": 101.38,
+        "avg": 101.07,
+        "gap": 0.31
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.25 vs VIX3M 19.86",
+      "detail": "VIX 18.21 vs VIX3M 19.86",
       "asOfMs": 1785245400000,
       "status": "ok",
       "raw": {
-        "vix": 18.25,
+        "vix": 18.21,
         "vix3m": 19.86,
-        "diff": -1.61
+        "diff": -1.65
       }
     },
     "credit": {
@@ -63,13 +63,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3.6% vs others 0.7%",
+      "detail": "defensives 5d 2.6% vs others 0.4%",
       "asOfMs": 1785245400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3.6,
-        "othMedPct": 0.7,
-        "diffPct": 2.8
+        "defMedPct": 2.6,
+        "othMedPct": 0.4,
+        "diffPct": 2.2
       }
     },
     "breadth": {
@@ -81,14 +81,14 @@
       "raw": {
         "ratio": 0.2938,
         "avg": 0.2864,
-        "gap": 0.0074
+        "gap": 0.0075
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 38 (fear)",
-      "asOfMs": 1785268635000,
+      "asOfMs": 1785273158000,
       "status": "ok",
       "raw": {
         "score": 38,
@@ -99,24 +99,24 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 1,
-        "asOfMs": 1785115800000
-      },
-      {
         "name": "DAX",
         "pct": 0.4,
         "asOfMs": 1785222000000
       },
       {
         "name": "Nikkei",
-        "pct": 0.5,
+        "pct": -2.2,
         "asOfMs": 1785110400000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0,
+        "asOfMs": 1785115800000
       }
     ],
     "rates": {
       "impliedRate": 3.71,
-      "changeBp": -7,
+      "changeBp": -7.5,
       "asOfMs": 1785211200000
     }
   },
@@ -550,5 +550,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785268842387
+  "updatedMs": 1785274293753
 }
