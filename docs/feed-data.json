@@ -1,46 +1,46 @@
 {
- "generatedAt": "Jul 29, 2026, 3:13 PM ET",
- "generatedAtMs": 1785352435314,
+ "generatedAt": "Jul 29, 2026, 4:18 PM ET",
+ "generatedAtMs": 1785356282984,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-07-29 15:00 ET",
-  "pricesAsOf": "Jul 29, 2026, 3:13 PM ET",
+  "asOfET": "2026-07-29 16:00 ET",
+  "pricesAsOf": "Jul 29, 2026, 4:18 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7465.25,
-     "change": 0,
+     "value": 7338.75,
+     "change": -1.7,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 28018.25,
-     "change": 0.3,
+     "value": 27298,
+     "change": -2.2,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.59,
-     "change": -3.4,
+     "value": 20.46,
+     "change": 12.4,
      "invert": true
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0
+     "pct": -1.3
     },
     {
      "ticker": "QQQ",
-     "pct": -0.9
+     "pct": -3
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 37,
+    "score": 33,
     "rating": "fear",
     "prevClose": 38,
     "prevWeek": 43,
@@ -62,7 +62,7 @@
       "time": null
      },
      {
-      "title": "Caterpillar Drops as State Data Center Bans Threaten AI Power Generator Demand - techtimes.com",
+      "title": "Caterpillar Drops as State Data Center Bans Threaten AI Power Generator Demand - Tech Times",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOaGJVWmpvYW16LTY5NEdYdHdVc0RWTVBjaU5kT1JMS2xNSWJvdlFJcy1BbXJaanowYzVoXzYxZWhRZ2NNeU9hcTZLSEoybGc4cjNEM0g3NFdFVDNSNDE3ZGtPWlh3aExUY09kSlJ1bk5oUFlCUEVNS3dSRjloWExMRVdiWWUtbXdJcmJFQkJFM1luTnRfem9MeTdJNUNzbHVITDNSallRb3lOWjJadGV4eTlxMzRvdjRLQnh0cldVUXdKaVVOb0ZMamtR?oc=5",
       "time": null
      }
@@ -79,11 +79,11 @@
   ]
  },
  "mood": {
-  "composite": 41,
+  "composite": 39.7,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 37
+    "value": 33
    },
    {
     "name": "Crypto Fear & Greed",
@@ -113,19 +113,19 @@
     "name": "curve",
     "vote": "on",
     "state": "normal",
-    "detail": "10y-2y 0.35pp (2y 4.26, 10y 4.61)"
+    "detail": "10y-2y 0.45pp (2y 4.22, 10y 4.67)"
    },
    {
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 100.89 vs 20d avg 101.07"
+    "detail": "DXY 100.95 vs 20d avg 101.07"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.66 vs VIX3M 19.6"
+    "detail": "VIX 20.41 vs VIX3M 21.37"
    },
    {
     "name": "credit",
@@ -137,19 +137,19 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 3.3% vs others 0.2%"
+    "detail": "defensives 5d 3.5% vs others -0.3%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2938 vs 20d avg 0.2868"
+    "detail": "RSP/SPY 0.2957 vs 20d avg 0.2869"
    },
    {
     "name": "sentiment",
     "vote": "off",
     "state": "fear",
-    "detail": "Fear&Greed 37 (fear)"
+    "detail": "Fear&Greed 33 (fear)"
    }
   ]
  },
@@ -158,8 +158,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.6,
-   "last": 64243.8,
+   "pct": -0.4,
+   "last": 63625.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Live updates: Bitcoin rises above $64,000 ahead of Fed rate decision - CoinDesk",
@@ -174,9 +174,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -14.2,
-   "last": 18.6,
-   "newsCount": 9,
+   "pct": -18.3,
+   "last": 17.7,
+   "newsCount": 7,
    "latestNews": {
     "title": "CIFR Stock Slides As CEO Sells, New York Targets Data Centers - StocksToTrade",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YQ1RuRVdYYVhRM1VCdjhVRXlfR3ROWHdPVUdGU0FKaDBYQWphUkZkZGl4MEtEU0g0LUtzZFBKSHJ3d0Y2WW1XNXc1c255aWNMOEFfeFJLY1pYallKUVpFTkJRVWRzTGp4R0F5VGQ2ajhXbFIzZGJ5MEo1bw?oc=5",
@@ -195,12 +195,12 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -14.5,
-   "last": 31,
-   "newsCount": 8,
+   "pct": -19.2,
+   "last": 29.3,
+   "newsCount": 9,
    "latestNews": {
-    "title": "IREN, TeraWulf, and Applied Digital Are All Down 30% in a Month. Is More Pain Coming for Data Center Stocks? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOREFVTmJkLVc0bDNoT1prMXBBeUg4QkpfTGtiemJXOUxhbXBQMGx2WUVaZWhNT09sbjVXdnZ2djFBRTY0WjhOVEl0Vkh4MTJSVXdOMWt3dzlYNVEwT0V0QUZkV08zSjlRVUZPSGpGUV8yUkdsR3ZKdkw0SUJyclhGeEt2LTY5WTdIWEpsYnBDMTV6N05WRjRzWmg4eXY0ZGhn?oc=5",
+    "title": "IREN, TeraWulf, and Applied Digital Are All Down 30% in a Month. Is More Pain Coming for Data Center Stocks? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQczB3Nm1XWVZmR0pZZTFCRi1GUlQ4bEpZZjBIZFc5cXU5TkVIWDQ3elhUQmIyWXlkd1N6b0taSHo5blNHSGJtOXRIb2o4OE1iN1NINXQ0NkJMX0RPWkMyTm9pazdGaTJ3TUYtbkJIQ0pkclc3ajBvMkRRQ184RlN5NWswbnJqSzFuLTFtVWlWR04yM01RY3ZwZ1VEandpSkpuOFRrbVVSSk5sa2lDbm51bFIzQzAweDFhOHRpZlF4OUNPTXN5SjR5UzhEcS1raWNpYjlkejJaNHFuV0RSTW9uVA?oc=5",
     "time": "2:11 PM"
    },
    "latestPost": null,
@@ -216,9 +216,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -16.2,
-   "last": 157.5,
-   "newsCount": 11,
+   "pct": -21.1,
+   "last": 148.2,
+   "newsCount": 13,
    "latestNews": {
     "title": "Nebius: PaaS Power Over Agentic Bleed - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdEJERG8wQ2ZsbGZ5bmxmSURXWVgzOWhTWV82SGtWVUg5blZkUkdrX3owRms5NTlwSTF2aGl6NGtHOEFmYktVVDg0YnRfenNPS2p2SkJmVFpTYjJUMGJhcTc1cnN6bzliTTZFU2ZLNkk2VncwRnIyMkZiV3lta2FQbzBYaw?oc=5",
@@ -241,8 +241,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -9.4,
-   "last": 448.3,
+   "pct": -13.2,
+   "last": 429.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Prediction: AMD Stock Could Double by 2028. Here's Why - Yahoo Finance",
@@ -261,8 +261,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -7.4,
-   "last": 24.4,
+   "pct": -12,
+   "last": 23.2,
    "newsCount": 7,
    "latestNews": {
     "title": "Applied Digital (APLD) Is Down 11.4% After Big AI Leases Accompany Another Loss‑Making Quarter - simplywall.st",
@@ -286,13 +286,13 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -11.9,
-   "last": 15.8,
-   "newsCount": 9,
+   "pct": -16.1,
+   "last": 15.1,
+   "newsCount": 10,
    "latestNews": {
-    "title": "IREN, TeraWulf, and Applied Digital Are All Down 30% in a Month. Is More Pain Coming for Data Center Stocks? - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQczB3Nm1XWVZmR0pZZTFCRi1GUlQ4bEpZZjBIZFc5cXU5TkVIWDQ3elhUQmIyWXlkd1N6b0taSHo5blNHSGJtOXRIb2o4OE1iN1NINXQ0NkJMX0RPWkMyTm9pazdGaTJ3TUYtbkJIQ0pkclc3ajBvMkRRQ184RlN5NWswbnJqSzFuLTFtVWlWR04yM01RY3ZwZ1VEandpSkpuOFRrbVVSSk5sa2lDbm51bFIzQzAweDFhOHRpZlF4OUNPTXN5SjR5UzhEcS1raWNpYjlkejJaNHFuV0RSTW9uVA?oc=5",
-    "time": "2:11 PM"
+    "title": "TeraWulf (WULF) Expected to Post Earnings on Wednesday - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOEZ3eDVkWENsZ3p2cklXbFRsRE5EMi1kdnlsdlpkWFZaTFhjZzRfLVF6VFlQUDI0SEMzenJrcUlveHIzeklzNGoyQlZreUoyVTJkaVowa0xtMEZ4Z1NSU3V5VlhWekpGXy0zb3RlTGRCSFFlbm8wdzNIX2ZSY3ZMcGU4Qjk2ZlMzVGxiX3owLVh1d1pNQVBQUzFIc0hmVFN4ZVJqTjJIaHZyUQ?oc=5",
+    "time": "11:36 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -307,8 +307,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 0,
-   "last": 7,
+   "pct": -2.3,
+   "last": 6.8,
    "newsCount": 5,
    "latestNews": {
     "title": "IBRX Stock Eyes Best Week Since February: Founder Highlights New Anktiva-NK Cell Therapy Study - Stocktwits",
@@ -323,8 +323,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -9.8,
-   "last": 4.3,
+   "pct": -14.9,
+   "last": 4.1,
    "newsCount": 2,
    "latestNews": {
     "title": "NUAI Stock Soars On Fresh Beneficial Stake Filing: Retail Speculates On New Tenant Announcement - Stocktwits",
@@ -344,9 +344,9 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -10.5,
-   "last": 12.6,
-   "newsCount": 5,
+   "pct": -14.4,
+   "last": 12,
+   "newsCount": 6,
    "latestNews": {
     "title": "Cleanspark, Inc. (CLSK) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWnFuNmFVRmNWb2I5Z1FYaGxVQjlCOUU1ZGdTaU4zZG5wNU1KNFFUT1dXeGplOWpaX0dRSTZsUkVxcHAwOElhZWdxbmkyNmxoUnktV3AzT3k2dXl6Y2daTnlsYzFfVmw0ZVNTTVY5NENPLXh5MG5fbkhieU91ZzdURE16VElwTlNDY0htSnhKdzZvajZYaTVCVGw0N1lXazBwZUZ0M2piOA?oc=5",
@@ -365,8 +365,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -5.4,
-   "last": 11.5,
+   "pct": -9.3,
+   "last": 11.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -377,8 +377,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -3.7,
-   "last": 123.2,
+   "pct": -7.2,
+   "last": 118.8,
    "newsCount": 1,
    "latestNews": {
     "title": "PK MED Strengthens Its Strategic and Scientific Governance to Support the Development of Its Therapeutic Micro-implants",
@@ -393,8 +393,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -1.4,
-   "last": 26.8,
+   "pct": -3.2,
+   "last": 26.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -405,13 +405,13 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -0.7,
-   "last": 195.1,
+   "pct": -3.3,
+   "last": 190,
    "newsCount": 18,
    "latestNews": {
-    "title": "Cathie Wood Just Bought Nvidia Stock, Is It Finally Time to Buy? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbURrLVduaTlWZEF5a25WcDBBMVBySlVPdjhMbkhjbVBmcXM1bzE0bmMtOFZ1eTh4dnhEMk0wcFJGazVsek5kU2FvMFRUZ3czamZacU8yMUZtQU40V0V5UU1qRWIwaEVyV1dWTnFqWkoyRjBSY04tb290djBRUjE0bk0zdkF3VEx0Qk1Bb1poVno1WlVlbU1DbWtvRQ?oc=5",
-    "time": "9:37 AM"
+    "title": "What Could Push NVDA Stock Higher From Here? - Trefis",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWGtma3kxTFAteTBlWnJ1QzJieV9BWklVTFhqdnRIMjJGdHl0TDV3QmpsTGF2M2dRY3k1Y1VQT2VobHA4NFBfWGdzT2pNRmNkbUtTWVpqUzA5VlV4TE1Tbkd2TmJvLVhjbWROUjVyQ2ZTZFlVYjBwUlEyODNGZ1FLNEdBb0lNRW9yUTR2V1g1ZEo4R0dpR2F5ZDNscXljZ1BFdVlKS0xIaUpLQQ?oc=5",
+    "time": "9:08 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -421,7 +421,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 1.4,
+   "pct": 0.1,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -437,8 +437,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -7.8,
-   "last": 9.1,
+   "pct": -11.8,
+   "last": 8.7,
    "newsCount": 2,
    "latestNews": {
     "title": "TSS Inc (TSSI) Risk Assessment: Volatility, Financial Risk & Investment Risk - TradingKey",
@@ -453,8 +453,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -7.4,
-   "last": 62,
+   "pct": -12.5,
+   "last": 58.6,
    "newsCount": 13,
    "latestNews": {
     "title": "Rocket Lab Corporation (RKLB) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
@@ -469,8 +469,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -4.4,
-   "last": 125.8,
+   "pct": -6.5,
+   "last": 123,
    "newsCount": 18,
    "latestNews": {
     "title": "Prediction: Palantir's Stock Will Make a Huge Move on Aug. 3 - Yahoo Finance",
@@ -485,15 +485,19 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 2.2,
-   "last": 397.9,
+   "pct": 0.4,
+   "last": 390.5,
    "newsCount": 18,
    "latestNews": {
-    "title": "Microsoft Stock Runs Into Resistance With Earnings Next; Is Microsoft A Sell Now? - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKTC1wUGxuWV90UG41WjMyX0dmMkx6OW05RUVqeVZkYkZWUm11RXQ4TlluOEFQaFVxRG9fU0syenVXZlFrdVZIOUQ4UEVfQ0R2SGt2a2N6QmxOSll4SGhQVXJ3REZLczQ?oc=5",
-    "time": "3:40 PM"
+    "title": "Microsoft is set to report earnings after the bell, and all eyes are on its spending plans - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZU9Obm5HZ1F4R21heXF0SGxzZlNjYVdZTVZGdXAzUzBHN1RUNi1LbnlPNHJicnEwNkxrSC1TTlBGdGhlWnR1YmNJM3dmTllxLUhpd0xmZmxsTzJmOS1WT3Y2ZWJlcXdJR2FialN0bUFaVjVWaUlxUG5BQjctWlZJNNIBhgFBVV95cUxQbGJXX29pOG1DQmVtVnhleVN5WHF3eWZSSjNUNUYyZGo0el9jUFRZYVZKZC1qTFNPVnNUUG9GM08yd3dXRUNydUx6S1JTam5UNzhldmxzd1hSREk4dENLaF9TOUx0UC1hd0Q5b2FoSGdiZlc1T3RjUnZuMnhkRWNnVkRYc0xPdw?oc=5",
+    "time": "12:04 PM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "We just reported our FY26 Q4 earnings. 🟢 A strong quarter with $90 billion in revenue 🟢 Azure and other cloud services revenue grew 43% driven by strong demand for services across the platform 🟢 Microsoft 365 Copilot reached more than 30 million paid seats “We are advancing the frontier on the cost-to-outcome curve, ensuring every customer can turn tokens into business results. This year, Azure revenue surpassed $100 billion for the first time, and Microsoft 365 Copilot reached over 30 million seats, reflecting the confidence customers are placing in us to power their AI transformation.” - @SatyaNadella Read the full release here: https://msft.it/6016a610w",
+    "url": "https://nitter.net/Microsoft/status/2082559027708412340#m",
+    "time": "4:08 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -501,13 +505,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -14.1,
-   "last": 26,
+   "pct": -17.3,
+   "last": 25,
    "newsCount": 18,
    "latestNews": {
     "title": "EXCLUSIVE: US FTC sues Hims & Hers for sending user health info to Meta, Snap - Reuters",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZERUYTFrc29hLW1hZ0hQZXZvREFRVjA0MC1fMWRNb3RjcUhzRUMwTVBJcVQ1MFFOeVBieHZua2IyZVNfU1pYc0xxV0tCY0pkWHJnMW1yNkU2bEhrU0xKbmc5VTMzQWIxRVctaEI0ZVl6N1VzTHhaZE1lNW9URXhDNVlWMEJFemVHUGstUWduLVF0dl9EbkMyQV9US0U0RGdH?oc=5",
-    "time": "1:44 PM"
+    "time": "2:56 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -517,8 +521,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 4.2,
-   "last": 340.2,
+   "pct": 3.1,
+   "last": 336.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Top analyst revamps Google stock price target on key move - thestreet.com",
@@ -537,13 +541,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 3.2,
-   "last": 4167.4,
+   "pct": 1.8,
+   "last": 4110.9,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold edges down as dollar, yields rise ahead of Fed rate decision, Warsh remarks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYmpPZkdUdEJHY2hvRUZxbzItX3lCN3IxR0o0V3dXQnJoYi1xakZBT2xzVFVIZjdnVGZya2pFWDRUb0k1NUpWTjZyYnoyUWJNNzJLekRZcDNNeXhZcXpOeGdnenVPZGtVMlY4Wll5YUVSQklMYktHb0FYckJ5ZkNRajZOT0V6M2hjeUJTMVhZbHoyZlRJcnZxZ1ZyeFlCNzVKU29ETFFFc3o?oc=5",
-    "time": "12:08 PM"
+    "title": "Gold prices fall toward $4,000 ahead of Fed decision - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeHB3Uzl5eFVYcFg2YlRVMngzYlVPbFFlQ3I2SnlpaDMzd21JbW5xOUhtNnN3T0p3anhlXzZyM2pqdUVFcGRselBUbXBLc1dYZlZpYXhvTno4VTdUeTdUbHJDZm9aQXNocEtHVU1rX2t4a0d4N3VlclRlc0pJSzI0cXN0ekNRSWNHeXhHOUFfRTFSODhsZHpZ?oc=5",
+    "time": "11:07 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -553,13 +557,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 7.4,
-   "last": 90.3,
+   "pct": 7.9,
+   "last": 90.7,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil Prices Surge on Fresh Middle East Strikes and API Crude Draw - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON05OZUw3SkU1ZU14cmRWNjJobkVsaXM0QjhidTJwNzVwaS04Qm9JQjRWSXhjVjlFQ1ZWeGgzcHRTMW8tLVctWkswSW5XMWJBMXpJWDVvaDRvOFl0SWtzV3NZelRUMXFxR0h4SVRkSmNsYk5SNVdtY19TcGU2YWlobnpMQjE5ZUhjZnVvSEJacVZGai1MSDYxS2l1REFyc3BDaVVQdkZfb2t2N0JHWFRNYjdoSXc4RXhnU016Q9IBwgFBVV95cUxNdmJaN0NEbHZDNVRHN3pDb182Nk1aemtXUHhEUjQteUNNTC1JY2VoRHBHS0dBRl9FMWpPMlhTVE9meFYzM3ZmQ0JWQ25wZEJLaUdoa2gxODlJTDg2QTVfanRNdlROTEtWTFdUU2UyVzhTMG5HQk9nY0Mtb2xnZ0FZVEFwMmsyRm5uZ00yZkFNVWxEVHZzZXFoMkx4VEVMUExtak5zQ3VMeThHQU13QzRPY185XzJibkE2SEU4a1ZrNVRxUQ?oc=5",
-    "time": "11:01 PM"
+    "title": "Brent oil jumps back above $90 after Trump threatens to hit Iran hard - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTV9aQVpTbDZTUGFvOGFVMEYzVHl2Yk5VektUYXY1b2hENDUtUlRaSHd3cml3SGtmMTlraXFsbl83bm9rZkw5UHEzMHZmZWd4Y0VmN29WX3lVSzZtQ1l4Y2NGTWpGeThMSWhJbllUUHBZZ3ZLYnNpa0hDZDJqazFiNFk3TjbSAYoBQVVfeXFMTnFVemxMRmlPcnJhM0RHaEdGb3cxMHVOeU5FYXA0bzBzZHpFUUllTmxLTE1ubThJSlZla3o3LUpOSFhLcHFKdTJFTTkwc0o2WjRETzlabW03S2VvQ25wQjRCMGwxUFBXNWR1eU5UNWptR3ZENUpTSG0yaF9FZGtfSFM3ZEtOcnppdkJR?oc=5",
+    "time": "8:51 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -569,8 +573,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 6.4,
-   "last": 84.3,
+   "pct": 6.8,
+   "last": 84.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Brent oil jumps back above $90 after Trump threatens to hit Iran hard - CNBC",
@@ -661,6 +665,39 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVVdkRGRNY0hYOXp4bkJnWms4b2l2U0ZDb2tuTllKZ09DNDdERUFQaURvWDRfV18tVnowU0l0RjA5Nzc5Q2s2b19wNFYwRHhzekFKUmFFQzhfMlNselNDMGxPNDBxOFB5RVBNVmU1SUpySHRjVktFM1EyZnp6elp3N0hSVWpSRl9jWUlZYjdYekNRN0c2ZXE1MUxDT0V2UGU1emhzRmlvQ2dmZHJwbUE?oc=5"
   },
   {
+   "id": "c66b3c8c97b0",
+   "type": "post",
+   "symbol": "MSFT",
+   "section": "macro",
+   "time": 1785355680000,
+   "timeLabel": "4:08 PM",
+   "handle": "@Microsoft",
+   "text": "We just reported our FY26 Q4 earnings. 🟢 A strong quarter with $90 billion in revenue 🟢 Azure and other cloud services revenue grew 43% driven by strong de…",
+   "url": "https://nitter.net/Microsoft/status/2082559027708412340#m"
+  },
+  {
+   "id": "eb876cc0ee4c",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1785354420000,
+   "timeLabel": "3:47 PM",
+   "source": "",
+   "text": "Nebius and CoreWeave analysis: falling knives or dip-buying opportunities? - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQamZNTV9nZzVwVG8yaHdDQ3lSRjE5Z19rQ3FZRlJjU09TY0NSYUt2WGRvNGZnNk42NnU1RGNDYXRoOTVXUnhGVExrZDM3aDZoSjRuYmwzcnVsVjlxQlBQTVJacldpdHlqeGREVEppN0ozdGtMQXJjSkJ5cXhsTFNWMUQxTmVYNUNFWnc5Qk12bHA2WVlHaFd3aXRpQngxUGRuSGVjMTYxOUNWOF80TmxaREJMZHpnLWdTR21uWi1VdmUzZHAtZk1UMG04X0s2UQ?oc=5"
+  },
+  {
+   "id": "97ff3b2354b7",
+   "type": "news",
+   "symbol": "CLSK",
+   "section": "trading",
+   "time": 1785353400000,
+   "timeLabel": "3:30 PM",
+   "source": "",
+   "text": "CleanSpark Stock Is Falling Wednesday: What's Going On? - Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUZfYm1MQXFDRm1DOVkzMTN3ZkgzY084S09GMW1jYmRmM2FCaTBjbVFQcHVWU29acUt6bVplbUQ4TkF1bFJzdndnc0FDemEtQ0hDd282a0V6ajJ6eGhtM0dJLXZqb3czWm1JYThHc0M5RkNwVlFTYjRXLUpZLXlLZllEVXEzRkdtdFJad1I0ZngybWdackRxUXBnd29xcEdVcFR0S0dnbWVaOWlUUTdwLXNJOA?oc=5"
+  },
+  {
    "id": "9b12f2718fc9",
    "type": "news",
    "symbol": "IREN",
@@ -724,6 +761,17 @@
    "timeLabel": "2:36 PM",
    "source": "",
    "text": "AMD Stock Drops 5.7% as AI Rout Overwhelms 2.5-Gigawatt Deal - ca.finance.yahoo.com",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OWF6eHBWRG1RNEdXTTB0Z195SVJUUS0zMWNuNHdjTThmQkZLM0VlVENxd3NCX1BFS2Z6cWJEbkFtZjBsLVlIeTlXSnE0cUdLeTRMTUhpYmdKUkhwblFZelV5dmtQaTFRRkJJUlhCQzQ3Z1JYUzhz?oc=5"
+  },
+  {
+   "id": "f6f7f3403bb3",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1785350160000,
+   "timeLabel": "2:36 PM",
+   "source": "",
+   "text": "AMD Stock Drops 5.7% as AI Rout Overwhelms 2.5-Gigawatt Deal - Yahoo! Finance Canada",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0OWF6eHBWRG1RNEdXTTB0Z195SVJUUS0zMWNuNHdjTThmQkZLM0VlVENxd3NCX1BFS2Z6cWJEbkFtZjBsLVlIeTlXSnE0cUdLeTRMTUhpYmdKUkhwblFZelV5dmtQaTFRRkJJUlhCQzQ3Z1JYUzhz?oc=5"
   },
   {
@@ -1110,6 +1158,17 @@
    "source": "",
    "text": "Cleanspark, Inc. (CLSK) is Attracting Investor Attention: Here is What You Should Know - Yahoo Finance Singapore",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQjZ5anlwQ3MzVmU0X0hmS0lWUVJjaXBrbGEzYS1OLTNsay1xZW1taE1ZY1JVOWdkakRRZFJfR280VG4xOFNwcGhiVEpteWNEZ1FGS1R0U3F1Q0dBcXVRUjlvVXFfLXJjSWowN3FNVEpJdzRQWVVqN2pLRGJKX01MNDBVQThoVUN3cVNOWWZjOGNPZw?oc=5"
+  },
+  {
+   "id": "7ec507413432",
+   "type": "news",
+   "symbol": "BTC",
+   "section": "crypto",
+   "time": 1785330000000,
+   "timeLabel": "9:00 AM",
+   "source": "",
+   "text": "Ionic Digital Shares Jump on Nasdaq Debut after Converting Celsius Bitcoin Mining Assets into AI Infrastructure - Crowdfund Insider",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQUmI5V2JCUXF2cXdveEV5SFdNd0R1ZVVCNXJib0Q0LWFrUFRDVmd5WnllbDZmQVhDYkZzVGNRWmxUdlNfMjBwcUFuRWFadzNFYzJGYkdHN0Uxb2laMmtyM1ZDNHR2SGFPZ09aZi12SmVhMzN1U0pjZ05fZ1YxbjE1YXdFTjZLMFdjQ0FXNWJGdUhURFE4bEFsSk9Id2FnbnpOcllYbHBNbVZSYzNpLWlSX3V5MkhBQlFDUUdiZE9NWDY5MW9sbXQ3Qlo1bXoxQ09fTTF2U0lBbXUwbkhwN3lPcWJ5QjZlU2pnM0xnZE04LTItUQ?oc=5"
   },
   {
    "id": "5a6c28ffd58c",
@@ -4091,6 +4150,15 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 41
+  },
+  {
+   "t": 1785356282984,
+   "label": "Jul 29 2026 4:18 PM ET",
+   "cnn": 33,
+   "crypto": 29,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 39.7
   }
  ],
  "degraded": []
