@@ -27,25 +27,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.91 vs 20d avg 100.99",
+      "detail": "DXY 99.92 vs 20d avg 100.99",
       "asOfMs": 1785384000000,
       "status": "ok",
       "raw": {
-        "last": 99.91,
+        "last": 99.92,
         "avg": 100.99,
-        "gap": -1.08
+        "gap": -1.07
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.01 vs VIX3M 19.97",
+      "detail": "VIX 17.42 vs VIX3M 19.68",
       "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "vix": 18.01,
-        "vix3m": 19.97,
-        "diff": -1.96
+        "vix": 17.42,
+        "vix3m": 19.68,
+        "diff": -2.26
       }
     },
     "credit": {
@@ -63,35 +63,35 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.1% vs others 0.7%",
+      "detail": "defensives 5d 1.4% vs others 0.9%",
       "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.1,
-        "othMedPct": 0.7,
-        "diffPct": 0.4
+        "defMedPct": 1.4,
+        "othMedPct": 0.9,
+        "diffPct": 0.5
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2901 vs 20d avg 0.2871",
+      "detail": "RSP/SPY 0.29 vs 20d avg 0.2871",
       "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2901,
+        "ratio": 0.29,
         "avg": 0.2871,
-        "gap": 0.003
+        "gap": 0.0029
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 38 (fear)",
-      "asOfMs": 1785433991000,
+      "detail": "Fear&Greed 39 (fear)",
+      "asOfMs": 1785439275000,
       "status": "ok",
       "raw": {
-        "score": 38,
+        "score": 39,
         "rating": "fear"
       }
     }
@@ -560,5 +560,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785434205382
+  "updatedMs": 1785439690232
 }
