@@ -1,46 +1,46 @@
 {
- "generatedAt": "Jul 31, 2026, 2:44 PM ET",
- "generatedAtMs": 1785523481810,
+ "generatedAt": "Jul 31, 2026, 4:10 PM ET",
+ "generatedAtMs": 1785528648818,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-07-31 14:00 ET",
-  "pricesAsOf": "Jul 31, 2026, 2:44 PM ET",
+  "asOfET": "2026-07-31 16:00 ET",
+  "pricesAsOf": "Jul 31, 2026, 4:10 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7513.75,
-     "change": 0.6,
-     "invert": false
-    },
-    {
-     "name": "Nasdaq 100 (NQ)",
-     "value": 28443.5,
+     "value": 7525.25,
      "change": 0.7,
      "invert": false
     },
     {
+     "name": "Nasdaq 100 (NQ)",
+     "value": 28420.5,
+     "change": 0.6,
+     "invert": false
+    },
+    {
      "name": "VIX",
-     "value": 16.59,
-     "change": -2.9,
+     "value": 15.91,
+     "change": -6.9,
      "invert": true
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 2.3
+     "pct": 2.4
     },
     {
      "ticker": "QQQ",
-     "pct": 4.1
+     "pct": 4
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 44,
+    "score": 43,
     "rating": "fear",
     "prevClose": 39,
     "prevWeek": 41,
@@ -68,11 +68,11 @@
   ]
  },
  "mood": {
-  "composite": 45.2,
+  "composite": 41.7,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 44
+    "value": 43
    },
    {
     "name": "Crypto Fear & Greed",
@@ -80,29 +80,29 @@
    },
    {
     "name": "Regime (% voters risk-on)",
-    "value": 66.7
+    "value": 57.1
    }
   ],
-  "rating": "Neutral"
+  "rating": "Fear"
  },
  "regime": {
   "label": "risk-on",
-  "tally": "4-2",
+  "tally": "4-3",
   "on": 4,
-  "off": 2,
+  "off": 3,
   "drivers": [
    "curve positive",
    "dollar soft",
    "VIX in contango",
    "breadth broad"
   ],
-  "score": 66.7,
+  "score": 57.1,
   "components": [
    {
     "name": "curve",
     "vote": "on",
     "state": "normal",
-    "detail": "10y-2y 0.45pp (2y 4.23, 10y 4.68)"
+    "detail": "10y-2y 0.47pp (2y 4.28, 10y 4.75)"
    },
    {
     "name": "dollar",
@@ -114,31 +114,31 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.58 vs VIX3M 19.27"
+    "detail": "VIX 15.91 vs VIX3M 18.94"
    },
    {
     "name": "credit",
-    "vote": "abstain",
-    "state": "unknown",
-    "detail": "credit feed unavailable"
+    "vote": "off",
+    "state": "above 20-obs avg",
+    "detail": "HY spread 2.84pp vs 20-obs avg 2.74pp (as of 2026-07-30)"
    },
    {
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0.2% vs others -0.4%"
+    "detail": "defensives 5d 0% vs others -0.2%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2887 vs 20d avg 0.2871"
+    "detail": "RSP/SPY 0.2878 vs 20d avg 0.2871"
    },
    {
     "name": "sentiment",
     "vote": "off",
     "state": "fear",
-    "detail": "Fear&Greed 44 (fear)"
+    "detail": "Fear&Greed 43 (fear)"
    }
   ]
  },
@@ -147,8 +147,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.7,
-   "last": 62951.9,
+   "pct": -2.8,
+   "last": 62908.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep - CoinDesk",
@@ -163,8 +163,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 30.5,
-   "last": 23.1,
+   "pct": 26.2,
+   "last": 22.3,
    "newsCount": 5,
    "latestNews": {
     "title": "Cipher Mining Inc. (NASDAQ:CIFR) Given Consensus Rating of \"Moderate Buy\" by Brokerages - MarketBeat",
@@ -184,8 +184,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 27.4,
-   "last": 37.3,
+   "pct": 25.6,
+   "last": 36.8,
    "newsCount": 12,
    "latestNews": {
     "title": "‘The Semis Guys Have Your Back:’ IREN Stock Climbs on New Bernstein Buy Call - TipRanks",
@@ -205,19 +205,15 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 28.3,
-   "last": 190.2,
+   "pct": 28.5,
+   "last": 190.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Nebius (NBIS) Stock Still Looks Reasonable Despite Fresh AI Partnership News - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOV1lPbHd3ekJiWlNndkx2RWVLcThFV0hianZFeFlMT0g1QXJJMHNiZURqWHFpTmM1b1RDZUpEZUhxd1pHSFZmZmZUQ3pnNVhWeUJtLU9aR3VYYnplWVM1RkJCRjctMHM3MUllRDZoVEdPZk12bkxlc2hYaHJOUjMwcGFQbFZFc3lQajliRFVfeXdmTUoxQVpFaTBB?oc=5",
     "time": "5:10 PM"
    },
-   "latestPost": {
-    "text": "The numbers are in the report. The decisions behind them are in this conversation — four Nebius leaders on building AI infrastructure sustainably. Watch the full conversation: https://www.youtube.com/watch?v=3P6PXVB1gzA",
-    "url": "https://nitter.net/nebiusai/status/2083171782182281399#m",
-    "time": "8:43 AM"
-   },
+   "latestPost": null,
    "latestFiling": {
     "type": "insider",
     "label": "Insider transaction",
@@ -230,19 +226,15 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 13.7,
-   "last": 488.2,
+   "pct": 10.8,
+   "last": 476.2,
    "newsCount": 18,
    "latestNews": {
     "title": "MU, SKHY, NVDA, AMD, INTC Extend Rally Premarket, But Chip Stocks Still On Track For Worst Month Since 2002 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORUlmaGdmLU1VSHRYV3NoQTdWWnF4Q0dFSU9wTUlJOGtYM3F4M18xamxYVzlEdm1wNEthblU5QVpqeGVnNFVoOW9JSVQxOE1leHRWM2pRd3ZnbldkZ2lIS0UxbFJqdTVOb0tkSldqOHFDTWpsRUVtTWJ6cjFYVXpBR09jZnlDTDFrTDNmQ29LTQ?oc=5",
     "time": "4:50 AM"
    },
-   "latestPost": {
-    "text": "Humanoids. Quadrupeds. Industrial robots. Two days of physical AI innovation. 🤖 At #AdvancingAI, our robotics customers and partners showcased how AMD embedded technology is helping bring intelligent, autonomous systems from concept to real-world deployment.",
-    "url": "https://nitter.net/AMD/status/2083248645025972434#m",
-    "time": "1:49 PM"
-   },
+   "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
   },
@@ -250,9 +242,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 19.9,
-   "last": 27.8,
-   "newsCount": 7,
+   "pct": 18,
+   "last": 27.4,
+   "newsCount": 8,
    "latestNews": {
     "title": "Applied Digital Could Have 155% Upside Ahead of July 27 Q2 Earnings - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM2pVUGRRQnU3V1FjUm9JRjgwYWFFcGxFU3BTOUxCVlZ5X2ljT3oyRGdpLTFybFQ0WVIwdzVJR1A5dmhYSm16NFpqN1pQSTBEWTZReFpfY3VhaFhFS3MyRlY1c1N2MlA5b0hBNk9tb2E4RVE1NGozejhYUDBWMFd3NjN3?oc=5",
@@ -271,9 +263,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 19.1,
-   "last": 18,
-   "newsCount": 7,
+   "pct": 17,
+   "last": 17.7,
+   "newsCount": 6,
    "latestNews": {
     "title": "TeraWulf (WULF) Stock Looks Strong On Returns But Overvalued Overall - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNHhTc1BaX1Y0SURzWk5wZWpVbngwN1BwTHdnNjA5dTlKem9KS1U5NG9zZnFlbmZZNEhnVzRyV0J5RmFLbHhVZzFYZ0QzbnR2UWdxVzdRbXNtSURQVVRxd2poQlFKX3M2RGJoQVJ4amxjX1VoMlI0VGpGeEN5UnQ5aHZJc05qcDBjYk5lT3dnMzFmY1ViMlNsZmpWRlotcHduUkd3N3hIZ0lTQTlXaGd3Ul92M3pHMW5CRGlRcHpqdk5qNXY1X3fSAcsBQVVfeXFMT1gtaWN2LUdINWJVbFJWTERDbnJJU3RVeGtyQU95c2puMnljdDZudnMzNTdLRnhxbmdtQmV3VHNYcnBnREs3NGJCSWVvNlUyd3FWenAzZzN2SGdRaW5VTE1SeXgzTF9DMmxqQkJXbmh5dm1iaEFrMGE3ZVFqUGJzU25ONUtKZW14bXQ3TVU4QkZmN0ZFWVpHSWFQa1JLTTlJcHUwMml6THVrWnRtN2VBLURTWXkwdkNSZmFMeFpXSFVXS25BeTlESy0yVGs?oc=5",
@@ -292,19 +284,15 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 6.4,
-   "last": 7.3,
+   "pct": 5,
+   "last": 7.2,
    "newsCount": 5,
    "latestNews": {
-    "title": "IBRX Stock Enters Heavy Catalyst Phase: Traders Brace For Key Anktiva Decision Amid Trump’s FDA Turmoil - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSWUxVHh4dDVjZWFBQ2NxcXlpNXpOZkE3dldDbzJEZHpJMHpJbEhBQTZ2NVZLRXlhNWt2eXZaQ0ZsUmx5WGdDY2doZXdIZHVjZUF1elEweFZYQXdQODZkb3hEbFJpM3pMbnZTV0t3MkxVaTFCN2xaMXhkOVFRSEU4N2RGejhJam9jYTBraVVYSnR3YURJMzJLYXgxWU9PZF9xX180Nk81Z29KSVpjRFE?oc=5",
-    "time": "8:08 AM"
+    "title": "The Bull Case For ImmunityBio (IBRX) Could Change Following ANKTIVA’s Broad UAE Approval - Learn Why - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeW1mOGhPcDl5UEExQ2RlcHVhM3Z6Y3RDVXY5bFh3ell2R0NTbXp4R2NtWk5uUUEyQVd0elh2WW5zSUZjVzVFNnlscVVsSmNQME83akpvaEJUSEtzdnVHbXJqY2NxNlh2MFdKWjZ4cmxZUkszbzN2LVlCdDFfUFdna21WVXhfLXc3U0F6WmtYZ1FRdGxaRkhNcURVQmlJMnFxWHh0VlVpN0k4RzNYQVZaVDY4NjJ0YjVoU1FYR2VHclhwNkc4ZzduZDFmeUUtcGtBY2lxY1hGUkdvMGdQVEHSAeMBQVVfeXFMUGl2aE5aOXdCMFBfYXV1X1d2RkdTamN1dFgwWVF5b05fcGlOOXAtazRjNTVKdGdoYzhJS1prd2dKeFFrRmtibkY4eGlYMXlxX0ViYy0ydlo5TGpvS0VFTVNnSVZ0T2ZVTFRzb0JVUWNNWWk3Ujk5RjFIeFJZa1BoU18wbzJra21DSXlEM1liRW9FemZaV1FSbU9KQ2R0ZDRrZEFoMDNROVN0MV9UQy15SlJSdExmSl8xMjFqTWE0bWN0WkJIZTdxOG14ZzlfSGZGZTl4WGYwZlotZjN3bnR0ZW9qZGM?oc=5",
+    "time": "12:54 AM"
    },
-   "latestPost": {
-    "text": "Meaningful conversations about clinical trials and the future of bladder cancer happening at #BCANTT26. ImmunityBio is grateful to stand with @BladderCancerUS in their mission to support patients and caregivers every day. #BladderCancer",
-    "url": "https://nitter.net/ImmunityBio/status/2083230572491792447#m",
-    "time": "12:37 PM"
-   },
+   "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
   },
@@ -312,14 +300,10 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 14.8,
+   "pct": 14.6,
    "last": 4.7,
-   "newsCount": 1,
-   "latestNews": {
-    "title": "New Era Energy & Digital Inc. (NUAI) Stock Price | Live Quotes & Charts | NASDAQ - timothysykes.com",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5OUpKc0xXZVFqRU1SUUQwQlZ0NVBQWWdRSVJFbmNENzZSVHF1b2hjczEwU2l1cnBsQWZCWnpBVW1RVnhjY25jaFFhN2w?oc=5",
-    "time": "3:20 PM"
-   },
+   "newsCount": 0,
+   "latestNews": null,
    "latestPost": null,
    "latestFiling": {
     "type": "other",
@@ -333,8 +317,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 17.2,
-   "last": 14.1,
+   "pct": 14.6,
+   "last": 13.8,
    "newsCount": 2,
    "latestNews": {
     "title": "CleanSpark (CLSK) Signs $6.6b AI Lease, Is The Stock Still A Bargain? - simplywall.st",
@@ -342,8 +326,8 @@
     "time": "7:43 AM"
    },
    "latestPost": {
-    "text": "📣 $CLSK executives will discuss our fiscal third quarter 2026 financial results via a live webcast beginning at 4:30 p.m. ET / 1:30 p.m. PT on Thursday, August 6, 2026. Downloadable files, including a transcript, will be available on the company website 48 hours after the event. Registration link: https://clsk.news/q3fy26 Press release link: https://clsk.news/q3fy26pr",
-    "url": "https://nitter.net/CleanSpark_Inc/status/2082927847044477368#m",
+    "text": "📣 $CLSK executives will discuss our fiscal third quarter 2026 financial results via a live webcast beginning at 4:30 p.m. ET / 1:30 p.m. PT on Thursday, August 6, 2026.  \n\nDownloadable files, including a transcript, will be available on the company website 48 hours after the",
+    "url": "https://x.com/CleanSpark_Inc/status/2082927847044477368",
     "time": "4:34 PM"
    },
    "latestFiling": {
@@ -358,7 +342,7 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 0.4,
+   "pct": 0.5,
    "last": 11.1,
    "newsCount": 1,
    "latestNews": {
@@ -374,9 +358,9 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 3.3,
-   "last": 122.7,
-   "newsCount": 3,
+   "pct": 5.1,
+   "last": 124.9,
+   "newsCount": 2,
    "latestNews": {
     "title": "Abivax SA Sponsored ADR $ABVX Shares Sold by Vivo Capital LLC - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQekNRV1VGUUU3WmVvSEFKejJ2cThQbFNhdE1pYWktclFZRXpwVThJTUJ0bzVNYnl0NzdpN0l2TDlPa0hBUjFuOVN6MHRJZnpsSmVXc2tQb190YVJaUUdaekhQdDh0Qk1IeXRkdTV2RmxEa2k5bEdtZTZLVndUbDBkYzRJQkktVzZxR0UwV2RBWHB1Z0o3UzVtdkRPdmFHekx6OVZlaUVKVTJiV3hiYk9qRXNVcFRqVXo3R094eGFB?oc=5",
@@ -402,8 +386,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 4.6,
-   "last": 198.7,
+   "pct": 5.7,
+   "last": 200.8,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Nvidia (NVDA) Stock Is Bouncing Back Today - Barron's",
@@ -411,8 +395,8 @@
     "time": "4:28 PM"
    },
    "latestPost": {
-    "text": "Physical AI is here—the next wave of AI and the foundation of the next industrial revolution. NVIDIA founder and CEO Jensen Huang outlines the full stack making it possible: Cosmos and Omniverse to develop physical AI in virtual worlds, Isaac and Newton where robots learn skills in physics-simulated gyms, and Jetson robotics computers where their intelligence runs. Together with Japan’s robotics and manufacturing leaders, NVIDIA is creating a new era of industrial automation.",
-    "url": "https://nitter.net/nvidia/status/2082934294180221043#m",
+    "text": "Learn More → https://t.co/FBdAW2upy2",
+    "url": "https://x.com/nvidia/status/2082934295794974841",
     "time": "5:00 PM"
    },
    "latestFiling": null,
@@ -422,7 +406,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -1.9,
+   "pct": -2,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -438,7 +422,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 14.1,
+   "pct": 14.5,
    "last": 9.9,
    "newsCount": 1,
    "latestNews": {
@@ -454,8 +438,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 11,
-   "last": 65.1,
+   "pct": 10.8,
+   "last": 65,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab (RKLB) Just Won Its Biggest-Ever Contract. The Stock Barely Noticed - Yahoo Finance",
@@ -463,8 +447,8 @@
     "time": "10:38 AM"
    },
    "latestPost": {
-    "text": "Responsive launch needs responsive launch sites. With Launch Complex 1, we built the world's first private orbital launch site giving us launch availability 24/7, 365. Launch Complex 2 was built in just 10 months to bring small launch and hypersonic test launch to the U.S. East Coast, and Launch Complex 3 right next door unlocks medium launch capability with Neutron. Next up: Alaska, and Rocket Lab Launch Complex 4. New orbits, new azimuths, a new era in responsive space.",
-    "url": "https://nitter.net/RocketLab/status/2082979402376478724#m",
+    "text": "Responsive launch needs responsive launch sites. \n\nWith Launch Complex 1, we built the world's first private orbital launch site giving us launch availability 24/7, 365. Launch Complex 2 was built in just 10 months to bring small launch and hypersonic test launch to the U.S. East https://t.co/VhYUguKRyo",
+    "url": "https://x.com/RocketLab/status/2082979402376478724",
     "time": "7:59 PM"
    },
    "latestFiling": null,
@@ -474,17 +458,17 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -0.4,
-   "last": 122.5,
-   "newsCount": 15,
+   "pct": 0,
+   "last": 123.1,
+   "newsCount": 17,
    "latestNews": {
     "title": "Here’s How Much Palantir Stock Is Expected to Move After Earnings - Investopedia",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0hsMVI0bko0dHBlXzE2VWFOYlhVYjd6dGJ2cTRxSmJlLUFRcGRsOXJXN1N6cDFBSDN3ZnRGa0Jfcm9nQzN4bWNGN0o1R3ZZM18tczVKcV9xcnlCT09MQmxJOWU2NGVjOXQ1RE9ub2paNHFPbjJwTUF5d1ltSTFjcTkzLUNnT3JuSHNrTEZ4WmxrMTlhLXVhc1lIeU5kb3VLSzdlLTdMWGZVTW9UeUhkTUo2RU9acWZCRFNB?oc=5",
     "time": "11:20 AM"
    },
    "latestPost": {
-    "text": "For too long, the national discourse on AI has been dominated by voices from Silicon Valley, Wall Street, and Washington, DC. It’s time to hear from builders — from the American workers wielding this tool on the front lines. Palantir’s American Tech Fellowship exists to amplify their tradecraft and make sure these workers share in the enormous value they create. Watch @ssankar's welcome remarks at the inaugural American Builder Summit, where these fellows took center stage. And for all those on the front line who are curious, autodidactic, and unafraid, apply now: https://www.palantir.com/american-tech-fellowship/",
-    "url": "https://nitter.net/PalantirTech/status/2083185882840924582#m",
+    "text": "For too long, the national discourse on AI has been dominated by voices from Silicon Valley, Wall Street, and Washington, DC.\n\nIt’s time to hear from builders — from the American workers wielding this tool on the front lines.\n\nPalantir’s American Tech Fellowship exists to amplify https://t.co/JyVqzA1lOJ",
+    "url": "https://x.com/PalantirTech/status/2083185882840924582",
     "time": "9:39 AM"
    },
    "latestFiling": null,
@@ -494,13 +478,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 18.3,
-   "last": 462.2,
+   "pct": 19,
+   "last": 464.7,
    "newsCount": 18,
    "latestNews": {
-    "title": "Microsoft's stock rockets more than 15% for largest single-day jump in history - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQY1d4clZGd29SUlVkemdZNzFwbm5nVUM2WFhjVXQwZWNqb25tMzVnQ0dvcXhYek92M3ZxODE1R2NjNjJrQXBCRzdVMjNOWkV3Sk9oX3RUTmtDbVdPV2tKMGd4TUFFcGFzYTBkYlA4ZVlrN3hneUx5LUY4SWRfRUhLaXZHMEFJcFJBUkJmNGZid0xLdkFCMkhxVUFPRDhHUmpwaktCNVRhWnlGZ0d4b3lHVU1WMVNicFFUNTZ1cXR3MFhKZnpYcEZEaWpjTGUxYWpRTVE?oc=5",
-    "time": "4:03 PM"
+    "title": "Microsoft Stock Eyes Best Week Since 2000: History Has a Warning for Buyers - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON0RNX1kwc1NhNnZwajJYWnkyTzJjbTJveFdFU1Ryc2w3QS1pSThaaEVUbHpYODNON0xtZUQtOTlGeHpzd0RnMW9hbFN0eVZzdng0bUVZVTVtMGFrTnh6ZnJMZHg0dzBqdjFyblVoVUF2cjhFSm1KcGEzcjFMZTFhRWh2M1V1TVFCTk9nNUxuX0dkaG14V0ZLYjEybXFaUzl6djN4cjliMkVxbS1ELWRnd0NwQkJMX2s?oc=5",
+    "time": "9:51 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -510,13 +494,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 10.7,
-   "last": 27.7,
-   "newsCount": 12,
+   "pct": 11.1,
+   "last": 27.8,
+   "newsCount": 13,
    "latestNews": {
-    "title": "Is The Sharp Drop In Hims & Hers Health Stock A Reason To Buy? - Trefis",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR2owVkxLajNhc2Mxal91ak9jLWtZckVJWENmY2xKank0WlJqWmNEOXB1cHRFT3EyTFBwamtEUEgyWW5GVTZoemRQWmRuM2FFcGtleTFkczlOMWVnZXItdUZnX3l6LXhPeGRsTHNkR2tlSjlJZTZseUdkTGRBYlhvQVVNdmdBS0wtd1VMVDBIQzVONHVIYTRiU0lWMW5xZG95VDVxSzVRQmtfdXo4OElpMXgzbld5S2VESUt3cw?oc=5",
-    "time": "5:37 PM"
+    "title": "Hims & Hers Shares Rebound Friday: What's Driving the Move? - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOamNnRE1DWF9vOUpTZnlFSHdjdFV1RkFJeTFUaWRLRjRld29uSGotcDBGQUl4SXhSdUJEbk1kM3VlWlJpUjc2MUpXeTUxSFhnVXZUSjl1LXhzNWpmVWdpbEpJRVhiUS1OT1J2Yml4ZGd4dWdYbHdISHFvRy1relNtaGxaeGRjbVA2LUpmX2VDTHdOWmNhdDM4c0RrcDVOSDdza1dNeFVMNnp5VGtTVUZYUmNyVXA1dw?oc=5",
+    "time": "2:41 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -526,17 +510,17 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 5.6,
-   "last": 355.4,
+   "pct": 5.8,
+   "last": 356.1,
    "newsCount": 18,
    "latestNews": {
-    "title": "Prediction: This AI Stock Will Double by 2031 -- Here's the Math - fool.com",
+    "title": "Prediction: This AI Stock Will Double by 2031 -- Here's the Math - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMEM0LUdWQ0NZT0FXaDlZMDAxS3l3VzlpMmZTeW5UNjZkYmQwV2VjMTFyc0NTSVdFZU03NGlDeFZrWWRwd1pBT2ltai1kRVVVOGFNX0xJZEwxYTYwd0gzdkJMTnVjRXZEWGJJNHprVUZzeHRVY1dnZnV1aVRNcVlWRG4zOHFXQVZ3d01sb1F2WXJtNXFfWnRvYg?oc=5",
     "time": "7:05 AM"
    },
    "latestPost": {
-    "text": "Need to find a fall internship, study for an upcoming admissions exam or master a new skill? Here are 10 ways our AI tools can help ↓ 🗓️ Build a dashboard to track internship opportunities and application deadlines using Canvas in AI Mode. Simply open AI Mode and turn on the Canvas tool to open a dedicated workspace. Then try a conversational prompt, like: “Build me a dashboard to find information on fall internships in NYC focused on marketing and communications in fashion. Include details on deadlines and application requirements.” 🎤 Prep for upcoming interviews by rehearsing with Gemini Live. You can have a natural, free-flowing conversation out loud — just like you would in an interview. Plus, you can ask the @GeminiApp for real-time feedback on your delivery, pacing and tone. ✏️ Create custom study guides for summer courses using AI Mode in Search. Just select the Canvas tool from the plus (+) menu and ask AI Mode in Search to make you a comprehensive study guide, complete with relevant links and images. You can then ask follow-up questions, upload your notes to add more context and share a link to the guide with your classmates or export it to @googledocs. 📹 Explore a hobby or pick up a new creative project with YouTube Learning. On select @YouTube videos, you can tap the “Ask” button to get a summary of its key points and even create a brief quiz on its contents — all without leaving the video. 🎓 Prep for tests with study notebooks in Gemini. After assessing your knowledge gaps with a diagnostic quiz, Gemini will keep you on track with bite-sized lessons and progress checks. 🔎 Learn a new skill with Search Live. Just open the Google app and tap the Live icon under the search bar. Then point your camera at anything in your environment you want to know more about. Try asking for advice or for tips on how to use certain tools or equipment. 🎧 Turn your notes into a podcast with Gemini Notebook (formerly NotebookLM). Upload your notes, then use the Audio Overview feature to create a podcast between two AI hosts discussing your notes. You can even interrupt the hosts with questions if you don’t understand something. 📃 Workshop your resume and cover letter with Gemini Notebook. Create a notebook for your job or internship search, then upload all your career clutter — like old projects, positive feedback and resumes. @Gemini_Notebook can fine-tune your application materials, identify key strengths, and turn your background experience into a coherent narrative that you can pitch to employers. ⚽ Get instant feedback on your sports form with Gemini video analysis. Record a quick clip of yourself in action, and ask Gemini how you can improve. 🧠 Brainstorm internship options and explore possible job opportunities with Career Dreamer. Just input your experiences, skills and interests and find potential career paths tailored to your background.",
-    "url": "https://nitter.net/Google/status/2083225953526845894#m",
+    "text": "For a full breakdown ↓\nhttps://t.co/lOyt8I5NtE",
+    "url": "https://x.com/Google/status/2083225955477213461",
     "time": "12:19 PM"
    },
    "latestFiling": null,
@@ -546,13 +530,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.1,
-   "last": 4105.6,
+   "pct": 0.2,
+   "last": 4107.8,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold prices today, Friday, July 31, 2026: Gold price finally breaks above $4,100 as U.S. paused airstrikes overnight - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQWmUxZmxPMmI1MkxsVjRRZ2V4TGtQdVJaTjdLX0R2bE1FMmc2LUduUXBDRjdYb2R0RTROZ21qTXA2RWFiR3FvbTVvUUdHZzRMdVR5aEVrMDZFM24xZUxTbmhKZGRBNEw3SzlqVUJULW5CTlpBZ0NsSkFXWE4taURZVEJkam02XzJuWnhtWmdHamNLTUh1anZuN2FMMUNtRS0zbk1tdFF0Wk5wdnB1R2tISjJRRUlTSHhPTndHX1A2MV8tVHF2NmN0dDBnTDVvUzlxa2xoQVc3b1NYb3JOYzliNVpMRy01SDRrZnowRUJfZXl6d3lhcmp2d0c2S1hDS0lqSGZFUlBaemo2aVFXMHFQeG1B?oc=5",
-    "time": "8:34 AM"
+    "title": "Hawkish Fed Hold Caps Gold's Rally as War Risk Supports $4,050 - Gold Price",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0h2T2ptRW90cWplM00wQ2hoTkdLRnFkX01wX0VPOFZyRG1pSUI5bmUtVFBVRkowZHNpbVotaFF6c0ozc0lEODFVTWl6WEpjeEQ4b3lIZ19kSHBOYlZicnRxT2l0TTdod3ZIS2Iyd01td0VwRXRGNlk4dGEtblpObW5WZ3FISFlnci1B?oc=5",
+    "time": "3:52 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -578,8 +562,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.2,
-   "last": 84.6,
+   "pct": 1.4,
+   "last": 84.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
@@ -659,6 +643,17 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa0Z2cVRZeWFzc0xmNXdUeFBOendIWXlDLVpfRjQxYWVEOEhpYTRHMFR6aGJubnFZWm03a09sNkt4M1owZHNla0c3Y1E4Ujk0NjFVSE00bEZJZlFmamZhcWFNSWFpY0ZPbW5yU2QwLWo5LWtuMUFtOGlxb2VUZmtkUndoY0l6WVk?oc=5"
   },
   {
+   "id": "8a284fd582fb",
+   "type": "post",
+   "symbol": "RKLB",
+   "section": "macro",
+   "time": 1785542340000,
+   "timeLabel": "7:59 PM",
+   "handle": "@RocketLab",
+   "text": "Responsive launch needs responsive launch sites. With Launch Complex 1, we built the world's first private orbital launch site giving us launch availabilit…",
+   "url": "https://x.com/RocketLab/status/2082979402376478724"
+  },
+  {
    "id": "a7bc239e7942",
    "type": "news",
    "symbol": "WULF",
@@ -681,6 +676,17 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93NTRYVXU2RVlzbDdqci1UbnZqQVJNVUJzVFZfRWZaUngxTFIwSTRvMEFXWGhzSTBYeGlVcXdQX3gtajVELXU4RmRxNjVvTHExUlBLSk9ha045TU9NbXpMck5sa2xmZTNy?oc=5"
   },
   {
+   "id": "5b9217a3cc65",
+   "type": "post",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1785531600000,
+   "timeLabel": "5:00 PM",
+   "handle": "@nvidia",
+   "text": "Learn More → https://t.co/FBdAW2upy2",
+   "url": "https://x.com/nvidia/status/2082934295794974841"
+  },
+  {
    "id": "5386f21e750d",
    "type": "news",
    "symbol": "WULF",
@@ -701,6 +707,28 @@
    "source": "",
    "text": "Landmark AI Power Agreement Sends Huge Signal for AMD Stock - barchart.com",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa2gwU0pVNFd1MWZpc0ZIdDllazlzeWphMERtOTdJeHY5OEZ1RVFRbzF4bVk0Tk1oZWV6ZElfS1B0RHpJS1dSaE5JUEM1cHY5NFVieVo2VnJrckRFaS0yVFdaS0kwM3c4X1djbVN0ZXBISW5TbW5DLUZobHpGYW1SaDdXMUkxaUVtN3RybVNxRXZSZFJmQkp4dWVNclQxZ2V5RzZoZE13?oc=5"
+  },
+  {
+   "id": "bee60604bbdb",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1785525840000,
+   "timeLabel": "3:24 PM",
+   "source": "",
+   "text": "AMD Stock Gains as Amazon Expands AI Spending to $220 Billion - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSVVJX2JjbS1WREk0MzBYMDNpTUNHLXJxYW5JRXh5ZHBXLUtGb3drVXdjS21iYXYxRkVhUVQzWGQ4bXdrRjdtWGZtVTU0MGJ6Nnc5WlVVMHp4dXNDdHhVdXZ4ZUlsMlRnaFI5TG5Jek9Bd3NTQXIzQUJEUXFPTWhNWmkwekpHd3c2QVhvUzFVTERQa2pienZReWl2OVdqcW5HSVdUdkF6X213bXhQanpBZk1qUTdSSEVIV2M2bQ?oc=5"
+  },
+  {
+   "id": "4dfd1ba4725b",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1785525060000,
+   "timeLabel": "3:11 PM",
+   "source": "",
+   "text": "Bloom Energy vs. NextEra Energy: Is a Fuel Cell Upstart or Renewable Energy Titan the Better Buy in 2026?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/07/31/bloom-energy-vs-nextera-energy-is-a-fuel-cell-upstart-or-renewable-energy-titan-the-better-buy-in-2026/?.tsrc=rss"
   },
   {
    "id": "2276a188cf0a",
@@ -800,6 +828,17 @@
    "handle": "@Google",
    "text": "R to @Google: For a full breakdown ↓ https://goo.gle/4yRjCuM",
    "url": "https://nitter.net/Google/status/2083225955477213461#m"
+  },
+  {
+   "id": "143507ebcff4",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1785514740000,
+   "timeLabel": "12:19 PM",
+   "handle": "@Google",
+   "text": "For a full breakdown ↓ https://t.co/lOyt8I5NtE",
+   "url": "https://x.com/Google/status/2083225955477213461"
   },
   {
    "id": "952a9cd97d5b",
@@ -976,6 +1015,17 @@
    "source": "",
    "text": "Why Nebius Stock Popped Today - TradingView",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVV9QNkFzN0d5WnQ2MFJqR0xwaE9UZFZzaFA1RWI3V3NnamRwM3ZKR3A4bVJrZE04d2J6R3NRdXFHY2tfTHU1MGJlenlzUk9Qb25YZ0FianBnczRLZ3dsVk9OeGhqT3FTNnVYUDZrUkZmWFRlZGRWeS16cjRTdGxOTlJjVVN6Mk1UMjJYXzdPdkZibWs?oc=5"
+  },
+  {
+   "id": "38940d80edeb",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1785501180000,
+   "timeLabel": "8:33 AM",
+   "source": "",
+   "text": "Nebius Group (NBIS) Stock Jumps On $1B AI Compute Deal - StocksToTrade",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9hc1RlZXhaTlFIOHVoUmRaNUFxZkRlZEFtcE9HNWx0dU1NLU5NWEp3ZmVSQjEzYjBfQ2lMV3F5SnRaTVl1NnNmSjk3RDB4VlRtRU84Uzl5ZVd6dXhreFVvaDRySFFtTG5pUlBBRTJSNmtJZ2tFYmJrSUxn?oc=5"
   },
   {
    "id": "2031eeb7635d",
@@ -4701,6 +4751,15 @@
    "stBull": null,
    "regime": 66.7,
    "composite": 45.2
+  },
+  {
+   "t": 1785528648818,
+   "label": "Jul 31 2026 4:10 PM ET",
+   "cnn": 43,
+   "crypto": 25,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 41.7
   }
  ],
  "degraded": []
