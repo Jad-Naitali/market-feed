@@ -1,46 +1,46 @@
 {
- "generatedAt": "Jul 31, 2026, 1:04 PM ET",
- "generatedAtMs": 1785517459187,
+ "generatedAt": "Jul 31, 2026, 2:44 PM ET",
+ "generatedAtMs": 1785523481810,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-07-31 13:00 ET",
-  "pricesAsOf": "Jul 31, 2026, 1:04 PM ET",
+  "asOfET": "2026-07-31 14:00 ET",
+  "pricesAsOf": "Jul 31, 2026, 2:44 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7500.25,
-     "change": 0.4,
+     "value": 7513.75,
+     "change": 0.6,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 28373.75,
-     "change": 0.5,
+     "value": 28443.5,
+     "change": 0.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 16.99,
-     "change": -0.6,
+     "value": 16.59,
+     "change": -2.9,
      "invert": true
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 2.2
+     "pct": 2.3
     },
     {
      "ticker": "QQQ",
-     "pct": 4
+     "pct": 4.1
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 43,
+    "score": 44,
     "rating": "fear",
     "prevClose": 39,
     "prevWeek": 41,
@@ -68,11 +68,11 @@
   ]
  },
  "mood": {
-  "composite": 44.9,
+  "composite": 45.2,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 43
+    "value": 44
    },
    {
     "name": "Crypto Fear & Greed",
@@ -83,7 +83,7 @@
     "value": 66.7
    }
   ],
-  "rating": "Fear"
+  "rating": "Neutral"
  },
  "regime": {
   "label": "risk-on",
@@ -108,13 +108,13 @@
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 100.04 vs 20d avg 100.96"
+    "detail": "DXY 99.94 vs 20d avg 100.95"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.96 vs VIX3M 19.38"
+    "detail": "VIX 16.58 vs VIX3M 19.27"
    },
    {
     "name": "credit",
@@ -126,19 +126,19 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0% vs others -0.7%"
+    "detail": "defensives 5d 0.2% vs others -0.4%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2889 vs 20d avg 0.2871"
+    "detail": "RSP/SPY 0.2887 vs 20d avg 0.2871"
    },
    {
     "name": "sentiment",
     "vote": "off",
     "state": "fear",
-    "detail": "Fear&Greed 43 (fear)"
+    "detail": "Fear&Greed 44 (fear)"
    }
   ]
  },
@@ -147,8 +147,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -3,
-   "last": 62769.7,
+   "pct": -2.7,
+   "last": 62951.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Major bitcoin wallet flaw drains 594 BTC in 25-minute sweep - CoinDesk",
@@ -163,9 +163,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 26.2,
-   "last": 22.3,
-   "newsCount": 8,
+   "pct": 30.5,
+   "last": 23.1,
+   "newsCount": 5,
    "latestNews": {
     "title": "Cipher Mining Inc. (NASDAQ:CIFR) Given Consensus Rating of \"Moderate Buy\" by Brokerages - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTWR5ZUkzMVYzLTJYU2RTVm5OUlZKd0ZCVWc1M2xZYmllc0VzRnBhbXVTU0JNZWxEWFFHb2FGSElHRTUzdmFiRE9kRHNqSm5lQ2Y0R2JPenoyUlQxQWJiZ0sxdXlLc09YR1N2RXNoUEV6NWlkaUEwVHY3ZnlOREYwRWxFVmt5UDNBUnpHZml3ZURXMFlvODdYbEU1cm1RVXZQY0pFeUxLSVZRLW1BQUxTSkY1OTQyczNPNS11YkFld09jZGp1MDR6YWhldV9xbXNz?oc=5",
@@ -184,13 +184,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 25.4,
-   "last": 36.8,
-   "newsCount": 13,
+   "pct": 27.4,
+   "last": 37.3,
+   "newsCount": 12,
    "latestNews": {
-    "title": "Is IREN (NVDA) Cheap Following Its Raised AI Cloud Target And $2.8b In Contracts? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOTNfOVBVUDhOdmRkejhkTEw4dVJFQUhqYVVPSy1yYTlSeHpNcmVobHVkbV9qRjY4Z0FDM1pqS0FPcXNvZzlHcGw1Wmpwa09vR1VNVlFNMXB3QXZhbGNpOHFldmtYX0R2b0tGWFBXVklmSTY0c1ptZUlqdGIwbEFtODBCMUlueFNjMnJMZk5KbV82c3A5MHFtZUZMVHdLVGhUMjBqN0p5TDJKRTlKbUE4OHZXM0swZU1qdldvOUQ2MNIBxAFBVV95cUxNdmwwSUpGdGFJQ3BRZVdFclN0WHYxTWFhMXh4Qlp2UVVkX0ZvQ25pbnVLYUJyWE5oWmVBX2l2RWJwSkJVeVJ2RmFxVjFBbW0zaDhiWHp1VTEwVWUwMl83Tm1MbGN3TWJFbnRJbHltR1NqQlg5UHdtampwZmVxbUI3MnItN1Fwa0hfY2p1VldaVV9Td045ckZvRHFqNExqWkhIZmRYb0kxZW5yU2xOVWkzVElzM0tPOVBnRDVZMWxReXdpTjVy?oc=5",
-    "time": "12:25 PM"
+    "title": "‘The Semis Guys Have Your Back:’ IREN Stock Climbs on New Bernstein Buy Call - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRjROWUNkYXYyQl9lYXBlcW9jUVBkRDVULVZ2S3Q4VkdhNHMwa3N2MDBuQkNMWVA5THZlMjlmaENrbGQ2eHJuNUtaNHhYeTRTLWpHVGQ1dFZVVGVfdGZxbFM0WWgyTHNjQmF1VkNhWXB4WHdIOWNnQ2xQUUxscTBQMGRHWHo3bnNYQ3J0QkJULUVnU293TTdMT19fNEpoZlpCRXdfQ0VB?oc=5",
+    "time": "9:19 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -205,8 +205,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 27.1,
-   "last": 188.4,
+   "pct": 28.3,
+   "last": 190.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Nebius (NBIS) Stock Still Looks Reasonable Despite Fresh AI Partnership News - Yahoo Finance",
@@ -230,15 +230,19 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 14.1,
-   "last": 490.2,
+   "pct": 13.7,
+   "last": 488.2,
    "newsCount": 18,
    "latestNews": {
     "title": "MU, SKHY, NVDA, AMD, INTC Extend Rally Premarket, But Chip Stocks Still On Track For Worst Month Since 2002 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORUlmaGdmLU1VSHRYV3NoQTdWWnF4Q0dFSU9wTUlJOGtYM3F4M18xamxYVzlEdm1wNEthblU5QVpqeGVnNFVoOW9JSVQxOE1leHRWM2pRd3ZnbldkZ2lIS0UxbFJqdTVOb0tkSldqOHFDTWpsRUVtTWJ6cjFYVXpBR09jZnlDTDFrTDNmQ29LTQ?oc=5",
     "time": "4:50 AM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "Humanoids. Quadrupeds. Industrial robots. Two days of physical AI innovation. 🤖 At #AdvancingAI, our robotics customers and partners showcased how AMD embedded technology is helping bring intelligent, autonomous systems from concept to real-world deployment.",
+    "url": "https://nitter.net/AMD/status/2083248645025972434#m",
+    "time": "1:49 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -246,9 +250,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 18.6,
-   "last": 27.5,
-   "newsCount": 10,
+   "pct": 19.9,
+   "last": 27.8,
+   "newsCount": 7,
    "latestNews": {
     "title": "Applied Digital Could Have 155% Upside Ahead of July 27 Q2 Earnings - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM2pVUGRRQnU3V1FjUm9JRjgwYWFFcGxFU3BTOUxCVlZ5X2ljT3oyRGdpLTFybFQ0WVIwdzVJR1A5dmhYSm16NFpqN1pQSTBEWTZReFpfY3VhaFhFS3MyRlY1c1N2MlA5b0hBNk9tb2E4RVE1NGozejhYUDBWMFd3NjN3?oc=5",
@@ -267,19 +271,15 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 18.1,
-   "last": 17.8,
-   "newsCount": 14,
+   "pct": 19.1,
+   "last": 18,
+   "newsCount": 7,
    "latestNews": {
     "title": "TeraWulf (WULF) Stock Looks Strong On Returns But Overvalued Overall - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNHhTc1BaX1Y0SURzWk5wZWpVbngwN1BwTHdnNjA5dTlKem9KS1U5NG9zZnFlbmZZNEhnVzRyV0J5RmFLbHhVZzFYZ0QzbnR2UWdxVzdRbXNtSURQVVRxd2poQlFKX3M2RGJoQVJ4amxjX1VoMlI0VGpGeEN5UnQ5aHZJc05qcDBjYk5lT3dnMzFmY1ViMlNsZmpWRlotcHduUkd3N3hIZ0lTQTlXaGd3Ul92M3pHMW5CRGlRcHpqdk5qNXY1X3fSAcsBQVVfeXFMT1gtaWN2LUdINWJVbFJWTERDbnJJU3RVeGtyQU95c2puMnljdDZudnMzNTdLRnhxbmdtQmV3VHNYcnBnREs3NGJCSWVvNlUyd3FWenAzZzN2SGdRaW5VTE1SeXgzTF9DMmxqQkJXbmh5dm1iaEFrMGE3ZVFqUGJzU25ONUtKZW14bXQ3TVU4QkZmN0ZFWVpHSWFQa1JLTTlJcHUwMml6THVrWnRtN2VBLURTWXkwdkNSZmFMeFpXSFVXS25BeTlESy0yVGs?oc=5",
     "time": "12:38 AM"
    },
-   "latestPost": {
-    "text": "AI infrastructure is not so constrained by where data can travel, but rather where scalable power can be secured. In conversation with @SchneiderElec's Kevin Brown, CTO Nazar Khan explains TeraWulf’s advantage: energy-advantaged sites with secured power, paired with the expertise to build the connectivity and infrastructure required for large-scale compute. That combination is what makes $WULF's sites truly differentiated.",
-    "url": "https://nitter.net/TeraWulfInc/status/2082876682449338461#m",
-    "time": "1:11 PM"
-   },
+   "latestPost": null,
    "latestFiling": {
     "type": "deal/capacity",
     "label": "Other event",
@@ -294,7 +294,7 @@
    "class": "equity",
    "pct": 6.4,
    "last": 7.3,
-   "newsCount": 7,
+   "newsCount": 5,
    "latestNews": {
     "title": "IBRX Stock Enters Heavy Catalyst Phase: Traders Brace For Key Anktiva Decision Amid Trump’s FDA Turmoil - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSWUxVHh4dDVjZWFBQ2NxcXlpNXpOZkE3dldDbzJEZHpJMHpJbEhBQTZ2NVZLRXlhNWt2eXZaQ0ZsUmx5WGdDY2doZXdIZHVjZUF1elEweFZYQXdQODZkb3hEbFJpM3pMbnZTV0t3MkxVaTFCN2xaMXhkOVFRSEU4N2RGejhJam9jYTBraVVYSnR3YURJMzJLYXgxWU9PZF9xX180Nk81Z29KSVpjRFE?oc=5",
@@ -312,13 +312,13 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 11.2,
-   "last": 4.5,
-   "newsCount": 2,
+   "pct": 14.8,
+   "last": 4.7,
+   "newsCount": 1,
    "latestNews": {
-    "title": "BlackRock (NUAI) discloses 6.1% beneficial stake in New ERA Energy & Digital - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUVN5SlhhSE1Lei1xVFhOd0F6SGZNLWIxb19ROVVQekw4amZtMTBRRGRmWU00dXYtcF9fN3dfbWhOSlZSZHoycC0yTUVNT1pvcHRKMS1HX2JPUUVyaXh5R3R2OEg4RnFsd0l2bC1CdTdndU5vU2xMRFlVdWszbkgyMVNyTmRXZ1M2OXVyeVFYaWF6eTV4TFlwVDc3UGkyanhHdURBRlcwLWV6MGxrQU5fdF91bHJhOFpxLXNqN1V0N0ZlZkxIWHhVZlJzQQ?oc=5",
-    "time": "1:44 PM"
+    "title": "New Era Energy & Digital Inc. (NUAI) Stock Price | Live Quotes & Charts | NASDAQ - timothysykes.com",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5OUpKc0xXZVFqRU1SUUQwQlZ0NVBQWWdRSVJFbmNENzZSVHF1b2hjczEwU2l1cnBsQWZCWnpBVW1RVnhjY25jaFFhN2w?oc=5",
+    "time": "3:20 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -333,8 +333,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 15.7,
-   "last": 13.9,
+   "pct": 17.2,
+   "last": 14.1,
    "newsCount": 2,
    "latestNews": {
     "title": "CleanSpark (CLSK) Signs $6.6b AI Lease, Is The Stock Still A Bargain? - simplywall.st",
@@ -358,11 +358,11 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 0.1,
+   "pct": 0.4,
    "last": 11.1,
    "newsCount": 1,
    "latestNews": {
-    "title": "ASST|Asset Entities Inc|Price:11.935|Chg%:+0.875 - tradingkey.com",
+    "title": "ASST|Asset Entities Inc|Price:11.935|Chg%:+0.875 - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93NTRYVXU2RVlzbDdqci1UbnZqQVJNVUJzVFZfRWZaUngxTFIwSTRvMEFXWGhzSTBYeGlVcXdQX3gtajVELXU4RmRxNjVvTHExUlBLSk9ha045TU9NbXpMck5sa2xmZTNy?oc=5",
     "time": "5:20 PM"
    },
@@ -374,8 +374,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 2.5,
-   "last": 121.8,
+   "pct": 3.3,
+   "last": 122.7,
    "newsCount": 3,
    "latestNews": {
     "title": "Abivax SA Sponsored ADR $ABVX Shares Sold by Vivo Capital LLC - MarketBeat",
@@ -390,8 +390,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -3.5,
-   "last": 25.4,
+   "pct": -3.1,
+   "last": 25.5,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -402,8 +402,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 4.5,
-   "last": 198.6,
+   "pct": 4.6,
+   "last": 198.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Nvidia (NVDA) Stock Is Bouncing Back Today - Barron's",
@@ -438,11 +438,11 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 12.6,
-   "last": 9.8,
+   "pct": 14.1,
+   "last": 9.9,
    "newsCount": 1,
    "latestNews": {
-    "title": "TSS Inc (TSSI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - tradingkey.com",
+    "title": "TSS Inc (TSSI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1OcFljbGJ6cTcyVXludzB1aFNKVDlpQm90Vm9xRUxNeUZwdFJUTjNaTHVOaW8xRVczNkJhV19Mb1NVZ0FwNy0xay10MW81ZGhZZ1MxdmZJTnBweVJTS25IQkNZWkZFcVE?oc=5",
     "time": "6:10 AM"
    },
@@ -454,13 +454,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 10.5,
-   "last": 64.7,
+   "pct": 11,
+   "last": 65.1,
    "newsCount": 18,
    "latestNews": {
-    "title": "Why Rocket Lab Stock Is Soaring Today - fool.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXhkRmE4dXRsZjhpQ0JTXzdDOWtfaFNKRkVXZE1OLXpLanB5d3NqSW14a2lpWmJqUXhkSE9RcXIyLUlKN2FqenZldFY3MjlCY3BMb1lyTFhEV0IwTTB6SjNrOU0tSVU3bFJpN2h1MFhqVC1ycmhoOV80NFhfVjBMMFdsczVpdUE?oc=5",
-    "time": "2:30 PM"
+    "title": "Rocket Lab (RKLB) Just Won Its Biggest-Ever Contract. The Stock Barely Noticed - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbEZHVmVSTHlkOWRmR2RVUGdMOFd4TDhtQ3ZXTm1WQThHTzZfRFNVd3QyZHBqcDhHMWhicGF1dmI0S0x3amxjSUs4SnllOVVmMnlwc0FraUdCX2JkR002dWh2WmlscUJFTVRNNGVXYlpzYVpTZmRhNUJsdzdsM0E0Y0RfQnJqNVVES0ExVEdUeU0tTzQ?oc=5",
+    "time": "10:38 AM"
    },
    "latestPost": {
     "text": "Responsive launch needs responsive launch sites. With Launch Complex 1, we built the world's first private orbital launch site giving us launch availability 24/7, 365. Launch Complex 2 was built in just 10 months to bring small launch and hypersonic test launch to the U.S. East Coast, and Launch Complex 3 right next door unlocks medium launch capability with Neutron. Next up: Alaska, and Rocket Lab Launch Complex 4. New orbits, new azimuths, a new era in responsive space.",
@@ -474,13 +474,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -0.6,
-   "last": 122.2,
-   "newsCount": 13,
+   "pct": -0.4,
+   "last": 122.5,
+   "newsCount": 15,
    "latestNews": {
-    "title": "Prediction: Palantir Stock Is Going to Plunge on Aug. 4 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNamdVdU1McE5WaEgzMlBTdFpmb0p3Z3Uwem5DVDkwOFgxVFVydUdBbGwwMUE2czhFeFNVZmJjZjZOa3M1bVo3TlZfbkd2UnNnQUdqSUgxcHkwcXowMUlMWTQ3Umc0NVRNNmdLNHMtT3RPa0VYV3gzblB2WmhZZWRmSHFGZ0VLVzFaU2cxTmZESkl4aUhwR0dVdGY1RzVVdEc2b0dMTkZ3?oc=5",
-    "time": "5:26 AM"
+    "title": "Here’s How Much Palantir Stock Is Expected to Move After Earnings - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0hsMVI0bko0dHBlXzE2VWFOYlhVYjd6dGJ2cTRxSmJlLUFRcGRsOXJXN1N6cDFBSDN3ZnRGa0Jfcm9nQzN4bWNGN0o1R3ZZM18tczVKcV9xcnlCT09MQmxJOWU2NGVjOXQ1RE9ub2paNHFPbjJwTUF5d1ltSTFjcTkzLUNnT3JuSHNrTEZ4WmxrMTlhLXVhc1lIeU5kb3VLSzdlLTdMWGZVTW9UeUhkTUo2RU9acWZCRFNB?oc=5",
+    "time": "11:20 AM"
    },
    "latestPost": {
     "text": "For too long, the national discourse on AI has been dominated by voices from Silicon Valley, Wall Street, and Washington, DC. It’s time to hear from builders — from the American workers wielding this tool on the front lines. Palantir’s American Tech Fellowship exists to amplify their tradecraft and make sure these workers share in the enormous value they create. Watch @ssankar's welcome remarks at the inaugural American Builder Summit, where these fellows took center stage. And for all those on the front line who are curious, autodidactic, and unafraid, apply now: https://www.palantir.com/american-tech-fellowship/",
@@ -495,7 +495,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 18.3,
-   "last": 462.1,
+   "last": 462.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Microsoft's stock rockets more than 15% for largest single-day jump in history - Yahoo Finance",
@@ -510,9 +510,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 9.2,
-   "last": 27.3,
-   "newsCount": 11,
+   "pct": 10.7,
+   "last": 27.7,
+   "newsCount": 12,
    "latestNews": {
     "title": "Is The Sharp Drop In Hims & Hers Health Stock A Reason To Buy? - Trefis",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR2owVkxLajNhc2Mxal91ak9jLWtZckVJWENmY2xKank0WlJqWmNEOXB1cHRFT3EyTFBwamtEUEgyWW5GVTZoemRQWmRuM2FFcGtleTFkczlOMWVnZXItdUZnX3l6LXhPeGRsTHNkR2tlSjlJZTZseUdkTGRBYlhvQVVNdmdBS0wtd1VMVDBIQzVONHVIYTRiU0lWMW5xZG95VDVxSzVRQmtfdXo4OElpMXgzbld5S2VESUt3cw?oc=5",
@@ -526,8 +526,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 5,
-   "last": 353.4,
+   "pct": 5.6,
+   "last": 355.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Prediction: This AI Stock Will Double by 2031 -- Here's the Math - fool.com",
@@ -546,8 +546,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0,
-   "last": 4100.6,
+   "pct": 0.1,
+   "last": 4105.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold prices today, Friday, July 31, 2026: Gold price finally breaks above $4,100 as U.S. paused airstrikes overnight - Yahoo Finance",
@@ -562,13 +562,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1,
-   "last": 89.9,
+   "pct": 1.2,
+   "last": 90.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil Prices Head for 20% Monthly Surge Despite Recent Pullback - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMUpCOHFaTGctUGhrcGhsVWp5b1p5MkE2S1hMQU1ndjBaYU9ZVUpybHh0d0E5S3g3MkNWeHEwbV9OSVk5a2lRcl9sNWR3YTdmWnZuc1ZNSmpESEZhSXJneGVCdHVCd2c2TXBQMmRoczhyd0dwZ2REQWFmdi03b2ZNNXJJSUNieVpuRDBWYzNyaElCSDhhUU4yS3JuRVp4X2dpclE0VUhOOTBKazlidWUyWHZnNmRoWW_SAbwBQVVfeXFMUGhDUmVmbTl1b1hsN0VTRGFITjUzRl9FV2JlbFhIVUdwMDVidVBXNjNHMmhJVkNNRElqZHBsLVI0VU40bXpwbmk2YlotdHp3Y3VkTkdoWTdleU9iMHdKMlA3VGxrbE9MOS0xVjEtNTA1cEc2QjBwT3NCZGFPLUZBcGNvN0trX0tjZ284Rk1CNmp1VE9hUF9wdlFGRWo0b1hGcFhTbUxRejQweGlrT0FrQ2dRbm92LUVhTmVGWTg?oc=5",
-    "time": "12:56 AM"
+    "title": "Current price of oil as of July 31, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95cDVGYlBLODlsYi1xZ1JObEpabUdzZFR6RnR0REJVWW5reWVJU3R6cTFWd0xZSXhlX3kxeFp0TF9vd0FSb3IxZGtEUVhlSnNLVlRjRGNMRk95cVMzeTg4Ym9B?oc=5",
+    "time": "6:45 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -578,13 +578,13 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.3,
-   "last": 84.7,
+   "pct": 1.2,
+   "last": 84.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-    "time": "7:21 PM"
+    "time": "11:52 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -592,6 +592,17 @@
   }
  ],
  "events": [
+  {
+   "id": "58744f893325",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1785553920000,
+   "timeLabel": "11:12 PM",
+   "source": "",
+   "text": "Bitcoin Miner IREN Stock Surges 30% After CEO Says Demand Outstrips Supply - CryptoRank",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWT01renFTUmJndm45MmdlMmV2b0duVnBSZWxISGQwbGdPYjBNdmJuZi01aGVlR0Zjd1JtNGZHM21hZDl2MnZXck00X0dYa2JDRmx3ckJ4U3BZaVBiZlJGeFNkVzB4NDJJb2cwQVpUQU5JRmhmYUE?oc=5"
+  },
   {
    "id": "981d9358c9fb",
    "type": "news",
@@ -648,6 +659,17 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa0Z2cVRZeWFzc0xmNXdUeFBOendIWXlDLVpfRjQxYWVEOEhpYTRHMFR6aGJubnFZWm03a09sNkt4M1owZHNla0c3Y1E4Ujk0NjFVSE00bEZJZlFmamZhcWFNSWFpY0ZPbW5yU2QwLWo5LWtuMUFtOGlxb2VUZmtkUndoY0l6WVk?oc=5"
   },
   {
+   "id": "a7bc239e7942",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1785534180000,
+   "timeLabel": "5:43 PM",
+   "source": "",
+   "text": "FERC clears TeraWulf to acquire Morgantown site despite local pushback",
+   "url": "https://blockspace.media/short/ferc-clears-terawulf-to-acquire-morgantown-site-despite-local-pushback/?.tsrc=rss"
+  },
+  {
    "id": "056786ca73ff",
    "type": "news",
    "symbol": "ASST",
@@ -659,6 +681,17 @@
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93NTRYVXU2RVlzbDdqci1UbnZqQVJNVUJzVFZfRWZaUngxTFIwSTRvMEFXWGhzSTBYeGlVcXdQX3gtajVELXU4RmRxNjVvTHExUlBLSk9ha045TU9NbXpMck5sa2xmZTNy?oc=5"
   },
   {
+   "id": "5386f21e750d",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1785526440000,
+   "timeLabel": "3:34 PM",
+   "source": "",
+   "text": "Situational Awareness Gets Liquidated, META/MSFT Earnings, TeraWulf Cleared for Morgantown Acquisition",
+   "url": "https://blockspace.media/podcast/situational-awareness-gets-liquidated-meta-msft-earnings-terawulf-cleared-for-morgantown-acquisition/?.tsrc=rss"
+  },
+  {
    "id": "23038c49954f",
    "type": "news",
    "symbol": "AMD",
@@ -668,6 +701,39 @@
    "source": "",
    "text": "Landmark AI Power Agreement Sends Huge Signal for AMD Stock - barchart.com",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa2gwU0pVNFd1MWZpc0ZIdDllazlzeWphMERtOTdJeHY5OEZ1RVFRbzF4bVk0Tk1oZWV6ZElfS1B0RHpJS1dSaE5JUEM1cHY5NFVieVo2VnJrckRFaS0yVFdaS0kwM3c4X1djbVN0ZXBISW5TbW5DLUZobHpGYW1SaDdXMUkxaUVtN3RybVNxRXZSZFJmQkp4dWVNclQxZ2V5RzZoZE13?oc=5"
+  },
+  {
+   "id": "2276a188cf0a",
+   "type": "post",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1785520140000,
+   "timeLabel": "1:49 PM",
+   "handle": "@AMD",
+   "text": "Humanoids. Quadrupeds. Industrial robots. Two days of physical AI innovation. 🤖 At #AdvancingAI, our robotics customers and partners showcased how AMD embed…",
+   "url": "https://nitter.net/AMD/status/2083248645025972434#m"
+  },
+  {
+   "id": "9cf9c4ac72f5",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1785519840000,
+   "timeLabel": "1:44 PM",
+   "source": "",
+   "text": "Leopold Aschenbrenner's AI hedge fund collapses after margin calls",
+   "url": "https://qz.com/situational-awareness-hedge-fund-margin-call-citadel-fire-sale-073126?.tsrc=rss"
+  },
+  {
+   "id": "efabca48aff6",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1785517200000,
+   "timeLabel": "1:00 PM",
+   "source": "",
+   "text": "Iren Stock Falls 12.4% Today - 24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNjA2SS1TMjAySEkwWFdmN2pacFJMc1U2dHdjbDdKeW51MWVDbjNYZHFvenhYRVJaQ1VjQUpDR2RzcXg0XzZtX0ZiU2tQTDNLR0ZRVXFDTnZzWGI1WWlJWmFTdnFmRTdhRDVZRWZYd3lYcTVlR2Z6U2NlZ3pJcDhaVzRB?oc=5"
   },
   {
    "id": "f22c780eaec6",
@@ -811,6 +877,17 @@
    "source": "",
    "text": "AMD Stock Is Up Big, and Wall Street Is Underestimating It - 24/7 Wall St.",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0NUdHc1VmIzZTExVHhsWjFyUzM2VHQtb3E3WTJqMl9NMWhtUnVEOG1kSFdZSV95R1Z5WDNxMmFMUTlWTkxpZms5NDJ3WXdNekFmTzlqcC13SlV0UFlrOUZ3ekFGb2FXYmpwTkRGSzNPemlzcVNqVm9JbnJXM2RVdUhJM2RjOE5pMkxEcVVkRFJZUWxJUUhMenFKZVpvUmRLRjVV?oc=5"
+  },
+  {
+   "id": "e15b14062f46",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1785506340000,
+   "timeLabel": "9:59 AM",
+   "source": "",
+   "text": "AMD Stock Jumps as Reports Point to a GPU Price Increase in August - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORXJxVi1iSEhVcnVuNVZ3LW5ZaFM0TEQzOFV4WUtsbjZzNUhKMER4Vy1MNzRlX1RYMVdkLTRaZUd3VGZOb3pTWlNaeDhFc1FfLTN3MVotczVmVVpQTGpsRGswcFItak1CclpEQWJBNm5VZnRTYVJlWTRJX1lVVzdBbFA0LS1HN1JIV2dkdzNLSlgwQnpzaElMTmxNeV8?oc=5"
   },
   {
    "id": "c5b63b862434",
@@ -4615,6 +4692,15 @@
    "stBull": null,
    "regime": 66.7,
    "composite": 44.9
+  },
+  {
+   "t": 1785523481810,
+   "label": "Jul 31 2026 2:44 PM ET",
+   "cnn": 44,
+   "crypto": 25,
+   "stBull": null,
+   "regime": 66.7,
+   "composite": 45.2
   }
  ],
  "degraded": []
