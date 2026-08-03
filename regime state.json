@@ -1,15 +1,16 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "4-3",
+    "tally": "5-1",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
+      "cyclicals leading",
       "breadth broad"
     ],
-    "on": 4,
-    "off": 3
+    "on": 5,
+    "off": 1
   },
   "components": {
     "curve": {
@@ -27,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.8 vs 20d avg 100.94",
-      "asOfMs": 1785470400000,
+      "detail": "DXY 99.74 vs 20d avg 100.89",
+      "asOfMs": 1785729600000,
       "status": "ok",
       "raw": {
-        "last": 99.8,
-        "avg": 100.94,
-        "gap": -1.14
+        "last": 99.74,
+        "avg": 100.89,
+        "gap": -1.15
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.99 vs VIX3M 19.02",
-      "asOfMs": 1785504600000,
+      "detail": "VIX 16.02 vs VIX3M 20.54",
+      "asOfMs": 1785740400000,
       "status": "ok",
       "raw": {
-        "vix": 15.99,
-        "vix3m": 19.02,
-        "diff": -3.03
+        "vix": 16.02,
+        "vix3m": 20.54,
+        "diff": -4.52
       }
     },
     "credit": {
@@ -61,63 +62,63 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 0% vs others -0.2%",
-      "asOfMs": 1785504600000,
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -0.3% vs others -0.2%",
+      "asOfMs": 1785763800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0,
+        "defMedPct": -0.3,
         "othMedPct": -0.2,
-        "diffPct": 0.2
+        "diffPct": 0
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2878 vs 20d avg 0.2871",
-      "asOfMs": 1785504600000,
+      "detail": "RSP/SPY 0.288 vs 20d avg 0.2872",
+      "asOfMs": 1785763800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2878,
-        "avg": 0.2871,
-        "gap": 0.0007
+        "ratio": 0.288,
+        "avg": 0.2872,
+        "gap": 0.0008
       }
     },
     "sentiment": {
-      "state": "fear",
-      "vote": "off",
-      "detail": "Fear&Greed 42 (fear)",
-      "asOfMs": 1785532235000,
+      "state": "neutral",
+      "vote": "abstain",
+      "detail": "Fear&Greed 45 (neutral)",
+      "asOfMs": 1785764204000,
       "status": "ok",
       "raw": {
-        "score": 42,
-        "rating": "fear"
+        "score": 45,
+        "rating": "neutral"
       }
     }
   },
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 0.7,
-        "asOfMs": 1785369600000
-      },
-      {
         "name": "Hang Seng",
-        "pct": 0.2,
-        "asOfMs": 1785375000000
+        "pct": 0.5,
+        "asOfMs": 1785720600000
       },
       {
         "name": "DAX",
-        "pct": 0.1,
-        "asOfMs": 1785481200000
+        "pct": 1.4,
+        "asOfMs": 1785740400000
+      },
+      {
+        "name": "Nikkei",
+        "pct": -0.9,
+        "asOfMs": 1785715200000
       }
     ],
     "rates": {
       "impliedRate": 3.64,
-      "changeBp": -0.5,
-      "asOfMs": 1785470400000
+      "changeBp": -0.7,
+      "asOfMs": 1785729600000
     }
   },
   "stress": {
@@ -561,9 +562,14 @@
       "ts": 1785511140195,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR hySpreadNew20High"
+    },
+    {
+      "ts": 1785764449331,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785533314542
+  "updatedMs": 1785764449331
 }
