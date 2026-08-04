@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.92 vs 20d avg 100.84",
+      "detail": "DXY 99.85 vs 20d avg 100.83",
       "asOfMs": 1785816000000,
       "status": "ok",
       "raw": {
-        "last": 99.92,
-        "avg": 100.84,
-        "gap": -0.91
+        "last": 99.85,
+        "avg": 100.83,
+        "gap": -0.98
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.34 vs VIX3M 19.04",
+      "detail": "VIX 16.34 vs VIX3M 19.19",
       "asOfMs": 1785850200000,
       "status": "ok",
       "raw": {
         "vix": 16.34,
-        "vix3m": 19.04,
-        "diff": -2.7
+        "vix3m": 19.19,
+        "diff": -2.85
       }
     },
     "credit": {
@@ -64,32 +64,32 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -3.1% vs others 1.8%",
+      "detail": "defensives 5d -2.8% vs others 2.1%",
       "asOfMs": 1785850200000,
       "status": "ok",
       "raw": {
-        "defMedPct": -3.1,
-        "othMedPct": 1.8,
+        "defMedPct": -2.8,
+        "othMedPct": 2.1,
         "diffPct": -4.9
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2851 vs 20d avg 0.287",
+      "detail": "RSP/SPY 0.285 vs 20d avg 0.287",
       "asOfMs": 1785850200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2851,
+        "ratio": 0.285,
         "avg": 0.287,
-        "gap": -0.0019
+        "gap": -0.002
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 59 (greed)",
-      "asOfMs": 1785863936000,
+      "asOfMs": 1785870246000,
       "status": "ok",
       "raw": {
         "score": 59,
@@ -105,14 +105,14 @@
         "asOfMs": 1785715200000
       },
       {
-        "name": "Hang Seng",
-        "pct": 0.5,
-        "asOfMs": 1785720600000
-      },
-      {
         "name": "DAX",
         "pct": 0.8,
         "asOfMs": 1785826800000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0.5,
+        "asOfMs": 1785720600000
       }
     ],
     "rates": {
@@ -576,5 +576,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785864082412
+  "updatedMs": 1785870434427
 }
