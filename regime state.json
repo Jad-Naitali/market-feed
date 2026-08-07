@@ -29,11 +29,11 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.53 vs 20d avg 100.65",
+      "detail": "DXY 99.54 vs 20d avg 100.65",
       "asOfMs": 1786075200000,
       "status": "ok",
       "raw": {
-        "last": 99.53,
+        "last": 99.54,
         "avg": 100.65,
         "gap": -1.11
       }
@@ -41,13 +41,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.98 vs VIX3M 18.71",
+      "detail": "VIX 14.96 vs VIX3M 18.7",
       "asOfMs": 1786109400000,
       "status": "ok",
       "raw": {
-        "vix": 14.98,
-        "vix3m": 18.71,
-        "diff": -3.73
+        "vix": 14.96,
+        "vix3m": 18.7,
+        "diff": -3.74
       }
     },
     "credit": {
@@ -65,32 +65,32 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d 0% vs others 3%",
+      "detail": "defensives 5d 0.1% vs others 3%",
       "asOfMs": 1786109400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0,
+        "defMedPct": 0.1,
         "othMedPct": 3,
-        "diffPct": -3
+        "diffPct": -2.9
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.285 vs 20d avg 0.2871",
+      "detail": "RSP/SPY 0.2853 vs 20d avg 0.2871",
       "asOfMs": 1786109400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.285,
+        "ratio": 0.2853,
         "avg": 0.2871,
-        "gap": -0.0021
+        "gap": -0.0019
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 64 (greed)",
-      "asOfMs": 1786121275000,
+      "asOfMs": 1786124776000,
       "status": "ok",
       "raw": {
         "score": 64,
@@ -582,5 +582,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786121604369
+  "updatedMs": 1786124930550
 }
