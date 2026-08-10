@@ -29,25 +29,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.8 vs 20d avg 100.58",
+      "detail": "DXY 99.81 vs 20d avg 100.58",
       "asOfMs": 1786334400000,
       "status": "ok",
       "raw": {
-        "last": 99.8,
+        "last": 99.81,
         "avg": 100.58,
-        "gap": -0.78
+        "gap": -0.77
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.27 vs VIX3M 18.85",
+      "detail": "VIX 15.38 vs VIX3M 18.91",
       "asOfMs": 1786368600000,
       "status": "ok",
       "raw": {
-        "vix": 15.27,
-        "vix3m": 18.85,
-        "diff": -3.58
+        "vix": 15.38,
+        "vix3m": 18.91,
+        "diff": -3.53
       }
     },
     "credit": {
@@ -77,11 +77,11 @@
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2849 vs 20d avg 0.2871",
+      "detail": "RSP/SPY 0.285 vs 20d avg 0.2871",
       "asOfMs": 1786368600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2849,
+        "ratio": 0.285,
         "avg": 0.2871,
         "gap": -0.0021
       }
@@ -89,11 +89,11 @@
     "sentiment": {
       "state": "greed",
       "vote": "on",
-      "detail": "Fear&Greed 65 (greed)",
-      "asOfMs": 1786383020000,
+      "detail": "Fear&Greed 64 (greed)",
+      "asOfMs": 1786386710000,
       "status": "ok",
       "raw": {
-        "score": 65,
+        "score": 64,
         "rating": "greed"
       }
     }
@@ -101,14 +101,14 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 0.5,
-        "asOfMs": 1786066200000
-      },
-      {
         "name": "Nikkei",
         "pct": -0.1,
         "asOfMs": 1786060800000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0.5,
+        "asOfMs": 1786066200000
       },
       {
         "name": "DAX",
@@ -117,8 +117,8 @@
       }
     ],
     "rates": {
-      "impliedRate": 3.76,
-      "changeBp": -12.8,
+      "impliedRate": 3.77,
+      "changeBp": -13.7,
       "asOfMs": 1786334400000
     }
   },
@@ -582,5 +582,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786383402616
+  "updatedMs": 1786386846982
 }
