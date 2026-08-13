@@ -40,13 +40,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.74 vs VIX3M 18.67",
-      "asOfMs": 1786627800000,
+      "detail": "VIX 14.64 vs VIX3M 18.63",
+      "asOfMs": 1786650526000,
       "status": "ok",
       "raw": {
-        "vix": 14.74,
-        "vix3m": 18.67,
-        "diff": -3.93
+        "vix": 14.64,
+        "vix3m": 18.63,
+        "diff": -3.99
       }
     },
     "credit": {
@@ -76,20 +76,20 @@
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2862 vs 20d avg 0.2874",
+      "detail": "RSP/SPY 0.2864 vs 20d avg 0.2874",
       "asOfMs": 1786627800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2862,
+        "ratio": 0.2864,
         "avg": 0.2874,
-        "gap": -0.0012
+        "gap": -0.001
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 66 (greed)",
-      "asOfMs": 1786648488000,
+      "asOfMs": 1786651199000,
       "status": "ok",
       "raw": {
         "score": 66,
@@ -105,14 +105,14 @@
         "asOfMs": 1786498200000
       },
       {
-        "name": "DAX",
-        "pct": -0.1,
-        "asOfMs": 1786604400000
-      },
-      {
         "name": "Nikkei",
         "pct": 0.8,
         "asOfMs": 1786492800000
+      },
+      {
+        "name": "DAX",
+        "pct": -0.1,
+        "asOfMs": 1786604400000
       }
     ],
     "rates": {
@@ -586,5 +586,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786648813189
+  "updatedMs": 1786651440147
 }
