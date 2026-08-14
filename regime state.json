@@ -34,7 +34,7 @@
       "raw": {
         "last": 99.64,
         "avg": 100.4,
-        "gap": -0.77
+        "gap": -0.76
       }
     },
     "vol": {
@@ -82,14 +82,14 @@
       "raw": {
         "ratio": 0.2869,
         "avg": 0.2874,
-        "gap": -0.0004
+        "gap": -0.0005
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 65 (greed)",
-      "asOfMs": 1786741992000,
+      "asOfMs": 1786743807000,
       "status": "ok",
       "raw": {
         "score": 65,
@@ -100,6 +100,11 @@
   "context": {
     "overnight": [
       {
+        "name": "DAX",
+        "pct": 0.5,
+        "asOfMs": 1786690800000
+      },
+      {
         "name": "Hang Seng",
         "pct": -0.2,
         "asOfMs": 1786584600000
@@ -108,11 +113,6 @@
         "name": "Nikkei",
         "pct": 1.2,
         "asOfMs": 1786579200000
-      },
-      {
-        "name": "DAX",
-        "pct": 0.5,
-        "asOfMs": 1786690800000
       }
     ],
     "rates": {
@@ -586,5 +586,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786743115572
+  "updatedMs": 1786744750482
 }
