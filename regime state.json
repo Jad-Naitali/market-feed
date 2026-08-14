@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.96 vs 20d avg 100.46",
-      "asOfMs": 1786593600000,
+      "detail": "DXY 99.65 vs 20d avg 100.4",
+      "asOfMs": 1786680000000,
       "status": "ok",
       "raw": {
-        "last": 99.96,
-        "avg": 100.46,
-        "gap": -0.5
+        "last": 99.65,
+        "avg": 100.4,
+        "gap": -0.74
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.63 vs VIX3M 18.61",
-      "asOfMs": 1786652101000,
+      "detail": "VIX 14.52 vs VIX3M 20.54",
+      "asOfMs": 1786690800000,
       "status": "ok",
       "raw": {
-        "vix": 14.63,
-        "vix3m": 18.61,
-        "diff": -3.98
+        "vix": 14.52,
+        "vix3m": 20.54,
+        "diff": -6.02
       }
     },
     "credit": {
@@ -88,11 +88,11 @@
     "sentiment": {
       "state": "greed",
       "vote": "on",
-      "detail": "Fear&Greed 66 (greed)",
-      "asOfMs": 1786653970000,
+      "detail": "Fear&Greed 67 (greed)",
+      "asOfMs": 1786706551000,
       "status": "ok",
       "raw": {
-        "score": 66,
+        "score": 67,
         "rating": "greed"
       }
     }
@@ -100,25 +100,25 @@
   "context": {
     "overnight": [
       {
+        "name": "Hang Seng",
+        "pct": -1.1,
+        "asOfMs": 1786671000000
+      },
+      {
         "name": "Nikkei",
-        "pct": 0.8,
-        "asOfMs": 1786492800000
+        "pct": 0.6,
+        "asOfMs": 1786665600000
       },
       {
         "name": "DAX",
-        "pct": -0.1,
-        "asOfMs": 1786604400000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -0.8,
-        "asOfMs": 1786498200000
+        "pct": 0.8,
+        "asOfMs": 1786690800000
       }
     ],
     "rates": {
-      "impliedRate": 3.72,
-      "changeBp": -8.8,
-      "asOfMs": 1786593600000
+      "impliedRate": 3.71,
+      "changeBp": -8.5,
+      "asOfMs": 1786680000000
     }
   },
   "stress": {
@@ -586,5 +586,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786654964291
+  "updatedMs": 1786707735248
 }
