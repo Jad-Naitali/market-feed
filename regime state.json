@@ -1,16 +1,17 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "6-1",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
       "credit spreads tight",
+      "cyclicals leading",
       "sentiment greed"
     ],
-    "on": 5,
-    "off": 2
+    "on": 6,
+    "off": 1
   },
   "components": {
     "curve": {
@@ -62,15 +63,15 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d -0.3% vs others -0.4%",
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -0.3% vs others 0.3%",
       "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
         "defMedPct": -0.3,
-        "othMedPct": -0.4,
-        "diffPct": 0
+        "othMedPct": 0.3,
+        "diffPct": -0.6
       }
     },
     "breadth": {
@@ -89,7 +90,7 @@
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 60 (greed)",
-      "asOfMs": 1787001891000,
+      "asOfMs": 1787002796000,
       "status": "ok",
       "raw": {
         "score": 60,
@@ -100,14 +101,14 @@
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": -0.4,
-        "asOfMs": 1786950000000
-      },
-      {
         "name": "Nikkei",
         "pct": 0.6,
         "asOfMs": 1786665600000
+      },
+      {
+        "name": "DAX",
+        "pct": -0.4,
+        "asOfMs": 1786950000000
       },
       {
         "name": "Hang Seng",
@@ -592,9 +593,14 @@
       "ts": 1787000576138,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787003994483,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787002870427
+  "updatedMs": 1787003995379
 }
