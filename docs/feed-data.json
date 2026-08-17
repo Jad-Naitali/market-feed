@@ -1,28 +1,28 @@
 {
- "generatedAt": "Aug 17, 2026, 12:36 PM ET",
- "generatedAtMs": 1786984619989,
+ "generatedAt": "Aug 17, 2026, 1:03 PM ET",
+ "generatedAtMs": 1786986230975,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-08-17 12:00 ET",
-  "pricesAsOf": "Aug 17, 2026, 12:36 PM ET",
+  "asOfET": "2026-08-17 13:00 ET",
+  "pricesAsOf": "Aug 17, 2026, 1:03 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7794.75,
-     "change": -0.1,
+     "value": 7789.25,
+     "change": -0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30206.25,
-     "change": 0.2,
+     "value": 30182.25,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.02,
-     "change": 5.4,
+     "value": 15.11,
+     "change": 6,
      "invert": true
     }
    ],
@@ -40,7 +40,7 @@
   },
   "gauges": {
    "cnn": {
-    "score": 63,
+    "score": 62,
     "rating": "greed",
     "prevClose": 65,
     "prevWeek": 65,
@@ -80,11 +80,11 @@
   ]
  },
  "mood": {
-  "composite": 59.9,
+  "composite": 59.6,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 63
+    "value": 62
    },
    {
     "name": "Crypto Fear & Greed",
@@ -122,13 +122,13 @@
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 99.49 vs 20d avg 100.33"
+    "detail": "DXY 99.5 vs 20d avg 100.33"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.02 vs VIX3M 18.89"
+    "detail": "VIX 15.11 vs VIX3M 18.94"
    },
    {
     "name": "credit",
@@ -140,19 +140,19 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d 0% vs others 0.1%"
+    "detail": "defensives 5d -0.1% vs others 0%"
    },
    {
     "name": "breadth",
     "vote": "off",
     "state": "below 20d avg",
-    "detail": "RSP/SPY 0.2858 vs 20d avg 0.2874"
+    "detail": "RSP/SPY 0.286 vs 20d avg 0.2874"
    },
    {
     "name": "sentiment",
     "vote": "on",
     "state": "greed",
-    "detail": "Fear&Greed 63 (greed)"
+    "detail": "Fear&Greed 62 (greed)"
    }
   ]
  },
@@ -162,10 +162,10 @@
    "section": "crypto",
    "class": "crypto",
    "pct": 2,
-   "last": 64066,
+   "last": 64053.9,
    "newsCount": 10,
    "latestNews": {
-    "title": "Live updates: Bitcoin remains trapped in tight range as big AI compute deals continue to roll in - coindesk.com",
+    "title": "Live updates: Bitcoin remains trapped in tight range as big AI compute deals continue to roll in - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcUtJUEF0eVIya0hfRGIzeDBBb2ZRMUtSMjVmQzdVQkRERkxXSkctcnRWS0wyeHV1Rk43bExEb001dnl5c3doN0RaVWszUkJFWVVTRURQZjlGckFYLTNuX1N0aTdVbmdLZ2YtSklCdjc0dEM2UkZEMUpFSzUtNDRKR01yX2xTRDAtaG1IZjNPV1VkRl9jZ2JRV3FlN0RISHdENFZBQWc2WGZsZUp5eDcwbzNZQzMyb2xHNmc?oc=5",
     "time": "10:30 AM"
    },
@@ -177,7 +177,7 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 10.8,
+   "pct": 10.7,
    "last": 18.4,
    "newsCount": 2,
    "latestNews": {
@@ -198,8 +198,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 3.5,
-   "last": 46.3,
+   "pct": 3.7,
+   "last": 46.4,
    "newsCount": 12,
    "latestNews": {
     "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here. - Yahoo Finance",
@@ -219,8 +219,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 9.1,
-   "last": 278.3,
+   "pct": 8.8,
+   "last": 277.5,
    "newsCount": 18,
    "latestNews": {
     "title": "ChatGPT Disagrees With Michael Burry Over Nebius (NBIS) - Yahoo Finance",
@@ -240,8 +240,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 5.8,
-   "last": 511.1,
+   "pct": 5.9,
+   "last": 511.4,
    "newsCount": 18,
    "latestNews": {
     "title": "AMD (AMD) Stock Trades Up, Here Is Why - Yahoo Finance",
@@ -260,8 +260,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 2.8,
-   "last": 31.5,
+   "pct": 2.4,
+   "last": 31.4,
    "newsCount": 4,
    "latestNews": {
     "title": "Applied Digital Stock (APLD) Opinions on AI Infrastructure Expansion - Quiver Quantitative",
@@ -281,8 +281,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 8.8,
-   "last": 17.7,
+   "pct": 8.1,
+   "last": 17.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Discover TeraWulf And 2 Other Growth Stocks With Significant Insider Ownership - simplywall.st",
@@ -302,7 +302,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 2.9,
+   "pct": 3.3,
    "last": 7.9,
    "newsCount": 1,
    "latestNews": {
@@ -339,8 +339,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 6.9,
-   "last": 12.3,
+   "pct": 7.4,
+   "last": 12.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -356,8 +356,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 4,
-   "last": 13.1,
+   "pct": 3.6,
+   "last": 13,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -368,8 +368,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -1.2,
-   "last": 120,
+   "pct": -1.5,
+   "last": 119.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -380,7 +380,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
+   "pct": -0.6,
    "last": 25.9,
    "newsCount": 0,
    "latestNews": null,
@@ -392,8 +392,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.7,
-   "last": 226.9,
+   "pct": 0.8,
+   "last": 227.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Strikes Deal With OpenAI As Tenant; Is Nvidia A Buy Now? - Investor's Business Daily",
@@ -412,11 +412,11 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 1.2,
+   "pct": 1,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
-    "title": "XRP price analysis: What next for Ripple-linked token as bearish chatter rises - coindesk.com",
+    "title": "XRP price analysis: What next for Ripple-linked token as bearish chatter rises - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3lwbmdSbHp4aTNoTXVKeG00VWxpRTh0dUxBZ1dfM21aVmNmeTBXRS02c2Z3cXlBS2VmX2RLZFl6VjdRb0pjQUVPOFpjeklJNVdheXFVc2loQU9DTkh1VVl5cHZQUlJ4NmdJcWdGSjg0dzhJb0d0ZnZFZmFQb0JMcTliOUtiVWlfTkJ5VlMzaHJpbkZYLTBmRnMxX3hoVFVOYmxvNGZPMkJUUFBKOGRjOXZIbFlqREZtVS11dkcxSQ?oc=5",
     "time": "12:43 AM"
    },
@@ -428,7 +428,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -21.4,
+   "pct": -21.6,
    "last": 9.4,
    "newsCount": 2,
    "latestNews": {
@@ -444,8 +444,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 4.5,
-   "last": 83.7,
+   "pct": 4.7,
+   "last": 83.8,
    "newsCount": 18,
    "latestNews": {
     "title": "What's Going On With Rocket Lab Stock Monday? - benzinga.com",
@@ -460,13 +460,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -2.6,
-   "last": 174.4,
+   "pct": -2.9,
+   "last": 173.9,
    "newsCount": 8,
    "latestNews": {
-    "title": "Top Midday Stories: Nvidia Investing $1.5 Billion in SB Energy; L3Harris Names Sam Mehta as CEO, Replacing Christopher Kubasik",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/top-midday-stories-nvidia-investing-154830059.html?.tsrc=rss",
-    "time": "11:48 AM"
+    "title": "Where Will Palantir Stock Be in 2030? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdlpqdV83STg2SFNiS2pDT1dYeEh3NmFQRWt5MFRhQTFTSHBkeWZFXzB2UVBkMGsySXliYXVJZnByU1pxZFF0SmlKcC1HRWlEcE9WOHFkcWNZLXF6ZHc2S2dRN0J2NWZyczQxTnN4ck5kVUhjdDF6RmVrS3NCTHp4cl9Ob2ZPdw?oc=5",
+    "time": "12:30 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -476,15 +476,19 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -3.1,
-   "last": 481.7,
+   "pct": -3.5,
+   "last": 479.6,
    "newsCount": 13,
    "latestNews": {
     "title": "Microsoft’s Cloud Pitch Moved From Migrations To Meters - Trefis",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaUZDTmFIWlozR1BhZ25nbGhsQUxoWmlzQzUxQWdzWGFUaDJ4T3BpLTFyYktXX01HNDR6T3ZNSWc4NEk5OWFmdWYtMy1oaTEzU0l1Qm9NZXFiYTRGNjExRG5fUlBUNWI1bktEaFlESDlWdDAyZ05SR19oZXp4ZUhWR05DMWZoVm5OekdsNEdqN2h2X2hUbU90RVlBM1dod3MzTVpGcWpsakxpb1ZCb1ZraHU1YlVRZw?oc=5",
     "time": "12:11 PM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "There are only ~75 southern resident orcas left in the Salish Sea, and hidden in the sounds beneath the water is information that could help protect them. Now, AI is helping conservationists listen at scale, identifying whales in real time and alerting mariners when they're nearby so they can slow down and steer clear. https://msft.it/6000aK5gY",
+    "url": "https://nitter.net/Microsoft/status/2089389292564930960#m",
+    "time": "12:30 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -492,13 +496,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -1.8,
-   "last": 28.3,
+   "pct": -1.3,
+   "last": 28.4,
    "newsCount": 4,
    "latestNews": {
-    "title": "3 Market-Beating Stocks to Research Further",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/3-market-beating-stocks-research-154220502.html?.tsrc=rss",
-    "time": "11:42 AM"
+    "title": "5 Revealing Analyst Questions From Hims & Hers Health’s Q2 Earnings Call",
+    "link": "https://finance.yahoo.com/healthcare/articles/5-revealing-analyst-questions-hims-063820034.html?.tsrc=rss",
+    "time": "2:38 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -508,13 +512,13 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -0.7,
-   "last": 343.9,
+   "pct": -1,
+   "last": 342.7,
    "newsCount": 14,
    "latestNews": {
-    "title": "Alphabet: External TPU Sales Are A Likely Game Changer (NASDAQ:GOOG) (NASDAQ:GOOGL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGt3dmg3WGZaM2NFaUJ5UkpUcU9WMUZwS1RxZFRnX2ZBenJSay1meU5NcUoxQTAwVy1sU1laaGE3SXNyUk5jRExGWW5BT3JCZmpnMUgxUlY3c05ac0VWYVhDV21yUEZDSjZCVU5OeUtRUmk3TnZYeWpzNWpzWk55QklfdXZhMG84RmVfTFNoOVljZw?oc=5",
-    "time": "11:21 AM"
+    "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVXBrT0RMVEh2Xy1FT2wzNHNtVE91NnBTSU1adGhpTHo1UnNVMExsc0dHQlFHNUNFWjhLMWtvVUxfSDBaNVc2TFpISU1JaHpib1lIWHFKSzh3NkRyTlprVXJCMXM3SHBvd0lFRjA3a2lmQmNzNU4ydE9tX3ZHUmdUWEdmOXNZMGpIV3ZNRUZxNjlpNmNxczNn?oc=5",
+    "time": "6:06 PM"
    },
    "latestPost": {
     "text": "One prompt → your next landing page. We hooked up Gemini 3.7 Flash with Nano Banana and Omni in @Antigravity to build an interactive landing page from scratch, generating the copy, images, and video in a single shot.",
@@ -529,7 +533,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": 1,
-   "last": 4481.3,
+   "last": 4480.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold, silver rise as softer data cuts Fed-hike odds - Kitco AM Report - KITCO",
@@ -544,13 +548,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.4,
-   "last": 88.9,
+   "pct": 0.9,
+   "last": 89.3,
    "newsCount": 10,
    "latestNews": {
-    "title": "Current price of oil as of Aug. 17, 2026 - fortune.com",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fSXp3bHBkaFNMQi1VVDJLRnVSZEQ4bkVYaFB4UUhYZjR5S0JLS3lWcm12X0cwZ2NndlpTMG5lLWJZSUpscFVIclBwcFloaGh1ZnZ3VVVib2w2Wld6WkpsaFZB?oc=5",
-    "time": "8:06 AM"
+    "title": "Citi Raises Brent Forecast for 2026; Sees $150 Oil if Hormuz Disruption Persists - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdk5UVWpBQWFNVy1reG1ZeFlEdlQxcWlxWkMzTFNfUmFKdVFZaWRqNm4zTFo5V05Pd2o5b3hpOXNLeWJ3Tm9XdzR1aEk1VWd1S29vaW1GUVZ1OTU5c0hsUE5fWnhUV1RoakRubVlGcW14cHBhaER0VzZmeDVFNGZkeEVUb2l6WGhtTVlBUXBMTFFYNkMwalRYZmYzQUItWEhDLUhiVkdaOFBoU0Q4Vnc?oc=5",
+    "time": "9:18 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -560,8 +564,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.1,
-   "last": 82.5,
+   "pct": 0.5,
+   "last": 82.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
@@ -628,6 +632,17 @@
    "source": "",
    "text": "IREN Stock: Earnings Could Spark Big Move as Short Interest Reaches 26% - benzinga.com",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRDFZR0M5cVVTamI3Ul9wTkp5el9TR0h0QjNLN0RFR1JkeHNWR0dmeUk3QndqczlaWTJiRnYxYmNibktWVXFJd3ZSaEllMDBDRVQ2c3ktenRCU1lacnZTSk5YMWJVMFdkT2ZRWHFlbW5vcFZwb3pLRlBtZ0tUU3JxVXpfYnp6MklTeWJuTVFvVlNOa2UxSWFOOVpFT24yZ2x3YnJZNmVLbjcyNnZZdXd0dExkVnIwN29aajVkUTBqNmhkOHQ5dUJR?oc=5"
+  },
+  {
+   "id": "d733b816b35e",
+   "type": "post",
+   "symbol": "MSFT",
+   "section": "macro",
+   "time": 1786984200000,
+   "timeLabel": "12:30 PM",
+   "handle": "@Microsoft",
+   "text": "There are only ~75 southern resident orcas left in the Salish Sea, and hidden in the sounds beneath the water is information that could help protect them. No…",
+   "url": "https://nitter.net/Microsoft/status/2089389292564930960#m"
   },
   {
    "id": "aa5756ececa2",
@@ -6398,6 +6413,15 @@
    "stBull": null,
    "regime": 85.7,
    "composite": 59.9
+  },
+  {
+   "t": 1786986230975,
+   "label": "Aug 17 2026 1:03 PM ET",
+   "cnn": 62,
+   "crypto": 31,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 59.6
   }
  ],
  "degraded": []
