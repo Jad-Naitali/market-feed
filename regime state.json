@@ -35,29 +35,29 @@
       "raw": {
         "last": 99.45,
         "avg": 100.33,
-        "gap": -0.88
+        "gap": -0.87
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.11 vs VIX3M 18.88",
+      "detail": "VIX 15.02 vs VIX3M 18.86",
       "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
-        "vix": 15.11,
-        "vix3m": 18.88,
-        "diff": -3.77
+        "vix": 15.02,
+        "vix3m": 18.86,
+        "diff": -3.84
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 2.71pp vs 20-obs avg 2.75pp (as of 2026-08-13)",
-      "asOfMs": 1786579200000,
+      "detail": "HY spread 2.67pp vs 20-obs avg 2.75pp (as of 2026-08-14)",
+      "asOfMs": 1786665600000,
       "status": "ok",
       "raw": {
-        "spread": 2.71,
+        "spread": 2.67,
         "avg": 2.75,
         "newHigh": false
       }
@@ -65,13 +65,13 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d 0.3% vs others 0.8%",
+      "detail": "defensives 5d 0.2% vs others 0.6%",
       "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.3,
-        "othMedPct": 0.8,
-        "diffPct": -0.5
+        "defMedPct": 0.2,
+        "othMedPct": 0.6,
+        "diffPct": -0.3
       }
     },
     "breadth": {
@@ -89,11 +89,11 @@
     "sentiment": {
       "state": "greed",
       "vote": "on",
-      "detail": "Fear&Greed 63 (greed)",
-      "asOfMs": 1786975019000,
+      "detail": "Fear&Greed 62 (greed)",
+      "asOfMs": 1786977696000,
       "status": "ok",
       "raw": {
-        "score": 63,
+        "score": 62,
         "rating": "greed"
       }
     }
@@ -112,7 +112,7 @@
       },
       {
         "name": "DAX",
-        "pct": -0.2,
+        "pct": -0.1,
         "asOfMs": 1786950000000
       }
     ],
@@ -592,5 +592,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786975345017
+  "updatedMs": 1786977900418
 }
