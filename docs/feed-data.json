@@ -1,28 +1,28 @@
 {
- "generatedAt": "Aug 17, 2026, 3:34 PM ET",
- "generatedAtMs": 1786995284336,
+ "generatedAt": "Aug 17, 2026, 3:59 PM ET",
+ "generatedAtMs": 1786996776652,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-08-17 15:00 ET",
-  "pricesAsOf": "Aug 17, 2026, 3:34 PM ET",
+  "pricesAsOf": "Aug 17, 2026, 3:59 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7774,
+     "value": 7773.75,
      "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30097,
+     "value": 30115.75,
      "change": -0.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.19,
-     "change": 6.6,
+     "value": 15.24,
+     "change": 6.9,
      "invert": true
     }
    ],
@@ -40,7 +40,7 @@
   },
   "gauges": {
    "cnn": {
-    "score": 61,
+    "score": 60,
     "rating": "greed",
     "prevClose": 65,
     "prevWeek": 65,
@@ -80,11 +80,11 @@
   ]
  },
  "mood": {
-  "composite": 58.4,
+  "composite": 58.9,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 61
+    "value": 60
    },
    {
     "name": "Crypto Fear & Greed",
@@ -92,42 +92,43 @@
    },
    {
     "name": "Regime (% voters risk-on)",
-    "value": 83.3
+    "value": 85.7
    }
   ],
   "rating": "Neutral"
  },
  "regime": {
   "label": "risk-on",
-  "tally": "5-1",
-  "on": 5,
+  "tally": "6-1",
+  "on": 6,
   "off": 1,
   "drivers": [
+   "curve positive",
    "dollar soft",
    "VIX in contango",
    "credit spreads tight",
    "cyclicals leading",
    "sentiment greed"
   ],
-  "score": 83.3,
+  "score": 85.7,
   "components": [
    {
     "name": "curve",
-    "vote": "abstain",
-    "state": "unknown",
-    "detail": "curve feed unavailable"
+    "vote": "on",
+    "state": "normal",
+    "detail": "10y-2y 0.53pp (2y 4.19, 10y 4.72)"
    },
    {
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 99.59 vs 20d avg 100.33"
+    "detail": "DXY 99.57 vs 20d avg 100.33"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.2 vs VIX3M 19.02"
+    "detail": "VIX 15.24 vs VIX3M 19.06"
    },
    {
     "name": "credit",
@@ -139,7 +140,7 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -0.4% vs others -0.3%"
+    "detail": "defensives 5d -0.3% vs others 0.3%"
    },
    {
     "name": "breadth",
@@ -151,7 +152,7 @@
     "name": "sentiment",
     "vote": "on",
     "state": "greed",
-    "detail": "Fear&Greed 61 (greed)"
+    "detail": "Fear&Greed 60 (greed)"
    }
   ]
  },
@@ -160,8 +161,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 2.4,
-   "last": 64296.6,
+   "pct": 2.3,
+   "last": 64273.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Live updates: Bitcoin remains trapped in tight range as big AI compute deals continue to roll in - CoinDesk",
@@ -176,8 +177,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 10.7,
-   "last": 18.4,
+   "pct": 11.1,
+   "last": 18.5,
    "newsCount": 3,
    "latestNews": {
     "title": "CIFR Stock Forecast 2030: The Digital AI Landlord Thesis - Northwise Project",
@@ -197,9 +198,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 0.6,
-   "last": 45,
-   "newsCount": 12,
+   "pct": 0.3,
+   "last": 44.9,
+   "newsCount": 13,
    "latestNews": {
     "title": "How IREN Is Cashing In on the AI Data Center Boom - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbURVQ29scHhwbi0xUENzdWpQNkRBcndsTWdDMGZTSUdZa3dJSVhNRkhNMmR1TXk3UW14NFpNc0t3UXRNOUF6ckFja3lNbHQxa2R6OFZUalpZYUtOYzNCbFFTMm9LZGV3eHFJSjgxVHUxUFBLTFhJOHdjcl9WNnd3QU1wTFFSa1Z4by13UXV4YzVWcTdfN3c?oc=5",
@@ -218,8 +219,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 6.6,
-   "last": 271.8,
+   "pct": 5.5,
+   "last": 269,
    "newsCount": 18,
    "latestNews": {
     "title": "ChatGPT Disagrees With Michael Burry Over Nebius (NBIS) - Yahoo Finance",
@@ -243,13 +244,13 @@
    "last": 506.3,
    "newsCount": 18,
    "latestNews": {
-    "title": "AMD Stock Slips Despite Reports of a Google TPU Partnership - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV1ExdzRubENZVEhuckhwaW5DaFNRb3BKUzJmYTJhUHJ2c0ltYXcwWktxWTM1cUxKRzAzS2J4Wmp1Zm1kM3BOeUVIZV9EWEtOWmhqekZMQTFJdGZKdGRBdWRfSGE3TU5YVS1OR19oSGx5SWlud09WN2pyc2FIdG51NXcxRjl5M3d0UUJZRFFXTFBIU1k?oc=5",
-    "time": "12:39 PM"
+    "title": "Advanced Micro Devices (AMD) Is Positioned for the Next Wave of AI Demand - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSDJfeXlKYmRPbzdoRTVJVTVCbVBuNHk2d2pEV0M3TDVXWGNEM0JqaXZldjAzRXFXUVQtRUtMbkNrcUJzaHdsMldvZzRMM3VGSEEtbXcwYlQ2blNtaDYwb0VDN2lzNTZVVlNtNDVmSkVTelBiM3hXVGt3Nm5DalREWkNBcjV6M0VVZTFvVWZwSW1BcG9PNmtCemxNUlVCaEVGazEw?oc=5",
+    "time": "3:47 PM"
    },
    "latestPost": {
-    "text": "Built for the agentic era.\n\nHear AMD Chair and CEO Dr. @LisaSu introduce 6th Gen AMD EPYC \"Venice.\" https://t.co/lSn4osAvIo",
-    "url": "https://x.com/AMD/status/2089397121812226159",
+    "text": "Built for the agentic era. Hear AMD Chair and CEO Dr. @LisaSu introduce 6th Gen AMD EPYC \"Venice.\"",
+    "url": "https://nitter.net/AMD/status/2089397121812226159#m",
     "time": "1:01 PM"
    },
    "latestFiling": null,
@@ -259,8 +260,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 1.7,
-   "last": 31.1,
+   "pct": 1.8,
+   "last": 31.2,
    "newsCount": 4,
    "latestNews": {
     "title": "Applied Digital Stock (APLD) Opinions on AI Infrastructure Expansion - Quiver Quantitative",
@@ -280,8 +281,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 8.7,
-   "last": 17.7,
+   "pct": 8.1,
+   "last": 17.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Discover TeraWulf And 2 Other Growth Stocks With Significant Insider Ownership - simplywall.st",
@@ -301,7 +302,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 3.1,
+   "pct": 3.3,
    "last": 7.9,
    "newsCount": 1,
    "latestNews": {
@@ -317,9 +318,9 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 7.9,
-   "last": 5.4,
-   "newsCount": 1,
+   "pct": 9.8,
+   "last": 5.5,
+   "newsCount": 2,
    "latestNews": {
     "title": "New Era secures key permits for Texas Critical Data Centers, sees capacity rising",
     "link": "https://www.proactiveinvestors.com/companies/news/1097135/new-era-secures-key-permits-for-texas-critical-data-centers-sees-capacity-rising-1097135.html?.tsrc=rss",
@@ -338,7 +339,7 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 7.4,
+   "pct": 7.6,
    "last": 12.4,
    "newsCount": 0,
    "latestNews": null,
@@ -355,13 +356,13 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 5,
+   "pct": 4.8,
    "last": 13.2,
-   "newsCount": 2,
+   "newsCount": 1,
    "latestNews": {
-    "title": "Strive (NASDAQ:ASST) Stock Price Up 6.6% - What's Next? - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNmVrN05HdzM0eVBEUUxraWRTZjVmVUtqYUpfTGdBRU9laHZRNnRLaTQ0Z2psZ1h2UHRlMXFOdzdUMkdveUdNTXFQa2xoU0V0NDUtLTRRcTNnb2FtQnVmRkpOVkp6Zi1aS0V6RVU5Y0lqeDNlWTRXdEhIVHJ0ajBodmNRMWlGQXp6MzR6Zlp6UF9kWWVUYThxT1d5eTQxb05nc1E?oc=5",
-    "time": "2:23 PM"
+    "title": "AI Networking Stocks Are Rallying on Monday. Marvell Up 8%, Credo Up 8%, Ciena Joins the Move",
+    "link": "https://247wallst.com/investing/2026/08/17/ai-networking-stocks-are-rallying-on-monday-marvell-up-8-credo-up-8-ciena-joins-the-move/?.tsrc=rss",
+    "time": "1:06 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -371,8 +372,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
-   "last": 120.6,
+   "pct": -0.6,
+   "last": 120.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -383,7 +384,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.4,
+   "pct": -0.5,
    "last": 26,
    "newsCount": 0,
    "latestNews": null,
@@ -395,8 +396,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.2,
-   "last": 225.8,
+   "pct": 0,
+   "last": 225.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Strikes Deal With OpenAI As Tenant; Is Nvidia A Buy Now? - Investor's Business Daily",
@@ -415,7 +416,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.7,
+   "pct": 0.8,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -431,11 +432,11 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -21.1,
-   "last": 9.4,
+   "pct": -20.4,
+   "last": 9.5,
    "newsCount": 2,
    "latestNews": {
-    "title": "TSS management has two August conference dates—where? - stocktitan.net",
+    "title": "TSS management has two August conference dates—where? - Stock Titan",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZFllTmYxTnZrdUZ0SmliYnZZbVJhMTFtWHhDRHJiYTBWTGVRbmd2UDUySUh3bU1FOVF2cEdvNEZtckNwMkgtWnFLZm9FWVBaclM0d3owb2FBUmtTTHBRRU1WRWV4RHNUMTUwMlg1TFd5SE45YWFnWm0wajYxXzhtQjVHVXVMOTYybmh3UFQybElOMFo3V2tabWhB?oc=5",
     "time": "9:00 AM"
    },
@@ -447,8 +448,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 2,
-   "last": 81.7,
+   "pct": 2.6,
+   "last": 82.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab Stock’s Next Leg Rides On A Vehicle That Has Not Flown Yet - Trefis",
@@ -467,8 +468,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -3.2,
-   "last": 173.3,
+   "pct": -3.6,
+   "last": 172.6,
    "newsCount": 11,
    "latestNews": {
     "title": "Where Will Palantir Stock Be in 2030? - The Motley Fool",
@@ -483,8 +484,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -3.4,
-   "last": 480.1,
+   "pct": -3.3,
+   "last": 480.6,
    "newsCount": 13,
    "latestNews": {
     "title": "Microsoft Faces 2.2 Million Chip Gap; Microsoft Stock (NASDAQ:MSFT) Slides - TipRanks",
@@ -503,8 +504,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -1.4,
-   "last": 28.4,
+   "pct": -0.6,
+   "last": 28.6,
    "newsCount": 5,
    "latestNews": {
     "title": "Hims & Hers Stock (HIMS) Opinions on Five-Year Public Listing Anniversary - Quiver Quantitative",
@@ -519,8 +520,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -0.8,
-   "last": 343.4,
+   "pct": -0.6,
+   "last": 344.2,
    "newsCount": 15,
    "latestNews": {
     "title": "‘Historic Moment’ as Alphabet Eyes First Australian Dollar Bond Sale; GOOGL Stock Rises - TipRanks",
@@ -539,13 +540,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.8,
-   "last": 4472.1,
+   "pct": 0.9,
+   "last": 4476.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold, silver rise as softer data cuts Fed-hike odds - Kitco AM Report - KITCO",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLW50clZScjJuWHJxUDhKOFVSNHBoX0FCR1l0a3lFc2RlTkxzQjYxR1NPZGQzeE1XRHZ4Tkh0Q29yY0FHQmlqV09UTjVBUmR4alI0d0FqTUxlaDJ6dFcwNS1GMFRiUmdIRWhodFl6c21ZaHliLVo4aEJZdkVvVkZiTFhEOEswVkdBcVpmZk5fSGdvVkRGa1ZWX2h6U3B0WnJ3QkFCS2pQeWxjMjYxOFE?oc=5",
-    "time": "6:05 AM"
+    "time": "9:51 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -606,6 +607,28 @@
    "source": "",
    "text": "AI Money Moves Put These Five Stocks In Spotlight Last Week: NVDA, INTC, ORCL, AMD, SNDK - TradingView",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPTVVVMU5ZcWxVWk1HRnNleEcxQ2pxZ3hXanVDQXQ2MENTR0k5dlVyWDA2OEZaaG13R2MxUm5SY182MXdWR3ZaYXZQbzVvUGlFdE1yRVhzTjhLNzQ5RkZDSkZ1aG1sQ2Q1M0RrRk00cnI3RlBCejZDMmhVTXFHTnpkdjBaU3pTM0pfU0NDejhjNld2SHh4V1A0NE1DUnVKT3hybzVyalVqbjJEZ3N6ZF9HQmY3SHV5anRsalpkV0o5TVF5NU1KQ2JnaXhlMkxfNW4wSVk4RElxT1BWZXBL?oc=5"
+  },
+  {
+   "id": "07256aa6eb0a",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1786996440000,
+   "timeLabel": "3:54 PM",
+   "source": "",
+   "text": "IREN delivers first of four AI cloud deployments to Microsoft under $9.7 billion deal - The Block",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUy1IV0kwYTVkZWlJbXhEZ1c3cjJvM0g2ZXZRVmVpUTczdFVHd1Yydk9lQXA4cU01SnNDNkM0MXdmTlZlQUpyNUdOVGJhR0lSbzlZdWZpSDYyWjdkaVE1MUt4cTYyMERtY3hFd2l6WTF5c19pZ2NPNWlRN2ZoQ1paOHV5a3Jmam5vQjVLYkdBVXAxVEhXMnZDWEpiM3BmbHBETXE1bklBX0JRZnVIV1VIa1JoMW5lTl9HOGJIeC1LNUpFcHVPSmdrUENWZ20yQVU?oc=5"
+  },
+  {
+   "id": "ef2041e95e50",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1786996020000,
+   "timeLabel": "3:47 PM",
+   "source": "",
+   "text": "Advanced Micro Devices (AMD) Is Positioned for the Next Wave of AI Demand - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSDJfeXlKYmRPbzdoRTVJVTVCbVBuNHk2d2pEV0M3TDVXWGNEM0JqaXZldjAzRXFXUVQtRUtMbkNrcUJzaHdsMldvZzRMM3VGSEEtbXcwYlQ2blNtaDYwb0VDN2lzNTZVVlNtNDVmSkVTelBiM3hXVGt3Nm5DalREWkNBcjV6M0VVZTFvVWZwSW1BcG9PNmtCemxNUlVCaEVGazEw?oc=5"
   },
   {
    "id": "464e30357732",
@@ -1365,6 +1388,17 @@
    "source": "",
    "text": "Micron stock heats up again, crossing $1,000",
    "url": "https://finance.yahoo.com/markets/stocks/article/micron-stock-heats-up-again-crossing-1000-115304344.html?.tsrc=rss"
+  },
+  {
+   "id": "3c8a24ce3cb0",
+   "type": "news",
+   "symbol": "NUAI",
+   "section": "trading",
+   "time": 1786967280000,
+   "timeLabel": "7:48 AM",
+   "source": "",
+   "text": "Nasdaq dips under water as investors brace for a busy week of retail results",
+   "url": "https://www.proactiveinvestors.com/companies/news/1097132/wall-street-eyes-retail-earnings-as-futures-drift-ahead-of-the-bell-1097132.html?.tsrc=rss"
   },
   {
    "id": "5e4e79b5543b",
@@ -6685,6 +6719,15 @@
    "stBull": null,
    "regime": 83.3,
    "composite": 58.4
+  },
+  {
+   "t": 1786996776652,
+   "label": "Aug 17 2026 3:59 PM ET",
+   "cnn": 60,
+   "crypto": 31,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 58.9
   }
  ],
  "degraded": []
