@@ -1,16 +1,17 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "6-1",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
       "credit spreads tight",
+      "breadth broad",
       "sentiment greed"
     ],
-    "on": 5,
-    "off": 2
+    "on": 6,
+    "off": 1
   },
   "components": {
     "curve": {
@@ -28,25 +29,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.65 vs 20d avg 100.34",
+      "detail": "DXY 99.63 vs 20d avg 100.34",
       "asOfMs": 1787025600000,
       "status": "ok",
       "raw": {
-        "last": 99.65,
+        "last": 99.63,
         "avg": 100.34,
-        "gap": -0.69
+        "gap": -0.71
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.68 vs VIX3M 19.04",
+      "detail": "VIX 15.8 vs VIX3M 20.54",
       "asOfMs": 1787036400000,
       "status": "ok",
       "raw": {
-        "vix": 15.68,
-        "vix3m": 19.04,
-        "diff": -3.36
+        "vix": 15.8,
+        "vix3m": 20.54,
+        "diff": -4.74
       }
     },
     "credit": {
@@ -64,32 +65,32 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.1% vs others 0.8%",
-      "asOfMs": 1786714200000,
+      "detail": "defensives 5d 0.6% vs others -0.1%",
+      "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.1,
-        "othMedPct": 0.8,
-        "diffPct": 0.3
+        "defMedPct": 0.6,
+        "othMedPct": -0.1,
+        "diffPct": 0.7
       }
     },
     "breadth": {
-      "state": "below 20d avg",
-      "vote": "off",
-      "detail": "RSP/SPY 0.2869 vs 20d avg 0.2874",
-      "asOfMs": 1786714200000,
+      "state": "above 20d avg",
+      "vote": "on",
+      "detail": "RSP/SPY 0.2878 vs 20d avg 0.2875",
+      "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2869,
-        "avg": 0.2874,
-        "gap": -0.0005
+        "ratio": 0.2878,
+        "avg": 0.2875,
+        "gap": 0.0003
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 59 (greed)",
-      "asOfMs": 1787055961000,
+      "asOfMs": 1787058661000,
       "status": "ok",
       "raw": {
         "score": 59,
@@ -101,7 +102,7 @@
     "overnight": [
       {
         "name": "DAX",
-        "pct": -0.7,
+        "pct": -0.8,
         "asOfMs": 1787036400000
       },
       {
@@ -602,9 +603,14 @@
       "ts": 1787052243606,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787059829786,
+      "kind": "REGIME",
+      "line": "REGIME breadth below 20d avg -> above 20d avg"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787056921426
+  "updatedMs": 1787059830189
 }
