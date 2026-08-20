@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.89 vs 20d avg 100.1",
+      "detail": "DXY 98.86 vs 20d avg 100.02",
       "asOfMs": 1787198400000,
       "status": "ok",
       "raw": {
-        "last": 98.89,
-        "avg": 100.1,
-        "gap": -1.21
+        "last": 98.86,
+        "avg": 100.02,
+        "gap": -1.15
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16 vs VIX3M 19.07",
-      "asOfMs": 1787256691000,
+      "detail": "VIX 16.01 vs VIX3M 19.06",
+      "asOfMs": 1787232600000,
       "status": "ok",
       "raw": {
-        "vix": 16,
-        "vix3m": 19.07,
-        "diff": -3.07
+        "vix": 16.01,
+        "vix3m": 19.06,
+        "diff": -3.05
       }
     },
     "credit": {
@@ -76,20 +76,20 @@
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2888 vs 20d avg 0.2875",
+      "detail": "RSP/SPY 0.2889 vs 20d avg 0.2877",
       "asOfMs": 1787232600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2888,
-        "avg": 0.2875,
-        "gap": 0.0012
+        "ratio": 0.2889,
+        "avg": 0.2877,
+        "gap": 0.0011
       }
     },
     "sentiment": {
       "state": "neutral",
       "vote": "abstain",
       "detail": "Fear&Greed 52 (neutral)",
-      "asOfMs": 1787256915000,
+      "asOfMs": 1787258422000,
       "status": "ok",
       "raw": {
         "score": 52,
@@ -100,9 +100,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -3.2,
-        "asOfMs": 1787097600000
+        "name": "DAX",
+        "pct": -0.4,
+        "asOfMs": 1787209200000
       },
       {
         "name": "Hang Seng",
@@ -110,14 +110,14 @@
         "asOfMs": 1787103000000
       },
       {
-        "name": "DAX",
-        "pct": -0.4,
-        "asOfMs": 1787209200000
+        "name": "Nikkei",
+        "pct": -3.2,
+        "asOfMs": 1787097600000
       }
     ],
     "rates": {
-      "impliedRate": 3.72,
-      "changeBp": -9.2,
+      "impliedRate": 3.73,
+      "changeBp": -9.8,
       "asOfMs": 1787198400000
     }
   },
@@ -631,5 +631,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787257594844
+  "updatedMs": 1787259426396
 }
