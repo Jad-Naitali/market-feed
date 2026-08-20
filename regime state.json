@@ -29,25 +29,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.75 vs 20d avg 100.09",
+      "detail": "DXY 98.81 vs 20d avg 100.1",
       "asOfMs": 1787198400000,
       "status": "ok",
       "raw": {
-        "last": 98.75,
-        "avg": 100.09,
-        "gap": -1.35
+        "last": 98.81,
+        "avg": 100.1,
+        "gap": -1.29
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.32 vs VIX3M 18.57",
+      "detail": "VIX 15.98 vs VIX3M 18.57",
       "asOfMs": 1787209200000,
       "status": "ok",
       "raw": {
-        "vix": 15.32,
+        "vix": 15.98,
         "vix3m": 18.57,
-        "diff": -3.25
+        "diff": -2.59
       }
     },
     "credit": {
@@ -77,20 +77,20 @@
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2888 vs 20d avg 0.2877",
+      "detail": "RSP/SPY 0.2888 vs 20d avg 0.2875",
       "asOfMs": 1787146200000,
       "status": "ok",
       "raw": {
         "ratio": 0.2888,
-        "avg": 0.2877,
-        "gap": 0.0011
+        "avg": 0.2875,
+        "gap": 0.0012
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 57 (greed)",
-      "asOfMs": 1787225671000,
+      "asOfMs": 1787228971000,
       "status": "ok",
       "raw": {
         "score": 57,
@@ -102,7 +102,7 @@
     "overnight": [
       {
         "name": "DAX",
-        "pct": -0.4,
+        "pct": -0.7,
         "asOfMs": 1787209200000
       },
       {
@@ -117,8 +117,8 @@
       }
     ],
     "rates": {
-      "impliedRate": 3.76,
-      "changeBp": -13.2,
+      "impliedRate": 3.72,
+      "changeBp": -9.2,
       "asOfMs": 1787198400000
     }
   },
@@ -632,5 +632,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787226816031
+  "updatedMs": 1787229959471
 }
