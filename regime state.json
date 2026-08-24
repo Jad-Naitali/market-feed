@@ -29,25 +29,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.02 vs 20d avg 99.76",
+      "detail": "DXY 99.03 vs 20d avg 99.76",
       "asOfMs": 1787544000000,
       "status": "ok",
       "raw": {
-        "last": 99.02,
+        "last": 99.03,
         "avg": 99.76,
-        "gap": -0.74
+        "gap": -0.73
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.71 vs VIX3M 18.49",
+      "detail": "VIX 15.79 vs VIX3M 18.52",
       "asOfMs": 1787578200000,
       "status": "ok",
       "raw": {
-        "vix": 15.71,
-        "vix3m": 18.49,
-        "diff": -2.78
+        "vix": 15.79,
+        "vix3m": 18.52,
+        "diff": -2.73
       }
     },
     "credit": {
@@ -65,35 +65,35 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 2.9% vs others 1%",
+      "detail": "defensives 5d 3% vs others 1%",
       "asOfMs": 1787578200000,
       "status": "ok",
       "raw": {
-        "defMedPct": 2.9,
+        "defMedPct": 3,
         "othMedPct": 1,
-        "diffPct": 1.9
+        "diffPct": 2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2903 vs 20d avg 0.2877",
+      "detail": "RSP/SPY 0.2905 vs 20d avg 0.2877",
       "asOfMs": 1787578200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2903,
+        "ratio": 0.2905,
         "avg": 0.2877,
-        "gap": 0.0025
+        "gap": 0.0027
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
-      "detail": "Fear&Greed 56 (greed)",
-      "asOfMs": 1787597624000,
+      "detail": "Fear&Greed 55 (greed)",
+      "asOfMs": 1787599978000,
       "status": "ok",
       "raw": {
-        "score": 56,
+        "score": 55,
         "rating": "greed"
       }
     }
@@ -632,5 +632,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787597937081
+  "updatedMs": 1787600169688
 }
