@@ -1,39 +1,39 @@
 {
- "generatedAt": "Aug 24, 2026, 10:39 AM ET",
- "generatedAtMs": 1787582389533,
+ "generatedAt": "Aug 24, 2026, 11:21 AM ET",
+ "generatedAtMs": 1787584912834,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-08-24 10:00 ET",
-  "pricesAsOf": "Aug 24, 2026, 10:39 AM ET",
+  "asOfET": "2026-08-24 11:00 ET",
+  "pricesAsOf": "Aug 24, 2026, 11:21 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7663,
+     "value": 7662.75,
      "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29007.75,
-     "change": -1.3,
+     "value": 29059,
+     "change": -1.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.89,
-     "change": 5,
+     "value": 15.85,
+     "change": 4.8,
      "invert": true
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.1
+     "pct": 0
     },
     {
      "ticker": "QQQ",
-     "pct": -0.7
+     "pct": -0.8
     }
    ],
    "putCall": null
@@ -121,13 +121,13 @@
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 98.93 vs 20d avg 99.76"
+    "detail": "DXY 98.97 vs 20d avg 99.76"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.89 vs VIX3M 18.63"
+    "detail": "VIX 15.85 vs VIX3M 18.57"
    },
    {
     "name": "credit",
@@ -139,13 +139,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 3.1% vs others 1%"
+    "detail": "defensives 5d 3% vs others 0.7%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2905 vs 20d avg 0.2877"
+    "detail": "RSP/SPY 0.2904 vs 20d avg 0.2877"
    },
    {
     "name": "sentiment",
@@ -160,8 +160,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 2.4,
-   "last": 79609.4,
+   "pct": 2.6,
+   "last": 79739.1,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin’s Rally Leans on Fears That Fiscal Strains Are Mounting - Yahoo Finance",
@@ -176,8 +176,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -11.4,
-   "last": 15.3,
+   "pct": -12,
+   "last": 15.1,
    "newsCount": 1,
    "latestNews": {
     "title": "AI Infrastructure Valuations Suggest Cipher Mining And Hut 8 Are Deeply Undervalued, Says VanEck - Stocktwits",
@@ -197,8 +197,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -4.3,
-   "last": 40.8,
+   "pct": -5,
+   "last": 40.5,
    "newsCount": 5,
    "latestNews": {
     "title": "IREN Stock Gears Up for a Pivotal Week as Earnings Meet a Bitcoin Rally - Benzinga",
@@ -218,9 +218,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -6.5,
-   "last": 205.8,
-   "newsCount": 8,
+   "pct": -6.9,
+   "last": 205,
+   "newsCount": 9,
    "latestNews": {
     "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWJFd1lDUXI2WFZ3UUVWNDFaVVRMTnNSYWtYSmJpbi1sY2RpUkFtaUFmUFZhdV9Pc2VTOHFWSUFwaXlsWEJJWW42V25lZDJ5RDc4NE1aX0d6eGgyYkxlaXV3dXFYUWlrc0hWbWpxdmV6UWY1Q1hsNjV1cUlpaEJXemZpOFVWQTFYYUdGRFM5S2g3SnVqTE5rWktyQ3dsZTZUcWtLUEo3RFF6LWtXclV6dHZUc2h3Ui1FM3lieGwzVmdfeXdQb1BDTGl2M3ZabVZrVEE?oc=5",
@@ -239,8 +239,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -2.6,
-   "last": 457.1,
+   "pct": -2.8,
+   "last": 456.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027 - Currently.com",
@@ -255,9 +255,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -6.2,
-   "last": 26.9,
-   "newsCount": 1,
+   "pct": -5.6,
+   "last": 27,
+   "newsCount": 2,
    "latestNews": {
     "title": "Applied Digital (APLD) Prediction: Is A Short Squeeze Imminent? Kiki Rice (IYHDcwW4kR) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DeDJ3Q0VnRWpMUmZJdFFHR2RyaUFnS1RMM1doWll1eGRWMkhQYndwOWxiWWlGUWQ5c3ZMUThUdU5ITGNJajFfcHlPTUtZcFVTdy1Ja1FlUUxfelE?oc=5",
@@ -276,9 +276,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -3.2,
-   "last": 15.9,
-   "newsCount": 7,
+   "pct": -4.3,
+   "last": 15.7,
+   "newsCount": 8,
    "latestNews": {
     "title": "Why is Terawulf stock gaining today? - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObVJYdTdraHdPeFhLTFNCVXJONElkOU9wX09HbEI1bkk2Zlk0bnlfem1fQlQ3R0FGTE54eEJuRl9pX3dxemEyandfQjVZelNtX2lndWxTQm1DSkFRSVppVE5wa3hMY0h0OWxYQS11S2R6SVdoMy1DVC1abGNIYm1DMGNwSGZJa1pXQVlKN2gtSU0tS18wZWU2a3V5UzNlUQ?oc=5",
@@ -297,7 +297,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -3.4,
+   "pct": -3.2,
    "last": 7.6,
    "newsCount": 2,
    "latestNews": {
@@ -313,8 +313,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -11.6,
-   "last": 4.9,
+   "pct": -13.7,
+   "last": 4.8,
    "newsCount": 1,
    "latestNews": {
     "title": "Market Movers | Winners: AIAI, ARCT, TMC | Losers: ZIP, NUAI, SA - Trefis",
@@ -334,8 +334,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -2.2,
-   "last": 12.3,
+   "pct": -3.4,
+   "last": 12.2,
    "newsCount": 1,
    "latestNews": {
     "title": "CleanSpark unveils $6.6 billion AI lease, representing 214% of market value, as shares slide despite Bitcoin surge - TechStock²",
@@ -355,8 +355,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 24.1,
-   "last": 20,
+   "pct": 24.3,
+   "last": 20.1,
    "newsCount": 3,
    "latestNews": {
     "title": "Strive Jumps 5% as CEO Declares the Bitcoin Bear Market Over, Strategy and Bitmine Rise 3%",
@@ -371,8 +371,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -2.6,
-   "last": 115.2,
+   "pct": -3,
+   "last": 114.6,
    "newsCount": 2,
    "latestNews": {
     "title": "ABVX Stock Clocks Worst Day Ever On Malignancy Signal For Drug: ‘Pharma Bro’ Says ‘GLPs Are Doing Fine’ After Similar Fears - Stocktwits",
@@ -387,8 +387,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -1,
-   "last": 25.5,
+   "pct": -0.5,
+   "last": 25.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys (MLYS) Session: Loses 0.39% to Close at $25.65 in Latest Trading; Range Check: the Session Ends Within the Reported Technical Boundaries - Sign of Strength - vinanet.vn",
@@ -403,8 +403,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -3.1,
-   "last": 210.1,
+   "pct": -3.6,
+   "last": 209,
    "newsCount": 18,
    "latestNews": {
     "title": "Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
@@ -419,7 +419,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.2,
+   "pct": -0.3,
    "last": 1.5,
    "newsCount": 10,
    "latestNews": {
@@ -435,7 +435,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -2.8,
+   "pct": -3.3,
    "last": 8.5,
    "newsCount": 1,
    "latestNews": {
@@ -451,8 +451,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -4.6,
-   "last": 69.6,
+   "pct": -5.2,
+   "last": 69.2,
    "newsCount": 16,
    "latestNews": {
     "title": "RKLB Stock Jumps Overnight: Rocket Lab Lines Up Record Launch Blitz After Nasdaq-100 Entry - Stocktwits",
@@ -467,9 +467,9 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 0.9,
-   "last": 175.6,
-   "newsCount": 12,
+   "pct": 1.7,
+   "last": 176.9,
+   "newsCount": 11,
    "latestNews": {
     "title": "Trump’s Accounts Bought Palantir Stock in June. Is PLTR Still a Buy After a 46% Rally? - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbi1TQUNIU1RXcGVLbzZTdzFGWlA3aEEwM2FZT28zZjJYNHJIbzBMWGhoT00wb1g5bENCd3g3MDJHNHVuWkE1X21YQmgtcUc0LVdud1lBN09nZU92VU9feW9iNFN4Sks5NDdvTnlNYUs3SXZVWTZudktscmduTkRLLVJvYU0tbkY0NW5IbTExX2h5ZU8zdDUya3hnZEhRWG9nTG8zR2dJMDJCWGQzdjJRX0V3?oc=5",
@@ -483,13 +483,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 1.2,
-   "last": 486.9,
-   "newsCount": 9,
+   "pct": 1.3,
+   "last": 487.6,
+   "newsCount": 8,
    "latestNews": {
-    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
-    "time": "11:11 AM"
+    "title": "Nvidia Could Drop 20% On Poor Earnings",
+    "link": "https://247wallst.com/investing/2026/08/24/nvidia-could-drop-20-on-poor-earnings/?.tsrc=rss",
+    "time": "10:33 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -499,13 +499,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -2,
-   "last": 31.2,
-   "newsCount": 2,
+   "pct": -2.8,
+   "last": 31,
+   "newsCount": 3,
    "latestNews": {
-    "title": "BetterHelp Has the Demand: Can Teladoc Build the Capacity?",
-    "link": "https://finance.yahoo.com/healthcare/articles/betterhelp-demand-teladoc-build-capacity-141800729.html?.tsrc=rss",
-    "time": "10:18 AM"
+    "title": "Why is Hims & Hers Health stock crashing over 10% today? - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcUp3bXM2ajRkVk5aUlBvZXRHaGxyUThycmFUU3NqSW0zU0ZVTXlWRzFxQmRiRElCa0VpREl1bzBpZ3gzTUVDRk1US29RV2kwQmdONGFEUnI0S1pqUllPZGxPRzZRby1mc3RScG9JM2tDQnhObGx6Z1pQT2lsOHBYckZIbFc4N3hpWmQycy11YzEycnB6TkNKVVdrbVRWUXREUWNCWFV0UmJIcW5aaG43T0dndzdjZw?oc=5",
+    "time": "10:14 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -515,8 +515,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 2.4,
-   "last": 348.7,
+   "pct": 2.7,
+   "last": 349.9,
    "newsCount": 11,
    "latestNews": {
     "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short? - TradingKey",
@@ -532,12 +532,12 @@
    "section": "macro",
    "class": "commodity",
    "pct": 1.1,
-   "last": 4730,
+   "last": 4730.5,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold Extends Rally as Government Debt Concerns Mount - BullionVault",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdmFxMUhhLWxnTl9OQVVMY3M2VXo3QS15ODRlU1EtY3R0NVAxUUpHejBRMkFJS0VVSEk4d01rb0l1ODRVcXFSYUgyd0JBWmx4czZyMVhGSDBQQUJqWDF5Nzk2NkthR1k0VUl0RkZFS3NPMUlpd2lvRFhqOFduZjlPZFg2UnFFeHpiUkRWZk5NY3JxanA2ZVBlbHlHcU4yWW8?oc=5",
-    "time": "10:01 AM"
+    "title": "Gold’s Rally Pushes Price To Highest Level In 3 Months - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcENNcURlc0pvWXdodEVLYmpXa203dU81QjRMM1A2UEJfWFR1WFlaWERTZlNFM25nb3dvellTV28zQlZ3U0dLRHNVcGtGRHZnVm4zNlZ4bnVBeUVnaXFKYVZLVHlZMDkyRGt1QjJtbTU0MXprOThoaDZ1SzVKMVFNZTczN2NkR09sU2ZITEZ2Y0twem02UWhKUFgtWl9JSE1jOS1HUkxjN1ZDMldOeDB3?oc=5",
+    "time": "11:03 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -547,8 +547,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.1,
-   "last": 92.5,
+   "pct": -1.8,
+   "last": 92.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran - CNBC",
@@ -563,8 +563,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.5,
-   "last": 84.9,
+   "pct": -2.4,
+   "last": 85,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran - CNBC",
@@ -620,6 +620,61 @@
    "source": "",
    "text": "Applied Digital (APLD) Prediction: Is A Short Squeeze Imminent? Kiki Rice (IYHDcwW4kR) - Mshale",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DeDJ3Q0VnRWpMUmZJdFFHR2RyaUFnS1RMM1doWll1eGRWMkhQYndwOWxiWWlGUWQ5c3ZMUThUdU5ITGNJajFfcHlPTUtZcFVTdy1Ja1FlUUxfelE?oc=5"
+  },
+  {
+   "id": "f8d882eb9819",
+   "type": "news",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1787583780000,
+   "timeLabel": "11:03 AM",
+   "source": "",
+   "text": "NVIDIA says its AI accelerator offers 4x faster responses than the nearest alternative - Stock Titan",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFlIa0RLdzMwQWtSVEczbzJ2ZnlHQ1JXTVp6eXB6d1Z2NzVQMERQOXNDaENtdk5VQzN1ZC1PeTk1RFR3cUR1U0JvaXYtSWZ5WndnaDNPVWVEYlJ3WGkzTF85MVJYMllaZURVZFBRLTh4MTNlYWM1ZE1GWW1GMFdkTmtlMlBrYXk0Q1FpSVBqdEVpeG9fQXI1M3FDNl82OG5MWGtLSS1DdkJHMjNDQlMwTWFYZFRCNzFuaTlvYzBwSQ?oc=5"
+  },
+  {
+   "id": "2168ec010d26",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1787583600000,
+   "timeLabel": "11:00 AM",
+   "source": "",
+   "text": "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-groq-3-lpx-now-150000378.html?.tsrc=rss"
+  },
+  {
+   "id": "c959c10f523c",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1787582580000,
+   "timeLabel": "10:43 AM",
+   "source": "",
+   "text": "Semiconductor Stocks Slide Ahead of NVIDIA Earnings: Intel Falls 5%, AMD Slides 4%, Taiwan Semiconductor Slips 3% - 24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQmFiNk4tUVVKOWFFNXE4NlZrUVVPRVFlTUtTaFZFTnZ3TE5zTG54SmZOamgxNGZ6ZFdZYVV5YkdLVXE2RkliSXVLUENxMTVfc3ZEUGFrdVItUFV2akJaYXQ1VEYwQUJFYUM2Zk5TWHA0eGEwOVR0YTdLMU92Q0J4cTh3RDM5ck5aNk83RGxObGNWZWpJRVpvZDRXWEhmM0JSMHhCejZzOHFGV2lBSWZuS2VQWTN1cUZhRlM4TUplWnJMVVNlXzNqS0tVOWg3WURGdVpEa0FJbE8wNHhPWkxRMFV0UTgtUQ?oc=5"
+  },
+  {
+   "id": "2db84647b1e8",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1787582280000,
+   "timeLabel": "10:38 AM",
+   "source": "",
+   "text": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/aplds-power-advantage-strengthen-ai-143800584.html?.tsrc=rss"
+  },
+  {
+   "id": "66b940da27f1",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1787582280000,
+   "timeLabel": "10:38 AM",
+   "source": "",
+   "text": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV?",
+   "url": "https://finance.yahoo.com/technology/ai/articles/aplds-power-advantage-strengthen-ai-143800584.html?.tsrc=rss"
   },
   {
    "id": "ae20dd55e8c8",
@@ -6049,6 +6104,15 @@
   {
    "t": 1787582389533,
    "label": "Aug 24 2026 10:39 AM ET",
+   "cnn": 56,
+   "crypto": 73,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 71.6
+  },
+  {
+   "t": 1787584912834,
+   "label": "Aug 24 2026 11:21 AM ET",
    "cnn": 56,
    "crypto": 73,
    "stBull": null,
