@@ -1,27 +1,27 @@
 {
- "generatedAt": "Aug 25, 2026, 9:36 AM ET",
- "generatedAtMs": 1787664964693,
+ "generatedAt": "Aug 25, 2026, 10:27 AM ET",
+ "generatedAtMs": 1787668048032,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-08-25 09:00 ET",
-  "pricesAsOf": "Aug 25, 2026, 9:36 AM ET",
+  "asOfET": "2026-08-25 10:00 ET",
+  "pricesAsOf": "Aug 25, 2026, 10:27 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7699.5,
-     "change": 0.4,
+     "value": 7686,
+     "change": 0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29338,
-     "change": 0.8,
+     "value": 29249,
+     "change": 0.5,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.79,
+     "value": 15.78,
      "change": -0.4,
      "invert": true
     }
@@ -29,18 +29,18 @@
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.1
+     "pct": -0.1
     },
     {
      "ticker": "QQQ",
-     "pct": -0.1
+     "pct": -0.5
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 56,
+    "score": 59,
     "rating": "greed",
     "prevClose": 55,
     "prevWeek": 55,
@@ -90,11 +90,11 @@
   ]
  },
  "mood": {
-  "composite": 71.9,
+  "composite": 72.9,
   "components": [
    {
     "name": "CNN Fear & Greed",
-    "value": 56
+    "value": 59
    },
    {
     "name": "Crypto Fear & Greed",
@@ -138,7 +138,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.79 vs VIX3M 18.56"
+    "detail": "VIX 15.78 vs VIX3M 18.48"
    },
    {
     "name": "credit",
@@ -150,19 +150,19 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 1.3% vs others 0.9%"
+    "detail": "defensives 5d 1.1% vs others 1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2892 vs 20d avg 0.2875"
+    "detail": "RSP/SPY 0.2897 vs 20d avg 0.2875"
    },
    {
     "name": "sentiment",
     "vote": "on",
     "state": "greed",
-    "detail": "Fear&Greed 56 (greed)"
+    "detail": "Fear&Greed 59 (greed)"
    }
   ]
  },
@@ -171,13 +171,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.2,
-   "last": 79083.9,
+   "pct": 0.3,
+   "last": 79211.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Bitcoin price extends gains, briefly tops $80,000 overnight, as crypto rally gathers pace - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdlVlbW1UcGhZSVR6dW9SVTIxX2xrREJYT2VrTnBCRENqeVp4ZUdpUERjemp6QmNLY1h0cUlVYm91OVBublNPOXh0aVdHWHdaU0JyX2gwanhxM0FuYmhfbUNOQjF4UVZPenhjd2tBaDBzbF9DbnMySkotcUpoLVVtekJld2QzcjJaUDNfWFF0cnRRY3NvUk5SMVB6MjLSAaIBQVVfeXFMUE5UVkdmUVAwazBVMTE3Rk5qNUIyTmtPZFhtUzdOVmhSQV9fUUVlT3VpUmZnQnJ5WlR5WWxsTk5ycEpwV0xOMmlkR05NQWNLVzA3R0JYSk5YUFh6NE9CTGtzVXpfeVNLb2l6TFVQUWxKOWthZGlwdHZEMlQwT0JWOEdWVXQwdlViNW9uZG5SQmZKQUhLSTdrOVpuRHBrNUV6a19B?oc=5",
-    "time": "11:05 PM"
+    "title": "Bitcoin (BTC) Reaches Three-Month High of $80,000 as Momentum Returns - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0RqVUhSdU5UVTZiZnh3YlJsczNTWFA0Y1NDeHpYckcxNUduaGdDRXVhSWZscGFNbTE2Y2V1YnNSVTRGclozQzBMNFY2eTlmcFNGbjFBUjA3TUJOYmx4LW9ETWRObGgtVXNKZTVjVUxkYUl4bmtoam5fdk9IRFVpTFpTcDZqeGdGWUQtTFBoekRRQXpZNjhjZjBXV05zR2FWSUJCcVdCS05aNnFwSTFSbmwwVQ?oc=5",
+    "time": "6:33 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -187,9 +187,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 0.3,
-   "last": 15.8,
-   "newsCount": 3,
+   "pct": 1.2,
+   "last": 16,
+   "newsCount": 4,
    "latestNews": {
     "title": "Cipher Mining Inc. (NASDAQ:CIFR) Given Consensus Recommendation of \"Moderate Buy\" by Analysts - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPaGtUdzJTRVpSMUgwdE02SDVnSHVPYVh4UHV1OU1OWGJFNDkybWtCTjdhMEVmbnBvOXlPRmFPUGRXVVJIVEotbXg2S2ZLQkNudHB4Z1hEeUtZS2JFVFVVUjZIYXlvNll6VnJUbXpObktNQ2x3UXB0STMyRThWRGZtNi05b2h6SzE4amVyTlpIeS1veEY1Q1RRVnoxbENSeHVjcW5IU1VHU3BCNmI0TkNxSWtOTFRIb0Rpd09aamtBRkVKZllKc0FrNDJrSmM5bDk5RnE0YU5kaGEtb1dCQlRjUEl4MGJzeEk?oc=5",
@@ -208,9 +208,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -1.6,
-   "last": 41.2,
-   "newsCount": 10,
+   "pct": -1.2,
+   "last": 41.4,
+   "newsCount": 11,
    "latestNews": {
     "title": "IREN Stock: 3 Reasons Retail Investors Are Bearish Ahead of Q4 Earnings - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaGdkNFhuUGVPc29rTVFjaktSUmZJYzVhMVZ5QkhoVXhnc3Rkc3VZdERiMHpQTTN3LXBqc091czRTZnlrU3R1UmE0Q1ptTjBuaDJ6RktZOXRDM1hqUFF3ZWUyR2xzNXhHaEV4SFZTdlR3eVk4eUJHN3J5SWZ2Y3V0TV9MN1FzU3BPRXU1V2hXVWxzQUlXN0RDeGNpbEFaUUJlT3c?oc=5",
@@ -229,13 +229,13 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.2,
-   "last": 218.7,
-   "newsCount": 15,
+   "pct": -1.1,
+   "last": 216.8,
+   "newsCount": 17,
    "latestNews": {
-    "title": "What's Going on With Nebius Shares on Monday? - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HajZyY1JFbVdheVo0TFZkZ2VDenpOU3cyZElNYWQtSFBGbUNtVUtfTHdDaGhobEpZSGxDTnhlaXBnVU9LU1RIUFFSZzhDUEd2WGp4RFVIaVg0dl8zWWR3SGJ0YnQ4V3pD?oc=5",
-    "time": "12:28 PM"
+    "title": "Nebius Group NBIS Stock Soars On Explosive AI Cloud Growth - timothysykes.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GUk14R1hHcVYzT2JBQ0pkdHU3M2I2ZU1fQVJtMjNVWG5mUHNXdlNjQWlLQkZONFNRMHV0VnRKQnQ0M1MwelQ3dWwzUmp3RjZOQmctWUhvZldpTTFPS2syWXJGclpqdFA0YlNoaXRrVjBzRWpQNFl4blkwbw?oc=5",
+    "time": "9:18 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -250,8 +250,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 0.2,
-   "last": 474.4,
+   "pct": 0.1,
+   "last": 473.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Stocks making the biggest moves premarket: Dick's Sporting Goods, Advanced Micro Devices, Kura Oncology & more - CNBC",
@@ -266,9 +266,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 1.9,
-   "last": 27.7,
-   "newsCount": 5,
+   "pct": 3.3,
+   "last": 28.1,
+   "newsCount": 4,
    "latestNews": {
     "title": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV? - TradingView",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0ZTYzVmQzRzajZqUXUxN3h0TnJHZkdKSU14QWNRR1JWRFprMzdTZWEwZF85SEhoNlo4V3JWeXN2eW4wWWVTV3lvUmNqSHZLQWw0OGJvSUtUUzl2YTVXbDBTMmJuYUhCeWRPcGJnV2p1aFZxQ09QR2I1WlMxYmtzMUZXZGlmTWRPTDNBVUhXZ25Qb0NoZm45aWRnT0ZiT2J0OEN4bThldTBOZFMtN2FzaHc2Y1AwWXhxd0ZxLQ?oc=5",
@@ -287,9 +287,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 0.9,
-   "last": 15.8,
-   "newsCount": 15,
+   "pct": 2.7,
+   "last": 16.1,
+   "newsCount": 10,
    "latestNews": {
     "title": "TeraWulf Just Locked Up Another 1 GW AI Site – And Retail Traders Are Paying Attention - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV28wMVFyX3ZzOE5Cem5HeTFrYjlOSk1MWlg1WGJOSFNzSzZ0bXFIUnp0eDRXa1hLMjNua1llOGEtQzIta3hGR01SRl8zU2JuSnpTMS12WEwyUkFLZWY0ZEZiRzNSXzFyQlE5YzFwRWd4TVJLQ25qMHJSTENhSmVHT2MxeXRSOFdkUG05TGFvN2EzcXRucGo4MGVBdXFVTHJ4WV9DaA?oc=5",
@@ -308,13 +308,13 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 0.3,
-   "last": 7.8,
-   "newsCount": 1,
+   "pct": 1.5,
+   "last": 7.9,
+   "newsCount": 4,
    "latestNews": {
-    "title": "Does ImmunityBio’s (IBRX) Jim Yong Kim Hire Transform Its Global Access Strategy For Immunotherapies? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNak9oN3lMMUVjWmdqWjMtTnJ4QUxWVmtkRDdadmJVQ2xjOWdmQlVVd2htMTBaNFI5YUVTc25odWYxWTlwVkhZNGgxLUVuVmNtdHcxZU5MNU12WUpZbTZFazdYSThKNDZGSjlCcEFJUFZ2R1VwNF91Mm9tMFFuOHRZUngwVGZmLXN0THpPOG9ZWTFZMG8wWk5xbTFqS2dHVzZITWo1NjdyUElYUlRNWk10ZHJObk1tV1AzbEJUZzZ1aEpFUHlUMmtiM1h4OUJyazM3UEJEWmQ0LUNZLWFndXfSAeMBQVVfeXFMT1k5MGNVa3lQQy14OHg3cW5ucVdLVmhncVloNUJ0bndwX0dnU3lLMnQzRTRTcW84VlpkRThWNkM0OXNMRFVnc0lRLVRPcGlfY282UmdNTnhQRm5HYVNNOEpZOGFJbmJtRGViMHBLUGZ2cTg2UnE0bGlVZFZhWVpTdG4wWGl5OXBIc2lFb0FjRGpBcS12VUVXeWdCc3dzdnNnT1hnUDBvRU00c0l5MFAzLWxMQ3Vfa1d0WDFtXzBneWFLWlRycFlyNGtuNHFXNlIxbjRpWHFXQVU0YjZYMDczY0JoYkU?oc=5",
-    "time": "5:18 PM"
+    "title": "IBRX Stock Climbs After-Hours: Retail Traders Bet Russell 1000 Inclusion Could Trigger Massive Index-Fund Buying - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdU1CUXkwM0tIRUFpNFRKbHVUY0cyTHp0c3MyT0VzajJBWVVENXRpTXVta2RiRTFlWmFoT3E1MTZwT3dlUjR4cDFTTzhWX0VnYjIyS01BbGE0OVdSZU9hQjBvOEM5M0R5VFhZNko3R2tXRXVjcnJWMTg3UGEtWUo1M29Rdml3dlpldGk4U3k4Vzh1SnZkbG1INmlJdV9QTThDd1ZzVkFzcVhQUHo1N1d0MVU4alF1QjdVdWc?oc=5",
+    "time": "12:45 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -324,7 +324,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -1.1,
+   "pct": -1.4,
    "last": 4.8,
    "newsCount": 0,
    "latestNews": null,
@@ -341,8 +341,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 1.4,
-   "last": 12.2,
+   "pct": 3.8,
+   "last": 12.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -358,9 +358,9 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 11.6,
-   "last": 20.3,
-   "newsCount": 4,
+   "pct": 17.2,
+   "last": 21.4,
+   "newsCount": 3,
    "latestNews": {
     "title": "Strive notches another gain, rises a further 8% (ASST:NASDAQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZXN0VFVqME5IbDFfZngtazFNLWltQmhFZ1FGbkRvV29MVE9FZUR5UEZDUnJBbnpUR3JCVldNWGRzX0RtS3ZKTGcxcXFQSGJzaGQ2RHJ3TjRTb0ZBeF82OF9naDJCSDgzQXRPTGZOMWNVR3h4eEMzZXdRTEVlbHBMdVBMbHhjQUtDdXFj?oc=5",
@@ -374,8 +374,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 3.9,
-   "last": 119.4,
+   "pct": 5.3,
+   "last": 121.1,
    "newsCount": 1,
    "latestNews": {
     "title": "ABVX Stock Clocks Worst Day Ever On Malignancy Signal For Drug: ‘Pharma Bro’ Says ‘GLPs Are Doing Fine’ After Similar Fears - Stocktwits",
@@ -390,8 +390,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.3,
-   "last": 25.6,
+   "pct": 1.2,
+   "last": 26,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -402,8 +402,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -1.4,
-   "last": 211.8,
+   "pct": -1.1,
+   "last": 212.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Top Strategist Warns Nvidia’s Earnings on Wednesday Could Hit the Entire Market - 24/7 Wall St.",
@@ -418,7 +418,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.8,
+   "pct": -0.5,
    "last": 1.5,
    "newsCount": 10,
    "latestNews": {
@@ -434,7 +434,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -1.8,
+   "pct": -1.5,
    "last": 8.6,
    "newsCount": 0,
    "latestNews": null,
@@ -446,9 +446,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -5.5,
-   "last": 68.6,
-   "newsCount": 14,
+   "pct": -7.4,
+   "last": 67.2,
+   "newsCount": 12,
    "latestNews": {
     "title": "Rocket Lab Stock (RKLB): One Neutron Launch Could Change Its Entire Financial Picture - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSEJyNDRaeG14WVo4bWVfNDRMUFNqVTJqZlhJSU1BV1BaMlZLWDdNZlRCVDBmeXhQOVNmaXZiQ0x3Y2JseVNYb3diSUJZNk9rTjJiWlN3Ty12VnJHVjhsdHo0S29oSWRoa1RIRHU2TTBfelB3NTJfbUx0N3FXSDZFX0RhVkpPMlg0Ry1MSjA3ZldON0dJa2wwZnpyZlM5R1FmNnJDbG9GSkMtT3kxdHBzZXhB?oc=5",
@@ -462,13 +462,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -1.7,
-   "last": 176.8,
-   "newsCount": 18,
+   "pct": -2.5,
+   "last": 175.4,
+   "newsCount": 16,
    "latestNews": {
-    "title": "Prediction: Palantir Stock Will Hit $250 on This Date - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTWVxVXVXVk03aXRpRkxYQXVEaEFGcHlEVE1RalJ4QW1kMXVCbzFhSkREUFhJVTAzZlViU3dBNFJ0UUlkWk1zbjEwWkVIWnZkRVBSUGl4WFNJaEMyRm90ajVrUjVjT3A3R2pac1lnby0xNGo4SzJ1OTEwSzN1SHBvbXZoWjhuYTBrLWxzTzRtWmhTNUluMHZ2dUt4Tm4zQzA?oc=5",
-    "time": "10:00 AM"
+    "title": "Palantir Technologies (PLTR) Could Be 7% Below Fair Value After Earnings - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWUlQWnNxWEdJWXdGM3FDYzl0amIyM21qaHNucndjbTh3cWhDa2NGY2VLazNlNGJuUzlWSjBhbWdNMVRUcHFKb2JMMVhZUWVHcUw3WHFZX09sS25VNGkwbVktenE0WnJ2R0x6LXYtVVBoZnRheDBrbWF5c1VMSWdEZjNVN3A4UllNcXBqeXk1MVVrYV82WVlFTlVRX0dvQXJiSTNmbUNkdWNFR0g3V0t3LVBtU00xXzZHaWowQmhBZkExbVRtYlowQ09WNzVXR3lwRVVXREdpUdIB3AFBVV95cUxOdUJ4dGQtRi0tNXZMT1ozTnB3OWllRGVwSzZ6dS1acnFoOU5SQjRvUERNcThrS0FLUDM3TWkwQWFoZ0JUcFVrMmtHSjZfWFY1WHA4RU14UGxZQWZIbkNBS3VuUklLZFdwa3htRTE0YjFpMkFDNHEybDlkRFpHd3FvUnQ1bmRiUGN1RUl0d0V1VlRoRUVTaUlDSG1lc3o3THlJRXM3eDVZMzI4cGhoZXVKT3gzUVZVNExnTmFZMnNkekljNnZ1eXFQMmhvWk1YWUFjUkUzX1JtSklid2g5?oc=5",
+    "time": "11:51 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -478,8 +478,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 0.5,
-   "last": 485.6,
+   "pct": 0.9,
+   "last": 487.7,
    "newsCount": 11,
    "latestNews": {
     "title": "Microsoft Stock (NASDAQ:MSFT) Gains Despite Small Customer List in AI - TipRanks",
@@ -494,9 +494,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -8,
-   "last": 31.1,
-   "newsCount": 16,
+   "pct": -6.1,
+   "last": 31.7,
+   "newsCount": 15,
    "latestNews": {
     "title": "Why Hims & Hers Health (HIMS) Stock Is Nosediving - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMTItY3V4anF3RW5KY0hobXotX2ZmOTVVQXZhR2gxVnNDVEVQNDZBVENBTFVLNmNGSjlKQnBpYWlKNGtJZ3AycmFtbll6bnBFc1J4dTZoMm84NmR5Q2VqVUhWOHdTWlh4M0szVUttTTIwdVFEM196MS1qQzZCUFNYNm5abFZPUFZyOEh3M0gxT1YzbFJJ?oc=5",
@@ -510,9 +510,9 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 1.4,
-   "last": 349.8,
-   "newsCount": 9,
+   "pct": 0.5,
+   "last": 346.6,
+   "newsCount": 8,
    "latestNews": {
     "title": "Alphabet (GOOGL), What Is Behind The Fresh Attention? - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWlppZnFoNVY2emZVTGZGeExacm1tYmVuRFF1bzlDSENObnNnSVMwckRzcXRYOS1RX19oWDczUVhqcFF4Q29sYk5WcnFXYXN0SkpocUJDanp3TWZPUGhNbFRfS0FEMkx1ZlpfdDAwN08xcjVxS3c5NENFM2VjUW5oZzd4QXhVdDVBanQwc0hiVl9DWjkzTVBKeFRKV1VNcFJwNC1pNlppYzRkb1Q2eVNRZnJ4Y2rSAboBQVVfeXFMTUZISkVhLVpiS3IxMVo5d0VNc3VMcXNKYnpOcGo2b2lRdlpVS0I0b18zOUR6SmhYS2MxaU9zUlROZWRaZmlsMGN1amxNV3V6QTZ3Z2cyb2JnSFRLRjM2bE5PR18wV3htWnREZ3VRZXlsUzJzdldReE5hNTZHVGRYdWJhaVFWLU1sOXFnTmF2dTFaQ3JVN0RVZ2VtZmUyVG9QVDAteTlCNnNDUkZFQklna0l0R0I1WHNMYjJn?oc=5",
@@ -526,8 +526,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.5,
-   "last": 4665.2,
+   "pct": 0.8,
+   "last": 4678,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold price rises, silver slips on Treasury cash-pile buyback signal - Mining.com",
@@ -542,13 +542,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -4.6,
-   "last": 88,
+   "pct": -4.4,
+   "last": 88.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Current price of oil as of August 25, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jWFBCalVsSERVY1UyUzFweFNUMjgzb2Fzb01sZy1pOEEyUlJQLU9Oek9OUjJkd3U0aXQ5NTlZa3BJb0F3UnlPLU1FNmdjQ2NGXzFibzZWYnY5NDZ0RVloSHRB?oc=5",
-    "time": "8:00 AM"
+    "title": "Oil hits one-week low as investors shrug off US sanctions on Iran - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
+    "time": "9:25 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -558,8 +558,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.1,
-   "last": 82.4,
+   "pct": -2.9,
+   "last": 82.5,
    "newsCount": 10,
    "latestNews": {
     "title": "WTI Crude Oil futures slip to 85 as Middle East tensions persist. - CME Group",
@@ -606,6 +606,17 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPV28wMVFyX3ZzOE5Cem5HeTFrYjlOSk1MWlg1WGJOSFNzSzZ0bXFIUnp0eDRXa1hLMjNua1llOGEtQzIta3hGR01SRl8zU2JuSnpTMS12WEwyUkFLZWY0ZEZiRzNSXzFyQlE5YzFwRWd4TVJLQ25qMHJSTENhSmVHT2MxeXRSOFdkUG05TGFvN2EzcXRucGo4MGVBdXFVTHJ4WV9DaA?oc=5"
   },
   {
+   "id": "919c02a4927f",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1787668140000,
+   "timeLabel": "10:29 AM",
+   "source": "",
+   "text": "Why is Terawulf stock gaining today? By Investing.com - Investing.com Australia",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORlhDbWFvUzVsZnpCWERlRUxIMjZrb01VMlVvcnRVU0dxOWRhLVFZcXo1T1N1eVJWb3pxLVBWUHg0X2RYREU0RGIzUTlHcks3dXdON04zdXJJVHNvaURENFJYUXl3cG5EVEI5clNyVmdzN1ZoM2huSVFUSl9jakRSM2ZRV2lEaWZTcTBUTFp2ZDNEbURoUzJKS0w2R1E?oc=5"
+  },
+  {
    "id": "3f32a06610ac",
    "type": "news",
    "symbol": "WULF",
@@ -617,6 +628,28 @@
    "url": "https://blockspace.media/insight/morgan-stanley-powered-shell-deal-wave-october/?.tsrc=rss"
   },
   {
+   "id": "193c6cf7d92e",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1787667660000,
+   "timeLabel": "10:21 AM",
+   "source": "",
+   "text": "Why is IREN stock rallying today? - Investing.com",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc21Qb2JTNUVvZGhlNGUzY0U3NkpqVF92elhHbUVvbEJEa3YwQjFhSTFOZDZ0ZWl3Yzg1d3FyM2xMV2VfVDZINHNrbExURDVSN0VSZFItV01ENXNvUTBneE9PNzFQRzl5TW9QMUJJQVBkYlVFeWZDeEhTbmd2ZTZmQkhhRW9DUjVmangyNmlncHRKSElPQ1ZnWFdR?oc=5"
+  },
+  {
+   "id": "11ef24c2d44e",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1787666400000,
+   "timeLabel": "10:00 AM",
+   "source": "",
+   "text": "AMD Stock Upgraded To Strong Buy. Here’s Why. - Investor's Business Daily",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcGxxZE5Kc0MzcWdtdkw5NmZwZ0xvcWE2bEtmamlzZXBpUkpxNWREajVrM3R5aFU5QlF6YUxtSnhJbDB3M19XN1dZbGZzZUdrdEhRSmdHdTBkQmZWZ0UwMlRweFdUdzJrX1ZiTHNEYkhMSTlLYUZTTVVTdzhaOHBMaXNZamRNcENIOVdHbVpUUzViQWQzNXU1NC13bw?oc=5"
+  },
+  {
    "id": "b822996b5140",
    "type": "gauge",
    "symbol": null,
@@ -624,6 +657,28 @@
    "time": 1787664964693,
    "timeLabel": "9:36 AM",
    "text": "Fear&Greed: neutral → greed (56)"
+  },
+  {
+   "id": "20cea8cc9168",
+   "type": "news",
+   "symbol": "MSFT",
+   "section": "macro",
+   "time": 1787664900000,
+   "timeLabel": "9:35 AM",
+   "source": "",
+   "text": "Why Jim Cramer Thinks the Data Center Backlash Could Be a Victory for Big Tech",
+   "url": "https://247wallst.com/investing/2026/08/25/why-jim-cramer-thinks-the-data-center-backlash-could-be-a-victory-for-big-tech/?.tsrc=rss"
+  },
+  {
+   "id": "51dac1b51a25",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1787663880000,
+   "timeLabel": "9:18 AM",
+   "source": "",
+   "text": "Nebius Group NBIS Stock Soars On Explosive AI Cloud Growth - timothysykes.com",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GUk14R1hHcVYzT2JBQ0pkdHU3M2I2ZU1fQVJtMjNVWG5mUHNXdlNjQWlLQkZONFNRMHV0VnRKQnQ0M1MwelQ3dWwzUmp3RjZOQmctWUhvZldpTTFPS2syWXJGclpqdFA0YlNoaXRrVjBzRWpQNFl4blkwbw?oc=5"
   },
   {
    "id": "e93d559802c0",
@@ -5869,6 +5924,15 @@
    "stBull": null,
    "regime": 85.7,
    "composite": 71.9
+  },
+  {
+   "t": 1787668048032,
+   "label": "Aug 25 2026 10:27 AM ET",
+   "cnn": 59,
+   "crypto": 74,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 72.9
   }
  ],
  "degraded": []

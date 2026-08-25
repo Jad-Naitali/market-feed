@@ -35,19 +35,19 @@
       "raw": {
         "last": 98.95,
         "avg": 99.64,
-        "gap": -0.68
+        "gap": -0.69
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.79 vs VIX3M 18.56",
-      "asOfMs": 1787641200000,
+      "detail": "VIX 15.78 vs VIX3M 18.48",
+      "asOfMs": 1787667166000,
       "status": "ok",
       "raw": {
-        "vix": 15.79,
-        "vix3m": 18.56,
-        "diff": -2.77
+        "vix": 15.78,
+        "vix3m": 18.48,
+        "diff": -2.7
       }
     },
     "credit": {
@@ -65,35 +65,35 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.3% vs others 0.9%",
+      "detail": "defensives 5d 1.1% vs others 1%",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.3,
-        "othMedPct": 0.9,
-        "diffPct": 0.4
+        "defMedPct": 1.1,
+        "othMedPct": 1,
+        "diffPct": 0.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2892 vs 20d avg 0.2875",
+      "detail": "RSP/SPY 0.2897 vs 20d avg 0.2875",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2892,
+        "ratio": 0.2897,
         "avg": 0.2875,
-        "gap": 0.0017
+        "gap": 0.0022
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
-      "detail": "Fear&Greed 56 (greed)",
-      "asOfMs": 1787664851000,
+      "detail": "Fear&Greed 59 (greed)",
+      "asOfMs": 1787667786000,
       "status": "ok",
       "raw": {
-        "score": 56,
+        "score": 59,
         "rating": "greed"
       }
     }
@@ -107,7 +107,7 @@
       },
       {
         "name": "DAX",
-        "pct": 0.6,
+        "pct": 0.7,
         "asOfMs": 1787641200000
       },
       {
@@ -632,5 +632,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787664986284
+  "updatedMs": 1787668068971
 }
