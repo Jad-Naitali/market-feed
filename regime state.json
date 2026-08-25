@@ -1,17 +1,18 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "6-1",
+    "tally": "7-0",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
       "credit spreads tight",
+      "cyclicals leading",
       "breadth broad",
       "sentiment greed"
     ],
-    "on": 6,
-    "off": 1
+    "on": 7,
+    "off": 0
   },
   "components": {
     "curve": {
@@ -35,19 +36,19 @@
       "raw": {
         "last": 98.93,
         "avg": 99.64,
-        "gap": -0.7
+        "gap": -0.71
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.56 vs VIX3M 18.3",
-      "asOfMs": 1787679886000,
+      "detail": "VIX 15.47 vs VIX3M 18.24",
+      "asOfMs": 1787682916000,
       "status": "ok",
       "raw": {
-        "vix": 15.56,
-        "vix3m": 18.3,
-        "diff": -2.74
+        "vix": 15.47,
+        "vix3m": 18.24,
+        "diff": -2.77
       }
     },
     "credit": {
@@ -63,15 +64,15 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 1.1% vs others 1.1%",
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d 1.1% vs others 1.2%",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
         "defMedPct": 1.1,
-        "othMedPct": 1.1,
-        "diffPct": 0
+        "othMedPct": 1.2,
+        "diffPct": -0.1
       }
     },
     "breadth": {
@@ -83,14 +84,14 @@
       "raw": {
         "ratio": 0.2897,
         "avg": 0.2875,
-        "gap": 0.0021
+        "gap": 0.0022
       }
     },
     "sentiment": {
       "state": "greed",
       "vote": "on",
       "detail": "Fear&Greed 59 (greed)",
-      "asOfMs": 1787680236000,
+      "asOfMs": 1787682959000,
       "status": "ok",
       "raw": {
         "score": 59,
@@ -101,6 +102,11 @@
   "context": {
     "overnight": [
       {
+        "name": "Nikkei",
+        "pct": -0.7,
+        "asOfMs": 1787529600000
+      },
+      {
         "name": "DAX",
         "pct": 0.6,
         "asOfMs": 1787641200000
@@ -109,16 +115,11 @@
         "name": "Hang Seng",
         "pct": -1.9,
         "asOfMs": 1787535000000
-      },
-      {
-        "name": "Nikkei",
-        "pct": -0.7,
-        "asOfMs": 1787529600000
       }
     ],
     "rates": {
       "impliedRate": 3.74,
-      "changeBp": -11,
+      "changeBp": -10.5,
       "asOfMs": 1787630400000
     }
   },
@@ -638,9 +639,14 @@
       "ts": 1787680789519,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787683826201,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787680790225
+  "updatedMs": 1787683826919
 }
