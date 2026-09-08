@@ -16,37 +16,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.41pp (2y 4.37, 10y 4.78)",
-      "asOfMs": 1788480000000,
+      "detail": "10y-2y 0.41pp (2y 4.39, 10y 4.8)",
+      "asOfMs": 1788825600000,
       "status": "ok",
       "raw": {
         "spread": 0.41,
-        "y2": 4.37,
-        "y10": 4.78
+        "y2": 4.39,
+        "y10": 4.8
       }
     },
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.87 vs 20d avg 99.35",
-      "asOfMs": 1788891000000,
+      "detail": "DXY 98.85 vs 20d avg 99.35",
+      "asOfMs": 1788901747000,
       "status": "ok",
       "raw": {
-        "last": 98.87,
+        "last": 98.85,
         "avg": 99.35,
-        "gap": -0.48
+        "gap": -0.49
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.28 vs VIX3M 18.14",
+      "detail": "VIX 15.72 vs VIX3M 18.39",
       "asOfMs": 1788874200000,
       "status": "ok",
       "raw": {
-        "vix": 15.28,
-        "vix3m": 18.14,
-        "diff": -2.86
+        "vix": 15.72,
+        "vix3m": 18.39,
+        "diff": -2.67
       }
     },
     "credit": {
@@ -64,35 +64,35 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.1% vs others 0%",
+      "detail": "defensives 5d -1.1% vs others -0.4%",
       "asOfMs": 1788874200000,
       "status": "ok",
       "raw": {
         "defMedPct": -1.1,
-        "othMedPct": 0,
-        "diffPct": -1.1
+        "othMedPct": -0.4,
+        "diffPct": -0.7
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2834 vs 20d avg 0.287",
+      "detail": "RSP/SPY 0.283 vs 20d avg 0.2869",
       "asOfMs": 1788874200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2834,
-        "avg": 0.287,
-        "gap": -0.0036
+        "ratio": 0.283,
+        "avg": 0.2869,
+        "gap": -0.004
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 42 (fear)",
-      "asOfMs": 1788891340000,
+      "detail": "Fear&Greed 41 (fear)",
+      "asOfMs": 1788901256000,
       "status": "ok",
       "raw": {
-        "score": 42,
+        "score": 41,
         "rating": "fear"
       }
     }
@@ -117,8 +117,8 @@
     ],
     "rates": {
       "impliedRate": 3.79,
-      "changeBp": -9.2,
-      "asOfMs": 1788890964000
+      "changeBp": -8.8,
+      "asOfMs": 1788901163000
     }
   },
   "stress": {
@@ -751,5 +751,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1788891602771
+  "updatedMs": 1788902354611
 }
