@@ -4,8 +4,8 @@
     "tally": "4-3",
     "drivers": [
       "curve positive",
-      "dollar soft",
       "VIX in contango",
+      "credit spreads tight",
       "cyclicals leading"
     ],
     "on": 4,
@@ -25,37 +25,37 @@
       }
     },
     "dollar": {
-      "state": "below 20d avg",
-      "vote": "on",
-      "detail": "DXY 99.14 vs 20d avg 99.2",
-      "asOfMs": 1789099200000,
+      "state": "above 20d avg",
+      "vote": "off",
+      "detail": "DXY 99.46 vs 20d avg 99.19",
+      "asOfMs": 1789358400000,
       "status": "ok",
       "raw": {
-        "last": 99.14,
-        "avg": 99.2,
-        "gap": -0.07
+        "last": 99.46,
+        "avg": 99.19,
+        "gap": 0.27
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.84 vs VIX3M 18.6",
-      "asOfMs": 1789133400000,
+      "detail": "VIX 16.75 vs VIX3M 19.14",
+      "asOfMs": 1789392600000,
       "status": "ok",
       "raw": {
-        "vix": 15.84,
-        "vix3m": 18.6,
-        "diff": -2.76
+        "vix": 16.75,
+        "vix3m": 19.14,
+        "diff": -2.39
       }
     },
     "credit": {
-      "state": "above 20-obs avg",
-      "vote": "off",
-      "detail": "HY spread 2.7pp vs 20-obs avg 2.68pp (as of 2026-09-10)",
-      "asOfMs": 1788998400000,
+      "state": "below 20-obs avg",
+      "vote": "on",
+      "detail": "HY spread 2.65pp vs 20-obs avg 2.68pp (as of 2026-09-11)",
+      "asOfMs": 1789084800000,
       "status": "ok",
       "raw": {
-        "spread": 2.7,
+        "spread": 2.65,
         "avg": 2.68,
         "newHigh": false
       }
@@ -63,35 +63,35 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -2.2% vs others -1.6%",
-      "asOfMs": 1789133400000,
+      "detail": "defensives 5d -2.2% vs others -1.4%",
+      "asOfMs": 1789392600000,
       "status": "ok",
       "raw": {
         "defMedPct": -2.2,
-        "othMedPct": -1.6,
-        "diffPct": -0.6
+        "othMedPct": -1.4,
+        "diffPct": -0.8
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2811 vs 20d avg 0.2862",
-      "asOfMs": 1789133400000,
+      "detail": "RSP/SPY 0.2824 vs 20d avg 0.286",
+      "asOfMs": 1789392600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2811,
-        "avg": 0.2862,
-        "gap": -0.005
+        "ratio": 0.2824,
+        "avg": 0.286,
+        "gap": -0.0035
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 33 (fear)",
-      "asOfMs": 1789159118000,
+      "detail": "Fear&Greed 31 (fear)",
+      "asOfMs": 1789404242000,
       "status": "ok",
       "raw": {
-        "score": 33,
+        "score": 31,
         "rating": "fear"
       }
     }
@@ -100,24 +100,24 @@
     "overnight": [
       {
         "name": "Nikkei",
-        "pct": 0.2,
-        "asOfMs": 1788998400000
-      },
-      {
-        "name": "DAX",
-        "pct": 0.8,
-        "asOfMs": 1789110000000
+        "pct": -1.9,
+        "asOfMs": 1789084800000
       },
       {
         "name": "Hang Seng",
-        "pct": -1.3,
-        "asOfMs": 1789003800000
+        "pct": -0.6,
+        "asOfMs": 1789090200000
+      },
+      {
+        "name": "DAX",
+        "pct": -0.5,
+        "asOfMs": 1789369200000
       }
     ],
     "rates": {
-      "impliedRate": 3.86,
-      "changeBp": -14.3,
-      "asOfMs": 1789099200000
+      "impliedRate": 3.87,
+      "changeBp": -13.8,
+      "asOfMs": 1789358400000
     }
   },
   "stress": {
@@ -751,9 +751,19 @@
       "ts": 1789051829137,
       "kind": "REGIME",
       "line": "REGIME credit below 20-obs avg -> above 20-obs avg"
+    },
+    {
+      "ts": 1789404439155,
+      "kind": "REGIME",
+      "line": "REGIME dollar below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1789404439155,
+      "kind": "REGIME",
+      "line": "REGIME credit above 20-obs avg -> below 20-obs avg"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1789160322526
+  "updatedMs": 1789404439155
 }
