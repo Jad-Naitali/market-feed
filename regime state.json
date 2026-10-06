@@ -1,123 +1,118 @@
 {
   "regime": {
-    "label": "risk-off",
-    "tally": "4-3",
-    "drivers": [
-      "dollar strong",
-      "credit spreads widening",
-      "breadth narrow",
-      "sentiment fear"
-    ],
+    "label": "Mixed",
+    "tally": "3-3",
+    "drivers": [],
     "on": 3,
-    "off": 4
+    "off": 3
   },
   "components": {
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.45pp (2y 4.83, 10y 5.28)",
-      "asOfMs": 1790899200000,
+      "detail": "10y-2y 0.47pp (2y 4.84, 10y 5.31)",
+      "asOfMs": 1791158400000,
       "status": "ok",
       "raw": {
-        "spread": 0.45,
-        "y2": 4.83,
-        "y10": 5.28
+        "spread": 0.47,
+        "y2": 4.84,
+        "y10": 5.31
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 102.15 vs 20d avg 100.51",
-      "asOfMs": 1791172800000,
+      "detail": "DXY 101.88 vs 20d avg 100.67",
+      "asOfMs": 1791259200000,
       "status": "ok",
       "raw": {
-        "last": 102.15,
-        "avg": 100.51,
-        "gap": 1.64
+        "last": 101.88,
+        "avg": 100.67,
+        "gap": 1.21
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.62 vs VIX3M 18.04",
-      "asOfMs": 1791207000000,
+      "detail": "VIX 15.03 vs VIX3M 17.61",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "vix": 15.62,
-        "vix3m": 18.04,
-        "diff": -2.42
+        "vix": 15.03,
+        "vix3m": 17.61,
+        "diff": -2.58
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 3.1pp vs 20-obs avg 2.82pp (as of 2026-10-02)",
-      "asOfMs": 1790899200000,
+      "detail": "HY spread 3.12pp vs 20-obs avg 2.84pp (as of 2026-10-05)",
+      "asOfMs": 1791158400000,
       "status": "ok",
       "raw": {
-        "spread": 3.1,
-        "avg": 2.82,
+        "spread": 3.12,
+        "avg": 2.84,
         "newHigh": false
       }
     },
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.7% vs others 0.7%",
-      "asOfMs": 1791207000000,
+      "detail": "defensives 5d -0.1% vs others 1.6%",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1.7,
-        "othMedPct": 0.7,
-        "diffPct": -2.4
+        "defMedPct": -0.1,
+        "othMedPct": 1.6,
+        "diffPct": -1.7
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2723 vs 20d avg 0.2772",
-      "asOfMs": 1791207000000,
+      "detail": "RSP/SPY 0.2722 vs 20d avg 0.2767",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2723,
-        "avg": 0.2772,
-        "gap": -0.0049
+        "ratio": 0.2722,
+        "avg": 0.2767,
+        "gap": -0.0044
       }
     },
     "sentiment": {
-      "state": "fear",
-      "vote": "off",
-      "detail": "Fear&Greed 44 (fear)",
-      "asOfMs": 1791228363000,
+      "state": "neutral",
+      "vote": "abstain",
+      "detail": "Fear&Greed 49 (neutral)",
+      "asOfMs": 1791305891000,
       "status": "ok",
       "raw": {
-        "score": 44,
-        "rating": "fear"
+        "score": 49,
+        "rating": "neutral"
       }
     }
   },
   "context": {
     "overnight": [
       {
+        "name": "Hang Seng",
+        "pct": 0.3,
+        "asOfMs": 1791163800000
+      },
+      {
         "name": "DAX",
-        "pct": 0.1,
-        "asOfMs": 1791183600000
+        "pct": 0.8,
+        "asOfMs": 1791270000000
       },
       {
         "name": "Nikkei",
-        "pct": -0.9,
-        "asOfMs": 1790899200000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -2.6,
-        "asOfMs": 1790904600000
+        "pct": 2.4,
+        "asOfMs": 1791158400000
       }
     ],
     "rates": {
       "impliedRate": 3.93,
-      "changeBp": -5.5,
-      "asOfMs": 1791172800000
+      "changeBp": -4.5,
+      "asOfMs": 1791259200000
     }
   },
   "stress": {
@@ -811,9 +806,14 @@
       "ts": 1791228663374,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR hySpreadNew20High"
+    },
+    {
+      "ts": 1791306174939,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-off -> Mixed · 3-3 · drivers: none"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1791228663374
+  "updatedMs": 1791306174939
 }
