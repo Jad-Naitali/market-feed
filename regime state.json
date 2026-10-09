@@ -15,37 +15,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.47pp (2y 4.75, 10y 5.22)",
-      "asOfMs": 1791417600000,
+      "detail": "10y-2y 0.44pp (2y 4.8, 10y 5.24)",
+      "asOfMs": 1791504000000,
       "status": "ok",
       "raw": {
-        "spread": 0.47,
-        "y2": 4.75,
-        "y10": 5.22
+        "spread": 0.44,
+        "y2": 4.8,
+        "y10": 5.24
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 102.29 vs 20d avg 101.15",
+      "detail": "DXY 102.23 vs 20d avg 101.15",
       "asOfMs": 1791518400000,
       "status": "ok",
       "raw": {
-        "last": 102.29,
+        "last": 102.23,
         "avg": 101.15,
-        "gap": 1.14
+        "gap": 1.09
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.87 vs VIX3M 17.85",
+      "detail": "VIX 14.84 vs VIX3M 17.77",
       "asOfMs": 1791552600000,
       "status": "ok",
       "raw": {
-        "vix": 14.87,
-        "vix3m": 17.85,
-        "diff": -2.98
+        "vix": 14.84,
+        "vix3m": 17.77,
+        "diff": -2.93
       }
     },
     "credit": {
@@ -59,11 +59,11 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3.5% vs others 1.6%",
+      "detail": "defensives 5d 3.6% vs others 1.6%",
       "asOfMs": 1791552600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3.5,
+        "defMedPct": 3.6,
         "othMedPct": 1.6,
         "diffPct": 2
       }
@@ -71,20 +71,20 @@
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2737 vs 20d avg 0.2754",
+      "detail": "RSP/SPY 0.2736 vs 20d avg 0.2754",
       "asOfMs": 1791552600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2737,
+        "ratio": 0.2736,
         "avg": 0.2754,
-        "gap": -0.0017
+        "gap": -0.0018
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
       "detail": "Fear&Greed 45 (fear)",
-      "asOfMs": 1791566215000,
+      "asOfMs": 1791581560000,
       "status": "ok",
       "raw": {
         "score": 45,
@@ -95,14 +95,14 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": -1.4,
-        "asOfMs": 1791423000000
-      },
-      {
         "name": "Nikkei",
         "pct": -1.4,
         "asOfMs": 1791417600000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -1.4,
+        "asOfMs": 1791423000000
       },
       {
         "name": "DAX",
@@ -112,7 +112,7 @@
     ],
     "rates": {
       "impliedRate": 3.93,
-      "changeBp": -4.5,
+      "changeBp": -4,
       "asOfMs": 1791518400000
     }
   },
@@ -826,5 +826,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1791566432738
+  "updatedMs": 1791582604427
 }
