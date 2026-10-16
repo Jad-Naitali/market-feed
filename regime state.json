@@ -15,37 +15,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.33pp (2y 4.77, 10y 5.1)",
-      "asOfMs": 1792022400000,
+      "detail": "10y-2y 0.35pp (2y 4.74, 10y 5.09)",
+      "asOfMs": 1792108800000,
       "status": "ok",
       "raw": {
-        "spread": 0.33,
-        "y2": 4.77,
-        "y10": 5.1
+        "spread": 0.35,
+        "y2": 4.74,
+        "y10": 5.09
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.84 vs 20d avg 101.71",
+      "detail": "DXY 101.78 vs 20d avg 101.71",
       "asOfMs": 1792123200000,
       "status": "ok",
       "raw": {
-        "last": 101.84,
+        "last": 101.78,
         "avg": 101.71,
-        "gap": 0.13
+        "gap": 0.07
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 20.74 vs VIX3M 20.93",
+      "detail": "VIX 19.99 vs VIX3M 20.5",
       "asOfMs": 1792157400000,
       "status": "ok",
       "raw": {
-        "vix": 20.74,
-        "vix3m": 20.93,
-        "diff": -0.19
+        "vix": 19.99,
+        "vix3m": 20.5,
+        "diff": -0.51
       }
     },
     "credit": {
@@ -63,32 +63,32 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3.3% vs others 0.4%",
+      "detail": "defensives 5d 3.5% vs others 0.6%",
       "asOfMs": 1792157400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3.3,
-        "othMedPct": 0.4,
-        "diffPct": 2.9
+        "defMedPct": 3.5,
+        "othMedPct": 0.6,
+        "diffPct": 2.8
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2803 vs 20d avg 0.2743",
+      "detail": "RSP/SPY 0.2805 vs 20d avg 0.2743",
       "asOfMs": 1792157400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2803,
+        "ratio": 0.2805,
         "avg": 0.2743,
-        "gap": 0.006
+        "gap": 0.0062
       }
     },
     "sentiment": {
       "state": "extreme fear",
       "vote": "off",
       "detail": "Fear&Greed 18 (extreme fear)",
-      "asOfMs": 1792176396000,
+      "asOfMs": 1792186620000,
       "status": "ok",
       "raw": {
         "score": 18,
@@ -870,5 +870,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1792176578595
+  "updatedMs": 1792187708899
 }
