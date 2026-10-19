@@ -15,37 +15,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.35pp (2y 4.74, 10y 5.09)",
-      "asOfMs": 1792108800000,
+      "detail": "10y-2y 0.38pp (2y 4.77, 10y 5.15)",
+      "asOfMs": 1792368000000,
       "status": "ok",
       "raw": {
-        "spread": 0.35,
-        "y2": 4.74,
-        "y10": 5.09
+        "spread": 0.38,
+        "y2": 4.77,
+        "y10": 5.15
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 102.01 vs 20d avg 101.79",
+      "detail": "DXY 101.99 vs 20d avg 101.79",
       "asOfMs": 1792382400000,
       "status": "ok",
       "raw": {
-        "last": 102.01,
+        "last": 101.99,
         "avg": 101.79,
-        "gap": 0.22
+        "gap": 0.2
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.38 vs VIX3M 19.61",
+      "detail": "VIX 18.44 vs VIX3M 19.6",
       "asOfMs": 1792416600000,
       "status": "ok",
       "raw": {
-        "vix": 18.38,
-        "vix3m": 19.61,
-        "diff": -1.23
+        "vix": 18.44,
+        "vix3m": 19.6,
+        "diff": -1.16
       }
     },
     "credit": {
@@ -63,35 +63,35 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 2.1% vs others -0.2%",
+      "detail": "defensives 5d 2.1% vs others -0.3%",
       "asOfMs": 1792416600000,
       "status": "ok",
       "raw": {
         "defMedPct": 2.1,
-        "othMedPct": -0.2,
+        "othMedPct": -0.3,
         "diffPct": 2.4
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2782 vs 20d avg 0.2745",
+      "detail": "RSP/SPY 0.2784 vs 20d avg 0.2745",
       "asOfMs": 1792416600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2782,
+        "ratio": 0.2784,
         "avg": 0.2745,
-        "gap": 0.0037
+        "gap": 0.0039
       }
     },
     "sentiment": {
       "state": "extreme fear",
       "vote": "off",
-      "detail": "Fear&Greed 25 (extreme fear)",
-      "asOfMs": 1792430168000,
+      "detail": "Fear&Greed 23 (extreme fear)",
+      "asOfMs": 1792444970000,
       "status": "ok",
       "raw": {
-        "score": 25,
+        "score": 23,
         "rating": "extreme fear"
       }
     }
@@ -875,5 +875,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1792430419099
+  "updatedMs": 1792445981602
 }
