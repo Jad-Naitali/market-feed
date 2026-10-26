@@ -1,51 +1,51 @@
 {
   "regime": {
-    "label": "risk-on",
+    "label": "risk-off",
     "tally": "4-3",
     "drivers": [
-      "curve positive",
-      "dollar soft",
-      "VIX in contango",
-      "breadth broad"
+      "dollar strong",
+      "credit spreads widening",
+      "defensives leading",
+      "sentiment fear"
     ],
-    "on": 4,
-    "off": 3
+    "on": 3,
+    "off": 4
   },
   "components": {
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.31pp (2y 4.69, 10y 5)",
-      "asOfMs": 1792713600000,
+      "detail": "10y-2y 0.32pp (2y 4.68, 10y 5)",
+      "asOfMs": 1792972800000,
       "status": "ok",
       "raw": {
-        "spread": 0.31,
-        "y2": 4.69,
+        "spread": 0.32,
+        "y2": 4.68,
         "y10": 5
       }
     },
     "dollar": {
-      "state": "below 20d avg",
-      "vote": "on",
-      "detail": "DXY 101.97 vs 20d avg 101.97",
+      "state": "above 20d avg",
+      "vote": "off",
+      "detail": "DXY 102.01 vs 20d avg 101.98",
       "asOfMs": 1792987200000,
       "status": "ok",
       "raw": {
-        "last": 101.97,
-        "avg": 101.97,
-        "gap": -0.01
+        "last": 102.01,
+        "avg": 101.98,
+        "gap": 0.03
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.52 vs VIX3M 20",
+      "detail": "VIX 18.39 vs VIX3M 19.94",
       "asOfMs": 1793021400000,
       "status": "ok",
       "raw": {
-        "vix": 18.52,
-        "vix3m": 20,
-        "diff": -1.48
+        "vix": 18.39,
+        "vix3m": 19.94,
+        "diff": -1.55
       }
     },
     "credit": {
@@ -63,35 +63,35 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.7% vs others 0.6%",
+      "detail": "defensives 5d 2.1% vs others 0.5%",
       "asOfMs": 1793021400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.7,
-        "othMedPct": 0.6,
-        "diffPct": 1
+        "defMedPct": 2.1,
+        "othMedPct": 0.5,
+        "diffPct": 1.5
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2836 vs 20d avg 0.2766",
+      "detail": "RSP/SPY 0.2839 vs 20d avg 0.2766",
       "asOfMs": 1793021400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2836,
+        "ratio": 0.2839,
         "avg": 0.2766,
-        "gap": 0.007
+        "gap": 0.0073
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 26 (fear)",
-      "asOfMs": 1793034325000,
+      "detail": "Fear&Greed 27 (fear)",
+      "asOfMs": 1793049661000,
       "status": "ok",
       "raw": {
-        "score": 26,
+        "score": 27,
         "rating": "fear"
       }
     }
@@ -104,19 +104,19 @@
         "asOfMs": 1792719000000
       },
       {
-        "name": "DAX",
-        "pct": 0.9,
-        "asOfMs": 1793001600000
-      },
-      {
         "name": "Nikkei",
         "pct": -0.3,
         "asOfMs": 1792713600000
+      },
+      {
+        "name": "DAX",
+        "pct": 0.9,
+        "asOfMs": 1793001600000
       }
     ],
     "rates": {
-      "impliedRate": 3.91,
-      "changeBp": -2.8,
+      "impliedRate": 3.9,
+      "changeBp": -2.2,
       "asOfMs": 1792987200000
     }
   },
@@ -931,9 +931,19 @@
       "ts": 1793034478580,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR hySpreadNew20High"
+    },
+    {
+      "ts": 1793050701131,
+      "kind": "REGIME",
+      "line": "REGIME dollar below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1793050701131,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, sentiment fear"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1793034478580
+  "updatedMs": 1793050701831
 }
