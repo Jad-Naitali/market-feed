@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-off",
+    "label": "risk-on",
     "tally": "4-3",
     "drivers": [
-      "dollar strong",
-      "credit spreads widening",
-      "defensives leading",
-      "sentiment fear"
+      "curve positive",
+      "VIX in contango",
+      "cyclicals leading",
+      "breadth broad"
     ],
-    "on": 3,
-    "off": 4
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -27,71 +27,71 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 102.01 vs 20d avg 101.98",
-      "asOfMs": 1792987200000,
+      "detail": "DXY 102.24 vs 20d avg 102.02",
+      "asOfMs": 1793073600000,
       "status": "ok",
       "raw": {
-        "last": 102.01,
-        "avg": 101.98,
-        "gap": 0.03
+        "last": 102.24,
+        "avg": 102.02,
+        "gap": 0.23
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.39 vs VIX3M 19.94",
-      "asOfMs": 1793021400000,
+      "detail": "VIX 17.53 vs VIX3M 19.46",
+      "asOfMs": 1793107800000,
       "status": "ok",
       "raw": {
-        "vix": 18.39,
-        "vix3m": 19.94,
-        "diff": -1.55
+        "vix": 17.53,
+        "vix3m": 19.46,
+        "diff": -1.93
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 3.38pp vs 20-obs avg 3.19pp (as of 2026-10-23)",
-      "asOfMs": 1792713600000,
+      "detail": "HY spread 3.3pp vs 20-obs avg 3.2pp (as of 2026-10-26)",
+      "asOfMs": 1792972800000,
       "status": "ok",
       "raw": {
-        "spread": 3.38,
-        "avg": 3.19,
+        "spread": 3.3,
+        "avg": 3.2,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 2.1% vs others 0.5%",
-      "asOfMs": 1793021400000,
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -0.5% vs others 0.4%",
+      "asOfMs": 1793107800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 2.1,
-        "othMedPct": 0.5,
-        "diffPct": 1.5
+        "defMedPct": -0.5,
+        "othMedPct": 0.4,
+        "diffPct": -0.9
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2839 vs 20d avg 0.2766",
-      "asOfMs": 1793021400000,
+      "detail": "RSP/SPY 0.282 vs 20d avg 0.277",
+      "asOfMs": 1793107800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2839,
-        "avg": 0.2766,
-        "gap": 0.0073
+        "ratio": 0.282,
+        "avg": 0.277,
+        "gap": 0.005
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 27 (fear)",
-      "asOfMs": 1793049661000,
+      "detail": "Fear&Greed 33 (fear)",
+      "asOfMs": 1793117325000,
       "status": "ok",
       "raw": {
-        "score": 27,
+        "score": 33,
         "rating": "fear"
       }
     }
@@ -99,25 +99,25 @@
   "context": {
     "overnight": [
       {
+        "name": "DAX",
+        "pct": 0.9,
+        "asOfMs": 1793088000000
+      },
+      {
         "name": "Hang Seng",
-        "pct": 0.7,
-        "asOfMs": 1792719000000
+        "pct": 0.5,
+        "asOfMs": 1792978200000
       },
       {
         "name": "Nikkei",
-        "pct": -0.3,
-        "asOfMs": 1792713600000
-      },
-      {
-        "name": "DAX",
-        "pct": 0.9,
-        "asOfMs": 1793001600000
+        "pct": -0.8,
+        "asOfMs": 1792972800000
       }
     ],
     "rates": {
       "impliedRate": 3.9,
-      "changeBp": -2.2,
-      "asOfMs": 1792987200000
+      "changeBp": -1.5,
+      "asOfMs": 1793073600000
     }
   },
   "stress": {
@@ -941,9 +941,19 @@
       "ts": 1793050701131,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, sentiment fear"
+    },
+    {
+      "ts": 1793117526783,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1793117526783,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, cyclicals leading, breadth broad"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1793050701831
+  "updatedMs": 1793117526783
 }
