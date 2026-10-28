@@ -5,7 +5,7 @@
     "drivers": [
       "curve positive",
       "VIX in contango",
-      "cyclicals leading",
+      "credit spreads tight",
       "breadth broad"
     ],
     "on": 4,
@@ -27,71 +27,71 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 102.37 vs 20d avg 102.02",
-      "asOfMs": 1793073600000,
+      "detail": "DXY 102.28 vs 20d avg 102.06",
+      "asOfMs": 1793160000000,
       "status": "ok",
       "raw": {
-        "last": 102.37,
-        "avg": 102.02,
-        "gap": 0.35
+        "last": 102.28,
+        "avg": 102.06,
+        "gap": 0.21
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.52 vs VIX3M 19.57",
-      "asOfMs": 1793107800000,
+      "detail": "VIX 17.39 vs VIX3M 19.36",
+      "asOfMs": 1793194200000,
       "status": "ok",
       "raw": {
-        "vix": 17.52,
-        "vix3m": 19.57,
-        "diff": -2.05
+        "vix": 17.39,
+        "vix3m": 19.36,
+        "diff": -1.97
       }
     },
     "credit": {
-      "state": "above 20-obs avg",
-      "vote": "off",
-      "detail": "HY spread 3.3pp vs 20-obs avg 3.2pp (as of 2026-10-26)",
-      "asOfMs": 1792972800000,
+      "state": "below 20-obs avg",
+      "vote": "on",
+      "detail": "HY spread 3.18pp vs 20-obs avg 3.21pp (as of 2026-10-27)",
+      "asOfMs": 1793059200000,
       "status": "ok",
       "raw": {
-        "spread": 3.3,
-        "avg": 3.2,
+        "spread": 3.18,
+        "avg": 3.21,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d -0.4% vs others 0.3%",
-      "asOfMs": 1793107800000,
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 0.5% vs others 0.3%",
+      "asOfMs": 1793194200000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.4,
+        "defMedPct": 0.5,
         "othMedPct": 0.3,
-        "diffPct": -0.7
+        "diffPct": 0.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2826 vs 20d avg 0.2771",
-      "asOfMs": 1793107800000,
+      "detail": "RSP/SPY 0.2816 vs 20d avg 0.2775",
+      "asOfMs": 1793194200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2826,
-        "avg": 0.2771,
-        "gap": 0.0055
+        "ratio": 0.2816,
+        "avg": 0.2775,
+        "gap": 0.0041
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 33 (fear)",
-      "asOfMs": 1793132718000,
+      "detail": "Fear&Greed 35 (fear)",
+      "asOfMs": 1793206632000,
       "status": "ok",
       "raw": {
-        "score": 33,
+        "score": 35,
         "rating": "fear"
       }
     }
@@ -99,25 +99,25 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -0.8,
-        "asOfMs": 1792972800000
+        "name": "DAX",
+        "pct": 0.4,
+        "asOfMs": 1793174400000
       },
       {
         "name": "Hang Seng",
-        "pct": 0.5,
-        "asOfMs": 1792978200000
+        "pct": -0.7,
+        "asOfMs": 1793064600000
       },
       {
-        "name": "DAX",
-        "pct": 0.7,
-        "asOfMs": 1793088000000
+        "name": "Nikkei",
+        "pct": 1.7,
+        "asOfMs": 1793059200000
       }
     ],
     "rates": {
       "impliedRate": 3.9,
-      "changeBp": -1.5,
-      "asOfMs": 1793073600000
+      "changeBp": -2,
+      "asOfMs": 1793160000000
     }
   },
   "stress": {
@@ -951,9 +951,19 @@
       "ts": 1793117526783,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, cyclicals leading, breadth broad"
+    },
+    {
+      "ts": 1793206777735,
+      "kind": "REGIME",
+      "line": "REGIME credit above 20-obs avg -> below 20-obs avg"
+    },
+    {
+      "ts": 1793206777735,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1793133786429
+  "updatedMs": 1793206777735
 }
