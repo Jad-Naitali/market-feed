@@ -1,98 +1,97 @@
 {
   "regime": {
-    "label": "risk-on",
-    "tally": "5-2",
+    "label": "risk-off",
+    "tally": "4-3",
     "drivers": [
-      "curve positive",
-      "VIX in contango",
-      "credit spreads tight",
-      "cyclicals leading",
-      "breadth broad"
+      "dollar strong",
+      "VIX backwardated",
+      "defensives leading",
+      "sentiment fear"
     ],
-    "on": 5,
-    "off": 2
+    "on": 3,
+    "off": 4
   },
   "components": {
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.24pp (2y 4.86, 10y 5.1)",
-      "asOfMs": 1794441600000,
+      "detail": "10y-2y 0.27pp (2y 4.88, 10y 5.15)",
+      "asOfMs": 1794528000000,
       "status": "ok",
       "raw": {
-        "spread": 0.24,
-        "y2": 4.86,
-        "y10": 5.1
+        "spread": 0.27,
+        "y2": 4.88,
+        "y10": 5.15
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 103.34 vs 20d avg 102.08",
-      "asOfMs": 1794546000000,
+      "detail": "DXY 103.58 vs 20d avg 102.16",
+      "asOfMs": 1794805200000,
       "status": "ok",
       "raw": {
-        "last": 103.34,
-        "avg": 102.08,
-        "gap": 1.26
+        "last": 103.58,
+        "avg": 102.16,
+        "gap": 1.42
       }
     },
     "vol": {
-      "state": "contango",
-      "vote": "on",
-      "detail": "VIX 19.78 vs VIX3M 20.86",
-      "asOfMs": 1794580200000,
+      "state": "backwardation",
+      "vote": "off",
+      "detail": "VIX 23.79 vs VIX3M 23.55",
+      "asOfMs": 1794839400000,
       "status": "ok",
       "raw": {
-        "vix": 19.78,
-        "vix3m": 20.86,
-        "diff": -1.08
+        "vix": 23.79,
+        "vix3m": 23.55,
+        "diff": 0.24
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 3.2pp vs 20-obs avg 3.32pp (as of 2026-11-12)",
-      "asOfMs": 1794441600000,
+      "detail": "HY spread 3.23pp vs 20-obs avg 3.32pp (as of 2026-11-13)",
+      "asOfMs": 1794528000000,
       "status": "ok",
       "raw": {
-        "spread": 3.2,
+        "spread": 3.23,
         "avg": 3.32,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d 2% vs others 2.5%",
-      "asOfMs": 1794580200000,
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 0.7% vs others -1.5%",
+      "asOfMs": 1794839400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 2,
-        "othMedPct": 2.5,
-        "diffPct": -0.5
+        "defMedPct": 0.7,
+        "othMedPct": -1.5,
+        "diffPct": 2.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2936 vs 20d avg 0.2882",
-      "asOfMs": 1794580200000,
+      "detail": "RSP/SPY 0.296 vs 20d avg 0.289",
+      "asOfMs": 1794839400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2936,
-        "avg": 0.2882,
-        "gap": 0.0055
+        "ratio": 0.296,
+        "avg": 0.289,
+        "gap": 0.007
       }
     },
     "sentiment": {
       "state": "fear",
       "vote": "off",
-      "detail": "Fear&Greed 38 (fear)",
-      "asOfMs": 1794593635000,
+      "detail": "Fear&Greed 30 (fear)",
+      "asOfMs": 1794861850000,
       "status": "ok",
       "raw": {
-        "score": 38,
+        "score": 30,
         "rating": "fear"
       }
     }
@@ -101,28 +100,28 @@
     "overnight": [
       {
         "name": "DAX",
-        "pct": -0.1,
-        "asOfMs": 1794556800000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -1.3,
-        "asOfMs": 1794447000000
+        "pct": -0.6,
+        "asOfMs": 1794816000000
       },
       {
         "name": "Nikkei",
-        "pct": -0.7,
-        "asOfMs": 1794441600000
+        "pct": 0.5,
+        "asOfMs": 1794528000000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -1.5,
+        "asOfMs": 1794533400000
       }
     ],
     "rates": {
-      "impliedRate": 4.18,
-      "changeBp": -29.5,
-      "asOfMs": 1794546000000
+      "impliedRate": 4.17,
+      "changeBp": -28.7,
+      "asOfMs": 1794805200000
     }
   },
   "stress": {
-    "vixBackwardation": false,
+    "vixBackwardation": true,
     "curveInverted": false,
     "hySpreadNew20High": false
   },
@@ -1097,9 +1096,29 @@
       "ts": 1794508893321,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 5-2 · drivers: curve positive, VIX in contango, credit spreads tight, cyclicals leading, breadth broad"
+    },
+    {
+      "ts": 1794862137055,
+      "kind": "REGIME",
+      "line": "REGIME vol contango -> backwardation"
+    },
+    {
+      "ts": 1794862137055,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1794862137055,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, VIX backwardated, defensives leading, sentiment fear"
+    },
+    {
+      "ts": 1794862137055,
+      "kind": "STRESS",
+      "line": "STRESS VIX backwardation | VIX 23.79 vs VIX3M 23.55"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1794594177518
+  "updatedMs": 1794862137055
 }
